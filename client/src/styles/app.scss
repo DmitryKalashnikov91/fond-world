@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto+Flex:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+:root {
+    --index: calc(1vw + 1vh); 
+    --main-color: #0284c7
+  }
+  
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    padding: 0;
+    margin: 0;
+
+    h1,h2,h3,h4,span {
+        color: var(--main-color);
+    }
+}
+button {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #103F88;
+    font-size: 20px;
+    color: #103F88;
+    border-radius: 50px;
+    background: none;
+    transition: all 0.3s;
+  }
+  button:hover {
+    border: 2px solid #FF5F04;
+    color: #FF5F04;
+    cursor: pointer;
+  }
+header {
+    position: relative;
+    z-index: 3;
+}
+.navbar {
+    position: relative;
+    z-index: 2;
+    a {
+        font-size: 22px;
+    }
+}
+
+.box_img {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5vh;
+    gap: 2vw;
+    padding: 10vh;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(12, 117, 178, 0.636);
+    caret-color: transparent;
+    box-shadow: inset 0 0 30px black, 0 0 0 black;
+}
+.sketches img {
+    width: calc(var(--index)*14);
+    height: calc(var(--index)*18);
+}
+
+.sub_title {
+    position: relative;
+    top: 14vh;
+    text-align: center;
+    z-index: 2;
+    h3 {
+        color: white;
+    }
+}
+
+.contacts-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.map-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+    iframe {
+        position: relative;
+        min-width: 160px;
+        min-height: 320px;
+    }
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.main {
+    --shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    
+    h1 {
+        position: relative;
+        z-index: 2;
+        top: 20vh;
+        font-style: italic;
+        font-size: 44px;
+        font-weight: 700;
+        text-shadow: var(--shadow);
+    } 
+}   
+.main_content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 10vh;
+    .description {
+        margin-top: 20vh;
+        width: 40%;
+        margin-right: 7vw;
+    }
+ }
+
+.bgimage {
+    caret-color: transparent;
+    img {
+        width: calc(var(--index)*28);
+        height: auto;
+} 
+}
+
+.list {
+    list-style: none;
+    width: 600px;
+    max-width: 90%;
+}
+.items-name {
+    color: #17d4ed;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.price {
+    font-size: 18px;
+}
+
+.media_block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+
+
+.booking-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 10%;
+   
+    input {
+        margin: 0 10% 0 10%;
+    }
+    button {
+        margin-top: 10px;
+    }    
+}
+.people {
+    width: 10%;
+}
+.icons {
+    display: flex;
+    color: #ffff;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
+.icons a:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.carousel {
+    margin-left: 5rem;
+    span {
+        margin-right: 40%;
+    }
+    img {
+        
+        max-width: 70rem;
+        
+    }
+    p {
+        font-size: 25px;
+    }
+        
+ 
+}
+
+.about_number{ 
+    p {
+        color: #17d4ed;
+    }
+    ul {
+        display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #ffc14b;
+
+    }
+    li {
+    list-style-type: none;
+    img {
+    margin-right: 1rem;
+    }
+    i {
+        margin-right: 1rem;
+        color: #ffc14b;
+    }
+}
+}
+@media (max-width: 600px) {
+    .main_content {
+        flex-direction: column-reverse;
+    }
+    .logo_top {
+        display: none;
+    }
+    .main_content .description {
+        width: 80vw;
+        margin-top: 0;
+    }
+.bgimage{
+    margin-top: 10vh;
+}
+    .main h1 {
+        top: 30vh;
+        font-size: 18px;
+        color: #2925ff;
+        mix-blend-mode:hard-light;
+    }
+    .carousel {
+            width: 100vw;
+            padding-right: 1.5rem;
+            margin-left: 0;
+            p, h3 {
+                display: none;
+            }
+    }
+
+    .about_number {
+        ul {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    @media (max-width: 450px) {
+        .about_number {
+            ul {
+        grid-template-columns: repeat(1, 1fr);
+            }}
+    }
+}
