@@ -38,7 +38,7 @@ const Main = () => {
             </div>
             <Sketches />
             <AboutProject />
-            <div className='sub_title ' id='images'>
+            <div className='sub_title' id='images'>
                 <h3>Наш МИР поддержали:</h3>
             </div>
             <Partners />

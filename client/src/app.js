@@ -6,6 +6,7 @@ import withRouter from './hoc/withRouter';
 import { useRoutes } from 'react-router-dom';
 import routes from './routes';
 import Header from './app/components/header';
+import Footer from './app/components/footer';
 
 const App = () => {
     const elements = useRoutes(routes);
@@ -14,6 +15,7 @@ const App = () => {
         <div className='app'>
             <Header />
             {elements}
+            <Footer />
         </div>
     );
 };

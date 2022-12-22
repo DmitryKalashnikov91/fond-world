@@ -1,8 +1,8 @@
 .avatar {
-    padding-top: 10vh;
-position: relative;
-z-index: 1;
-overflow: hidden;
+    padding-top: 5vh;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 
     .avatar_name {
         color: white;
@@ -26,5 +26,16 @@ overflow: hidden;
     .avatar_name:hover {
         opacity: 1;
         background: rgba($color: #000000, $alpha: .3);
+    }
+}
+
+@media (max-width: 600px) {
+    .avatar {
+        padding-top: 2vh;
+    }
+    .avatar_name {
+        span {
+            font-size: 18px;
+        }
     }
 }

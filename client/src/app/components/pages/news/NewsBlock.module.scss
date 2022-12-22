@@ -1,0 +1,43 @@
+.news_header {
+    position: relative;
+    text-align: center;
+    top: 18vh;
+}
+.news {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+    
+    .news_block {
+        position: relative;
+        width: calc(var(--index)*30);
+        display: flex;
+        flex-direction: column;
+        top: 20vh;
+        left: 2vw;
+        text-align: justify;
+        padding: 20px;
+        border: 2px solid var(--main-color);
+        border-radius: 25px;    
+    }
+    .news_photo img{
+        position: relative;
+        left: 0;
+        border-radius: 10px;
+    }
+    .news_label {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .news_date {
+        position: absolute;
+        top: 2vh;
+        right: 2vw;
+        
+    }
+    .news_date p {
+        color: red;
+    }
+}

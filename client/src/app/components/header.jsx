@@ -2,6 +2,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import logo from '../../images/logo.jpeg';
+import MobileMenu from './mobileMenu/MobileMenu';
 import NavBar from './navBar';
 
 const Header = () => {
@@ -16,6 +17,7 @@ const Header = () => {
                 Фонд наш МИР
             </h1>
             <NavBar />
+            <MobileMenu />
         </header>
     );
 };
