@@ -1,4 +1,4 @@
-import PayForm from './app/components/common/form/PayForm';
+import PayForm from './app/components/common/form/payform/PayForm';
 import Main from './app/components/pages/main/Main';
 import NewsBlock from './app/components/pages/news/NewsBlock';
 import PoemsBlock from './app/components/pages/poems/PoemsBlock';

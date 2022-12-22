@@ -20,21 +20,22 @@
         background-image: url('https://images.unsplash.com/photo-1523270237992-7772a8344078?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
         width: 100vw;
         height: 100vh;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
     .content {
         position: absolute;
-        // left: 15vw;
+        left: 15vw;
         top: 25vh;
-        font-size: calc(var(--index)*1.4);
+        font-size: calc(var(--index)*1.2);
         z-index: 3;
         button {
-            margin-top: 15vh;
+            margin-top: 5vh;
             caret-color: transparent;
         }
         p {
-            padding-top: 10vh;
+            padding-top: 5vh;
             color:rgb(76, 0, 255);
             font-size: calc(var(--index)*1.1);
         }
