@@ -43,7 +43,7 @@ const NewsBlock = () => {
                                 век")
                             </p>
                             <a
-                                href='https://xn-----7kcoxxccf2a8a6c.xn--p1ai/'
+                                href='http://xn-----7kcoxxccf2a8a6c.xn--p1ai/'
                                 target='_blank'
                                 rel='noopener noreferrer'>
                                 фонд-наш-мир.рф
