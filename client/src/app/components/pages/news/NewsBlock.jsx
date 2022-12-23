@@ -43,18 +43,18 @@ const NewsBlock = () => {
                                 век")
                             </p>
                             <a
-                                href='http://xn-----7kcoxxccf2a8a6c.xn--p1ai/'
+                                href='https://xn-----7kcoxxccf2a8a6c.xn--p1ai/'
                                 target='_blank'
                                 rel='noopener noreferrer'>
                                 фонд-наш-мир.рф
                             </a>
                             ,{' '}
-                            <a href='http://kit.ru.com' target='_blank' rel='noopener noreferrer'>
+                            <a href='https://kit.ru.com' target='_blank' rel='noopener noreferrer'>
                                 kit.ru.com
                             </a>
                             ,{' '}
                             <a
-                                href='http://rushelpfond.ru'
+                                href='https://rushelpfond.ru'
                                 target='_blank'
                                 rel='noopener noreferrer'>
                                 rushelpfond.ru
