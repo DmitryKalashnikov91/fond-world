@@ -1,4 +1,5 @@
 import parse from 'html-react-parser';
+import Alert from 'react-bootstrap/Alert';
 import styles from './NewsBlock.module.scss';
 import { NEWS } from './newsApi';
 const NewsBlock = () => {
@@ -9,7 +10,8 @@ const NewsBlock = () => {
             </div>
             <section className={styles.news}>
                 {NEWS.map((item) => (
-                    <div className={styles.news_block} key={item.id}>
+                    // <div className={styles.news_block} key={item.id}>
+                    <Alert variant='primary' key={item.id} className={styles.news_block}>
                         <div className={styles.news_photo}>
                             <img src={item.photo} alt={item.alt} width={100} height='auto' />
                             <div className={styles.news_label}>{item.label}</div>
@@ -20,7 +22,8 @@ const NewsBlock = () => {
                         <div className={styles.news_string}>
                             <span>{parse(item.content)}</span>
                         </div>
-                    </div>
+                    </Alert>
+                    // </div>
                 ))}
             </section>
         </>

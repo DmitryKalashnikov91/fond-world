@@ -72,12 +72,19 @@ header {
 
 // sketches
 
-.sketches img {
-    width: calc(var(--index)*14);
-    height: calc(var(--index)*18);
+
+.Sketches {
+    width: 1010px;
+    margin: 2% 15%;
+    button {
+        background: #000;
+        color: black;
+        margin-right: 1%;
+        &:hover {
+            background-color: #FF5F04;
+        }
+    }
 }
-
-
 
 
 // video
@@ -91,6 +98,7 @@ header {
     width: 100%;
     justify-content: space-around;
 }
+
 
 .footer {
     position: relative;
@@ -145,16 +153,17 @@ header {
         width: calc(var(--index)*18);
         height: calc(var(--index)*20);
     }
-.bgimage{
-    margin-top: 0;
-}
+    .bgimage{
+        margin-top: 0;
+    }
     .main h1 {
         font-size: 18px;
         color: #2925ff;
         mix-blend-mode:hard-light;
     }
     .footer {
-        display: block;
+        // display: block;
+        flex-direction: column;
         margin-top: 2vh;
     } 
    

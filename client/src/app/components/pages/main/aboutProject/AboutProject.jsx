@@ -1,4 +1,5 @@
 // import { useNavigate } from 'react-router-dom';
+import MainButton from '../../../common/MainButton';
 import styles from './AboutProject.module.scss';
 
 const AboutProject = () => {
@@ -20,7 +21,7 @@ const AboutProject = () => {
                     Все работы – оригинального характера, с указанием имени автора (художника,
                     скульптора).
                 </p>
-                <button>Принять участие</button>
+                <MainButton title={'Принять участие'} />
                 <p className={styles.content_text}>
                     Сбор средств осуществляется на благотворительной (безвозмездной) основе, путем
                     пожертвований частных лиц и организаций на расчетный счет БФ «РусПомощь» (в т.ч.

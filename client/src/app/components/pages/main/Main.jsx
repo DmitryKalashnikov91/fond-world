@@ -33,9 +33,6 @@ const Main = () => {
                 </div>
             </div>
 
-            <div className='sub_title' id='images'>
-                <h3>Скульптурные группы и эскизы</h3>
-            </div>
             <Sketches />
             <AboutProject />
             <div className='sub_title' id='images'>
