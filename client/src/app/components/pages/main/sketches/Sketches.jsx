@@ -15,7 +15,9 @@ const Sketches = () => {
     const settings = {
         dots: true,
         infinite: true,
+        autoplay: true,
         speed: 1000,
+        autoplaySpeed: 3000,
         slidesToShow: 3,
         slidesToScroll: 3,
     };
@@ -31,19 +33,29 @@ const Sketches = () => {
     ];
 
     return (
-        <div className='Sketches'>
-            <h2>Скульптурные группы и эскизы</h2>
-            <Slider {...settings}>
-                {data.map((elem) => {
-                    return (
-                        <div key={elem.id} className={styles.Sketches_card}>
-                            <img src={elem.imgSrc} alt='' width={280} height={350} />
-                            <div className={styles.Sketches_caption}>{elem.caption}</div>
-                        </div>
-                    );
-                })}
-            </Slider>
-        </div>
+        <>
+            <div className='Sketches'>
+                <h2>Скульптурные группы и эскизы</h2>
+                <Slider {...settings}>
+                    {data.map((elem) => {
+                        return (
+                            <div key={elem.id} className={styles.Sketches_card}>
+                                <img src={elem.imgSrc} alt='' width={280} height={350} />
+                                <div className={styles.Sketches_caption}>{elem.caption}</div>
+                            </div>
+                        );
+                    })}
+                </Slider>
+            </div>
+            {data.map((elem) => {
+                return (
+                    <div key={elem.id} className={styles.Sketches_mobile}>
+                        <img src={elem.imgSrc} alt='' width={280} height={350} />
+                        <div className={styles.Sketches_caption}>{elem.caption}</div>
+                    </div>
+                );
+            })}
+        </>
     );
 };
 

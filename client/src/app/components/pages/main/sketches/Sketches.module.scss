@@ -1,0 +1,16 @@
+.Sketches_mobile {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .Sketches_mobile {
+        margin-top: 5%;
+        margin-left: 4%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Sketches_card {
+        display: none;
+    }
+}

@@ -30,7 +30,7 @@
     } 
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .main {
         margin-left: 2vw;
         h1 {
@@ -49,6 +49,8 @@
         }
         
         .bgimage{
+            display: flex;
+            justify-content: center;
             margin-top: -5vh;
         }
     }
