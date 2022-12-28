@@ -1,10 +1,12 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Attention from '../../Attention';
 import styles from './PayForm.module.scss';
 
 const PayForm = () => {
     return (
         <div className={styles.PayForm}>
+            <Attention />
             <Form>
                 <Form.Group className='mb-3' controlId='formBasicEmail'>
                     <Form.Label>Email адресс</Form.Label>

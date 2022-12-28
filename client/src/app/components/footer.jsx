@@ -15,11 +15,11 @@ const Footer = () => {
             <section className='footer_content'>
                 <span>По вопросам сотрудничества:</span>
                 <div className='footer_contacts'>
-                    <p>Официальный представитель МФКЭС "НАШ МИР-XXI ВЕК"</p>
-                    <strong>Игорь А.Алекс</strong>
+                    <p className='mt-4'>Официальный представитель МФКЭС "НАШ МИР-XXI ВЕК"</p>
+                    <span>Игорь А.Алекс </span>
                     <a href='tel:+79251586579'>+7 (925) 158-65-79</a>
-                    <p>Разработчик</p>
-                    <strong>Калашников Д.А.</strong>
+                    <p className='mt-4'>Разработчик</p>
+                    <span>Калашников Д.А. </span>
                     <a href='tel:+79999152567'>+7 (999) 915-25-67</a>
                 </div>
             </section>

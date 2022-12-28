@@ -5,6 +5,7 @@ import MainButton from '../../common/MainButton';
 import Partners from './partners/Partners';
 
 import styles from './Main.module.scss';
+import Gallery from './gallery/Gallery';
 
 const Main = () => {
     return (
@@ -17,6 +18,7 @@ const Main = () => {
                             Установка скульптурных групп и монументов &quot;Дети Донбасса&quot; и
                             &quot;Героям России&quot;
                         </h2>
+
                         <p className='text-primary mt-5'>
                             Все работы – оригинального характера, с указанием имени автора
                             (художника, скульптора).
@@ -32,7 +34,7 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-
+            <Gallery />
             <Sketches />
             <AboutProject />
             <div className='sub_title' id='images'>

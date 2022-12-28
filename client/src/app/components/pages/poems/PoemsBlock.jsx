@@ -1,7 +1,13 @@
 import React from 'react';
+import Attention from '../../common/Attention';
+import styles from './Poems.module.scss';
 
 const PoemsBlock = () => {
-    return <div>PoemsBlock</div>;
+    return (
+        <div className={styles.poems}>
+            <Attention />
+        </div>
+    );
 };
 
 export default PoemsBlock;
