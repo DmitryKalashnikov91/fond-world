@@ -6,6 +6,7 @@ import jpg5 from './DSC_5.webp';
 import jpg6 from './DSC_6.webp';
 import jpg7 from './DSC_7.webp';
 import jpg8 from './DSC_8.webp';
+import jpg9 from './DSC_9.webp';
 import jpg10 from './DSC_10.webp';
 import jpg11 from './DSC_11.webp';
 import jpg12 from './DSC_12.webp';
@@ -15,7 +16,6 @@ import jpg15 from './DSC_15.webp';
 import jpg16 from './DSC_16.webp';
 import jpg17 from './DSC_17.webp';
 import jpg18 from './DSC_18.webp';
-import jpg19 from './DSC_9.webp';
 
 export const PHOTOS = [
     {
@@ -50,7 +50,10 @@ export const PHOTOS = [
         id: 32456,
         photoSrc: jpg8,
     },
-
+    {
+        id: 324111,
+        photoSrc: jpg9,
+    },
     {
         id: 1234656,
         photoSrc: jpg10,
@@ -58,10 +61,6 @@ export const PHOTOS = [
     {
         id: 34566789,
         photoSrc: jpg11,
-    },
-    {
-        id: 2343564323,
-        photoSrc: jpg1,
     },
     {
         id: 23252,
@@ -90,9 +89,5 @@ export const PHOTOS = [
     {
         id: 134511,
         photoSrc: jpg18,
-    },
-    {
-        id: 324111,
-        photoSrc: jpg19,
     },
 ];

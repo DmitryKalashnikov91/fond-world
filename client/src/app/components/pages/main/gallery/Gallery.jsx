@@ -23,8 +23,8 @@ const Gallery = () => {
                         </div>
                     </Carousel.Item>
                 ))}
-                <Temporary />
             </Carousel>
+            <Temporary />
         </div>
     );
 };

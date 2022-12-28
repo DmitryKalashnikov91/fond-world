@@ -99,7 +99,9 @@ header {
     justify-content: space-around;
 }
 .snowman {
-    position: relative;
+    position: absolute;
+    right: 0;
+    top: 170vh;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
