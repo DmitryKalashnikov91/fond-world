@@ -98,7 +98,23 @@ header {
     width: 100%;
     justify-content: space-around;
 }
-
+.snowman {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+   animation: snow-scale 3s ease-in-out infinite;
+    
+}
+@keyframes snow-scale {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {transform: translateY(20px);}
+    100% {
+        transform: translateY(0px);
+    }
+}
 
 .footer {
     position: relative;
@@ -143,6 +159,9 @@ header {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .snowman {
+        display: none;
     }
     .main_content {
         flex-direction: column-reverse;

@@ -2,6 +2,7 @@ import React from 'react';
 import { PHOTOS } from './photo/photo';
 import Carousel from 'react-bootstrap/Carousel';
 import styles from './Gallery.module.scss';
+import Temporary from '../temporary/Temporary';
 
 const Gallery = () => {
     const [index, setIndex] = React.useState(0);
@@ -22,6 +23,7 @@ const Gallery = () => {
                         </div>
                     </Carousel.Item>
                 ))}
+                <Temporary />
             </Carousel>
         </div>
     );
