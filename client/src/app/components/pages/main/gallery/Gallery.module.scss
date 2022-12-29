@@ -1,8 +1,9 @@
 .gallery {
+    position: relative;
     width:100%;
-    height: 100%;
     margin-top: 5vh;
     background-color: #4338ca;
+    
     @media (max-width: 800px) {
         width: 100vw;
     }
@@ -20,4 +21,9 @@
             height: auto;
         }
     }
+}
+.gallery_sceleton {
+    width: 100%;
+    height: 60vh;
+    background-color: #4338ca ;
 }

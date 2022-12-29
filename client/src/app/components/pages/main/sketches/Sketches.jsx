@@ -6,6 +6,8 @@ import mon5 from './images/monument5.png';
 import mon6 from './images/monument6.png';
 import mon7 from './images/monument7.png';
 import mon8 from './images/monument8.png';
+import { useInView } from 'react-intersection-observer';
+
 import styles from './Sketches.module.scss';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -31,30 +33,40 @@ const Sketches = () => {
         { id: 7, imgSrc: mon7, alt: 'monument', caption: 'Скульптор: Солнечная Лариса' },
         { id: 8, imgSrc: mon8, alt: 'monument', caption: 'Скульптор: ' },
     ];
-
+    const { ref, inView } = useInView({
+        threshold: 0,
+        triggerOnce: true,
+    });
     return (
         <>
-            <div className='Sketches'>
+            <div className='Sketches' ref={ref}>
                 <h2>Скульптурные группы и эскизы</h2>
                 <Slider {...settings}>
                     {data.map((elem) => {
                         return (
                             <div key={elem.id} className={styles.Sketches_card}>
-                                <img src={elem.imgSrc} alt='' width={280} height={350} />
+                                {inView ? (
+                                    <img src={elem.imgSrc} alt='' width={280} height={350} />
+                                ) : (
+                                    <div className={styles.skeleton} />
+                                )}
+
                                 <div className={styles.Sketches_caption}>{elem.caption}</div>
                             </div>
                         );
                     })}
                 </Slider>
             </div>
-            {data.map((elem) => {
-                return (
-                    <div key={elem.id} className={styles.Sketches_mobile}>
-                        <img src={elem.imgSrc} alt='' width={280} height={350} />
-                        <div className={styles.Sketches_caption}>{elem.caption}</div>
-                    </div>
-                );
-            })}
+            <div className={styles.Sketches_mobile}>
+                {data.map((elem) => {
+                    return (
+                        <div key={elem.id} className={styles.card}>
+                            <img src={elem.imgSrc} alt={elem.caption} />
+                            <div className={styles.Sketches_caption}>{elem.caption}</div>
+                        </div>
+                    );
+                })}
+            </div>
         </>
     );
 };

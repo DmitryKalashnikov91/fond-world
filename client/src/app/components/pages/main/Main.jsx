@@ -1,11 +1,12 @@
 import Sketches from './sketches/Sketches';
-import img from './sketches/images/mainMon.png';
 import AboutProject from './aboutProject/AboutProject';
 import MainButton from '../../common/MainButton';
+import Gallery from './gallery/Gallery';
 import Partners from './partners/Partners';
 
+import img from './sketches/images/mainMon.webp';
+
 import styles from './Main.module.scss';
-import Gallery from './gallery/Gallery';
 
 const Main = () => {
     return (
