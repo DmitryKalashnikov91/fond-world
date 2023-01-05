@@ -1,12 +1,10 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
-
-import { PHOTOS } from './photo/photo';
+import { posters } from './data/posters';
 import Carousel from 'react-bootstrap/Carousel';
+import styles from './Posters.module.scss';
 
-import styles from './Gallery.module.scss';
-
-const Gallery = () => {
+const Posters = () => {
     const [index, setIndex] = React.useState(0);
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
@@ -17,25 +15,22 @@ const Gallery = () => {
     });
 
     return (
-        <div className={styles.gallery} ref={ref}>
-            <h3 className='text-light pt-5 text-center'>
-                Встреча в Комитете по культуре Государственной Думы РФ. 21.12.2022г.
-            </h3>
+        <section className={styles.posters} ref={ref}>
             {inView ? (
                 <Carousel activeIndex={index} onSelect={handleSelect}>
-                    {PHOTOS.map(({ id, photoSrc }) => (
+                    {posters.map(({ id, posterSrc, alt }) => (
                         <Carousel.Item key={id}>
-                            <div className={styles.gallery_card}>
-                                <img src={photoSrc} alt='' />
+                            <div className={styles.posters_card}>
+                                <img src={posterSrc} alt={alt} />
                             </div>
                         </Carousel.Item>
                     ))}
                 </Carousel>
             ) : (
-                <div className={styles.gallery_sceleton} />
+                <div className={styles.background} />
             )}
-        </div>
+        </section>
     );
 };
 
-export default Gallery;
+export default Posters;

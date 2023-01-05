@@ -15,7 +15,6 @@ const PayForm = () => {
                         Мы никогда не будем делиться вашей электронной почтой с кем-либо еще
                     </Form.Text>
                 </Form.Group>
-
                 <Form.Select aria-label='Default select example'>
                     <option>Выбрать сумму</option>
                     <option value='1' className='text-danger'>

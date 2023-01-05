@@ -1,19 +1,19 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const config = require('config');
-const chalk = require('chalk');
-const cors = require('cors');
-const initDatabase = require('./startUp/initDatabase');
-const routes = require('./routes');
-const path = require('path');
-const app = express();
+const express = require('express'),
+    mongoose = require('mongoose'),
+    config = require('config'),
+    chalk = require('chalk'),
+    cors = require('cors'),
+    initDatabase = require('./startUp/initDatabase'),
+    routes = require('./routes'),
+    path = require('path'),
+    app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use('/api', cors(), routes);
 app.use(
     cors({
-        origin: ['http://localhost:3000/'],
+        origin: ['http://localhost:3000/', 'gs://fow-test-images.appspot.com'],
         credentials: true,
     }),
 );

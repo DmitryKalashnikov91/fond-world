@@ -7,6 +7,7 @@ import Partners from './partners/Partners';
 import img from './sketches/images/mainMon.webp';
 
 import styles from './Main.module.scss';
+import Posters from './posters/Posters';
 
 const Main = () => {
     return (
@@ -43,6 +44,7 @@ const Main = () => {
                 <h3>Наш МИР поддержали:</h3>
             </div>
             <Partners />
+            <Posters />
         </>
     );
 };

@@ -1,5 +1,4 @@
 // Libraries
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
@@ -8,6 +7,7 @@ const NavBar = () => {
         { id: 2, path: 'news', title: 'Новости нашего мира' },
         { id: 3, path: 'poems', title: 'Поэзия' },
         { id: 4, path: 'video', title: 'Видео' },
+        { id: 5, path: 'newspapers', title: 'СМИ о Нас' },
     ];
 
     return (

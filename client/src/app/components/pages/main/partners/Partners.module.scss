@@ -1,59 +1,62 @@
-.avatar {
-    padding-top: 5vh;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    img {
-        width: calc(var(--index)*12);
-        height: calc(var(--index)*13.6);
-    }
-
-    .avatar_name {
-        color: white;
-        font-size: calc(var(--index)*0.7);
-        position: absolute;
-        z-index: 3;
-        bottom: 0;
-        text-align: center;
-        width: 100%;
-        height: calc(var(--index)*13.6);
-        opacity: 0;
-        caret-color: transparent;
-        transition: all 0.6s;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        span {
-            padding-bottom: 4vh;
-        }
-    }
-    .avatar_name:hover {
-        opacity: 1;
-        background: rgba($color: #000000, $alpha: .3);
-    }
-}
 .box_img {
-    display: flex;
-    flex-wrap: wrap;
     position: relative;
-    top: 5vh;
-    gap: 2vw;
-    padding: 80px 20px;
-    align-items:center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 27px;
+    grid-row-gap: 50px;
+    margin-top: 5vh;
+    padding: 15vh 10vh 10vh 10vh;
     background-color: rgba(12, 117, 178, 0.636);
     caret-color: transparent;
     box-shadow: inset 0 0 30px black, 0 0 0 black;
+    .avatar {
+        position: relative;
+        
+        z-index: 1;
+        img {
+            width: calc(var(--index)*10);
+            height: calc(var(--index)*10);
+            // margin-left: 5%;
+            border-radius: 50%;
+            border: 4px solid #f5c654;
+        }
 }
+
+.avatar_name {
+    color: white;
+    font-size: calc(var(--index)*0.7);
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    caret-color: transparent;
+   
+   
+}
+
+    
+}
+
 .box {
     background-color: rgba(12, 117, 178, 0.636);
     width: 100%;
     height: 60vh;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+    .box_img {
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
     .avatar {
-        padding-top: 2vh;
+        padding-top: 3vh;
+        img {
+
+        }
     }
     .avatar_name {
         span {

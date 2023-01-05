@@ -1,5 +1,3 @@
-import React from 'react';
-
 const VideoBlock = () => {
     return (
         <div className='media_block'>

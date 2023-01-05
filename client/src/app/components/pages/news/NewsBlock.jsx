@@ -10,7 +10,6 @@ const NewsBlock = () => {
             </div>
             <section className={styles.news}>
                 {NEWS.map((item) => (
-                    // <div className={styles.news_block} key={item.id}>
                     <Alert variant='primary' key={item.id} className={styles.news_block}>
                         <div className={styles.news_photo}>
                             <img src={item.photo} alt={item.alt} width={100} height='auto' />

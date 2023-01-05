@@ -1,17 +1,9 @@
-import mon1 from './images/monument1.png';
-import mon2 from './images/monument2.png';
-import mon3 from './images/monument3.png';
-import mon4 from './images/monument4.png';
-import mon5 from './images/monument5.png';
-import mon6 from './images/monument6.png';
-import mon7 from './images/monument7.png';
-import mon8 from './images/monument8.png';
 import { useInView } from 'react-intersection-observer';
-
-import styles from './Sketches.module.scss';
-import Slider from 'react-slick';
+import { data } from './images/sketches';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import styles from './Sketches.module.scss';
+import Slider from 'react-slick';
 
 const Sketches = () => {
     const settings = {
@@ -23,16 +15,7 @@ const Sketches = () => {
         slidesToShow: 3,
         slidesToScroll: 3,
     };
-    const data = [
-        { id: 1, imgSrc: mon1, alt: 'monument', caption: 'Скульптор: ' },
-        { id: 2, imgSrc: mon2, alt: 'monument', caption: 'Скульптор: Алексеева Марина' },
-        { id: 3, imgSrc: mon3, alt: 'monument', caption: 'Скульптор: Качев Андрей' },
-        { id: 4, imgSrc: mon4, alt: 'monument', caption: 'Скульптор: Колсарчук Татьяна ' },
-        { id: 5, imgSrc: mon5, alt: 'monument', caption: 'Скульптор: Колсарчук Татьяна ' },
-        { id: 6, imgSrc: mon6, alt: 'monument', caption: 'Скульптор: Колсарчук Татьяна ' },
-        { id: 7, imgSrc: mon7, alt: 'monument', caption: 'Скульптор: Солнечная Лариса' },
-        { id: 8, imgSrc: mon8, alt: 'monument', caption: 'Скульптор: ' },
-    ];
+
     const { ref, inView } = useInView({
         threshold: 0,
         triggerOnce: true,

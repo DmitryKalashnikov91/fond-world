@@ -9,6 +9,7 @@ const MobileMenu = () => {
         { id: 2, path: 'news', title: 'Новости нашего мира' },
         { id: 3, path: 'poems', title: 'Поэзия' },
         { id: 4, path: 'video', title: 'Видео' },
+        { id: 5, path: 'newspapers', title: 'СМИ о Нас' },
     ];
     const [open, setOpen] = useState(false);
     const handleClick = () => {

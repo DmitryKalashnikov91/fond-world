@@ -1,9 +1,7 @@
-// import { useNavigate } from 'react-router-dom';
 import MainButton from '../../../common/MainButton';
 import styles from './AboutProject.module.scss';
 
 const AboutProject = () => {
-    // const navigate = useNavigate();
     return (
         <section className={styles.about} id='project'>
             <div className={styles.sub_title}>

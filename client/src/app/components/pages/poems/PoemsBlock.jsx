@@ -1,4 +1,3 @@
-import React from 'react';
 import Attention from '../../common/Attention';
 import styles from './Poems.module.scss';
 

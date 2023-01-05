@@ -1,0 +1,21 @@
+.newspapers {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    a{
+        text-decoration: none;
+
+    }
+    &_card {
+        padding: 40px;
+        &__header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3vh;
+            a {
+                color: rgb(214, 111, 46);
+            }
+        }
+    }
+}

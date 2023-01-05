@@ -1,10 +1,13 @@
-import { AVATARS } from './avatars/avatars';
 import { useInView } from 'react-intersection-observer';
+
+import { AVATARS } from './avatars/avatars';
+
 import styles from './Partners.module.scss';
 
 const Partners = () => {
     const { ref, inView } = useInView({
         threshold: 0,
+        triggerOnce: true,
     });
     return (
         <div className='container-fluid' ref={ref}>
