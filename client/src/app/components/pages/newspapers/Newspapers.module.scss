@@ -1,11 +1,16 @@
 .newspapers {
+    position: relative;
     display: flex;
+    flex-direction: column-reverse;
     align-items:center;
     justify-content: center;
-    height: 100vh;
+    top: 15vh;
     a{
         text-decoration: none;
 
+    }
+    button {
+        font-size: calc(var(--index)*0.8);
     }
     &_card {
         padding: 40px;
@@ -13,9 +18,13 @@
             display: flex;
             justify-content: space-between;
             margin-bottom: 3vh;
+            font-size: calc(var(--index)*0.8);
             a {
                 color: rgb(214, 111, 46);
             }
+        }
+        &__content {
+            font-size: calc(var(--index)*0.8);
         }
     }
 }
