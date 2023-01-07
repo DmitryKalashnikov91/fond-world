@@ -17,38 +17,49 @@ const Sketches = () => {
     };
 
     const { ref, inView } = useInView({
-        threshold: 0,
+        threshold: 0.1,
         triggerOnce: true,
     });
     return (
         <>
-            <div className='Sketches' ref={ref}>
+            <div className={styles.Sketches} ref={ref}>
                 <h2>Скульптурные группы и эскизы</h2>
-                <Slider {...settings}>
-                    {data.map((elem) => {
-                        return (
-                            <div key={elem.id} className={styles.Sketches_card}>
-                                {inView ? (
-                                    <img src={elem.imgSrc} alt='' width={280} height={350} />
-                                ) : (
-                                    <div className={styles.skeleton} />
-                                )}
+                {inView ? (
+                    <div className={styles.Sketches_content}>
+                        <Slider {...settings} className={styles.Sketches_content__carousel}>
+                            {data.map((elem) => {
+                                return (
+                                    <div key={elem.id} className={styles.Sketches_card}>
+                                        <img
+                                            src={elem.imgSrc}
+                                            alt={elem.alt}
+                                            width={280}
+                                            height={350}
+                                        />
 
-                                <div className={styles.Sketches_caption}>{elem.caption}</div>
-                            </div>
-                        );
-                    })}
-                </Slider>
-            </div>
-            <div className={styles.Sketches_mobile}>
-                {data.map((elem) => {
-                    return (
-                        <div key={elem.id} className={styles.card}>
-                            <img src={elem.imgSrc} alt={elem.caption} />
-                            <div className={styles.Sketches_caption}>{elem.caption}</div>
+                                        <div className={styles.Sketches_caption}>
+                                            {elem.caption}
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </Slider>
+                        <div className={styles.Sketches_content__mobile}>
+                            {data.map((elem) => {
+                                return (
+                                    <div key={elem.id} className={styles.Sketches_card}>
+                                        <img src={elem.imgSrc} alt={elem.caption} />
+                                        <div className={styles.Sketches_caption}>
+                                            {elem.caption}
+                                        </div>
+                                    </div>
+                                );
+                            })}
                         </div>
-                    );
-                })}
+                    </div>
+                ) : (
+                    <div className={styles.skeleton} />
+                )}
             </div>
         </>
     );
