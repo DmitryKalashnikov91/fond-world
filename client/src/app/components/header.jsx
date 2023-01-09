@@ -10,11 +10,11 @@ const Header = () => {
     return (
         <header className='d-flex justify-content-between fixed-top'>
             <img src={logo} alt='logo' width={70} height={70} onClick={() => navigate('/')} />
-            <h1
+            {/* <h1
                 className='shadow-lg p-2 mb-3 rounded user-select-none title text-primary logo_top'
                 onClick={() => navigate('/')}>
                 Фонд наш МИР
-            </h1>
+            </h1> */}
             <NavBar />
             <MobileMenu />
         </header>

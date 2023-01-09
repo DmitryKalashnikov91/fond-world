@@ -1,14 +1,16 @@
 .Sketches {
-    width: 80vw;
-    margin-top: 5vh;   
-    margin-left: 5vw; 
-    padding: 2%;
-    button {
-        background: #000;
-        color: black;
-        margin-right: 1%;
-        &:hover {
-            background-color: #FF5F04;
+    &_content__carousel {
+        width: 80vw;
+        margin-top: 5vh;   
+        margin-left: 5vw; 
+        padding: 2%;
+        button {
+            background: #000;
+            color: black;
+            margin-right: 1%;
+            &:hover {
+                background-color: #FF5F04;
+            }
         }
     }
     &_card {
@@ -18,40 +20,48 @@
             width: calc(var(--index)*10);
             height: calc(var(--index)*12);
         }
-    } 
-    &_content__mobile {
+    }
+    .Sketches_content__mobile {
         display: none;
     }
 }
 
-
-
 @media (max-width: 800px) {
     .Sketches{
+        .Sketches_content__mobile {
+            display: flex;
+            width: 80%;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
         &_content__carousel {
             display: none;
         }
-        &_content__mobile {
-            margin-top: 5%;
-            margin-left: 4%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin-top: 5vh;
-       
+        
+           
          img {
             width: calc(var(--index)*13);
-            height: calc(var(--index)*15);
+            margin-right: 1rem;
+    }
+    &_item {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        position: relative;
+        margin-left: 2rem;
+       
+        &__caption {
+            margin-top: 10px;
+            font-size: 0.8rem;
+            line-height: 1.2;
         }
-    }
-    &_caption {
-        width: 130px;
-    }
+       }
 }
 }
-.skeleton {
-    width: calc(var(--index)*15);
-    height: calc(var(--index)*18);
-    background-color: rgb(192, 189, 189);
-}
+
+// .skeleton {
+//     width: calc(var(--index)*15);
+//     height: calc(var(--index)*18);
+//     background-color: rgb(192, 189, 189);
+// }

@@ -47,12 +47,12 @@ const Sketches = () => {
                         <div className={styles.Sketches_content__mobile}>
                             {data.map((elem) => {
                                 return (
-                                    <div key={elem.id} className={styles.Sketches_card}>
+                                    <figure className={styles.Sketches_item} key={elem.id}>
                                         <img src={elem.imgSrc} alt={elem.caption} />
-                                        <div className={styles.Sketches_caption}>
+                                        <figcaption className={styles.Sketches_item___caption}>
                                             {elem.caption}
-                                        </div>
-                                    </div>
+                                        </figcaption>
+                                    </figure>
                                 );
                             })}
                         </div>
