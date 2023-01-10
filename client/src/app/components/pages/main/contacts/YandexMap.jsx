@@ -3,7 +3,7 @@ import styles from './YandexMap.module.scss';
 
 const YandexMap = () => {
     return (
-        <div className={styles.YandexMap}>
+        <section className={styles.YandexMap}>
             <div className='mt-5 ms-2' style={{ position: 'relative', overFlow: 'hidden' }}>
                 <a
                     href='https://yandex.ru/maps/org/kit/101868865464/?utm_medium=mapframe&utm_source=maps'
@@ -22,9 +22,7 @@ const YandexMap = () => {
                 </a>
                 <iframe
                     src='https://yandex.ru/map-widget/v1/-/CCUvqIaQ3A'
-                    width='350'
                     title='yanFrame'
-                    height='240'
                     frameBorder='1'
                     allowFullScreen={true}
                     style={{ position: 'relative' }}></iframe>
@@ -40,7 +38,7 @@ const YandexMap = () => {
                     С удобным подъездом с ТТК, Ленинградского проспекта и Хорошёвского шоссе
                 </span>
             </div>
-        </div>
+        </section>
     );
 };
 
