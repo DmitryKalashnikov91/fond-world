@@ -38,6 +38,9 @@ button {
 header {
     position: relative;
     z-index: 3;
+    img {
+        cursor: pointer;
+    }
 }
 .navbar {
     position: relative;

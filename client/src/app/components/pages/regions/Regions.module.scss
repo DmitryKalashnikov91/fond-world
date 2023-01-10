@@ -1,6 +1,18 @@
 .Regions {
-    height: 45vh;
     display: flex;
     align-items:center;
     justify-content: center;
+    margin-top: 15vh;
+    a {
+        text-decoration: none;
+    }
+    &_Alert{
+        width: 90vw;
+        &__avatar {
+            img{
+            width: calc(var(--index)*4);
+    
+        }}
+    }
+    
 }

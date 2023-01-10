@@ -8,6 +8,7 @@ import img from './sketches/images/mainMon.webp';
 
 import styles from './Main.module.scss';
 import Posters from './posters/Posters';
+import YandexMap from './contacts/YandexMap';
 
 const Main = () => {
     return (
@@ -45,6 +46,7 @@ const Main = () => {
             </div>
             <Partners />
             <Posters />
+            <YandexMap />
         </>
     );
 };
