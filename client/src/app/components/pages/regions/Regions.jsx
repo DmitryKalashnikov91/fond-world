@@ -12,7 +12,7 @@ const Regions = () => {
                 </div>
                 <div className={styles.Regions_Alert__caption}>
                     <strong>Кичаева Елена Васильевна </strong>
-                    <a href='tel:+79279287814'>+7 (927) 928-78-14</a>
+                    <a href='tel:+79030205638'>+7 (903) 020-56-38</a>
                     <span>
                         <ul>
                             <li>доверенное лицо Губернатора Саратовской области</li>

@@ -22,7 +22,6 @@ const NewsBlock = () => {
                             <span>{parse(item.content)}</span>
                         </div>
                     </Alert>
-                    // </div>
                 ))}
             </section>
         </>

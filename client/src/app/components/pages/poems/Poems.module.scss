@@ -1,6 +1,22 @@
 .poems {
     display: flex;
-    align-items: center;
-    height: 45vh;
-    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-left: 2vw;
+    &_avatar {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3vh;
+    }
+    &_content {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2vh;
+        span {
+            margin-right: 2rem;
+            border: 2px dotted white;
+            padding: 1rem;
+        }
+    }
 }
