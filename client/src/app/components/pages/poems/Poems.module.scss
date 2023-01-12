@@ -13,10 +13,15 @@
         display: flex;
         flex-wrap: wrap;
         margin-top: 2vh;
+        
         span {
             margin-right: 2rem;
             border: 2px dotted white;
             padding: 1rem;
+            transition: all 2s;
         }
+       
     }
+   
+   
 }

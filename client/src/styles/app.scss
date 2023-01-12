@@ -87,10 +87,14 @@ header {
   }
   
 
-
-
+  .hide {
+    display: none;
+   }
+.show {
+    display: block  ;
+}
 // video
-
+// .show {display: block;}
 
 .snowman {
     position: absolute;
