@@ -4,67 +4,70 @@ const URL = config.urlImg;
 export const AVATARS = [
     {
         id: 1,
-        imgSrc: `${URL}avatars%2Fdorogov.png?alt=media&token=1840d37b-310f-4fbd-938a-a5a0c431d535`,
-        name: 'Дорогов П. И., Председатель антикоррупционного комитета',
-    },
-    {
-        id: 2,
-        imgSrc: `${URL}avatars%2Fkaraulov.png?alt=media&token=0f887651-e4d9-4335-b829-1dab715a25fa`,
-        name: 'Игорь Караулов, поэт, общественный деятель',
-    },
-    {
-        id: 3,
-        imgSrc: `${URL}avatars%2Fkonoplyannikovuv.png?alt=media&token=04fdc605-89cc-4909-946c-1ba040ae355f`,
-        name: 'Коноплянников Ю. В.,  заслуженный работник культуры РФ',
-    },
-    {
-        id: 4,
-        imgSrc: `${URL}avatars%2Flyusya-chebotina.png?alt=media&token=38a272d6-12e8-409b-9182-86e78791ccab`,
-        name: 'Люся Чеботина, российская певица',
-    },
-    {
-        id: 5,
-        imgSrc: `${URL}avatars%2Fnelezin.webp?alt=media&token=794bc63a-a423-479a-bfa5-20e557893ab3`,
-        name: 'Нелезин П.В.,  генерал-полковник',
-    },
-    {
-        id: 6,
-        imgSrc: `${URL}avatars%2Frahilchuk.png?alt=media&token=217dd88b-885c-4055-8ab9-63b6a391c56f`,
-        name: 'Андрей Рахильчук, генерал-майор казачьих войск',
-    },
-    {
-        id: 7,
-        imgSrc: `${URL}avatars%2Frapoport.png?alt=media&token=bfba1fd3-03b1-45e8-b2e1-d5836f55a34b`,
-        name: 'Александр Рапопорт, российский актер театра и кино',
-    },
-    {
-        id: 8,
-        imgSrc: `${URL}avatars%2Fsafronovi.png?alt=media&token=d1784738-82a2-4ba5-b57d-16ac74887634`,
-        name: 'Братья Сафроновы,  российские иллюзионисты',
-    },
-    {
-        id: 9,
-        imgSrc: `${URL}avatars%2Fsavinandaleksandrov.png?alt=media&token=39793b75-9d60-403d-a031-b871cfdfb9ab`,
-        name: 'Александр Савин, заслуженный артист РФ',
-    },
-    {
-        id: 10,
-        imgSrc: `${URL}avatars%2Fshumilovaeb.png?alt=media&token=34a7a162-39f4-4199-9430-0aaa945cef46`,
+        imgSrc: `${URL}avatars%2Faahumilova.png?alt=media&token=4079d09f-4f77-4336-815f-dadfe64c041c`,
         name: 'Шумилова Елена Борисовна,  сенатор Совета Федерации',
     },
     {
-        id: 11,
-        imgSrc: `${URL}avatars%2Fshumilovlv.png?alt=media&token=0b69128f-bc61-4b21-a758-f7b075c0542c`,
+        id: 2,
+        imgSrc: `${URL}avatars%2Fabhumilovlv.png?alt=media&token=1b6d45d8-1972-45f9-9980-a3e71d8101e8`,
         name: 'Шумилов Л.В., генерал-полковник',
+    },
+
+    {
+        id: 3,
+        imgSrc: `${URL}avatars%2Fadnelezin.webp?alt=media&token=03757598-3829-4c95-8cc1-a088e59b1599`,
+        name: 'Нелезин П.В.,  генерал-полковник',
+    },
+    {
+        id: 5,
+        imgSrc: `${URL}avatars%2Faerahilchuk.png?alt=media&token=4aa02f31-2d72-4e96-aaa6-5a3ed032c758`,
+        name: 'Андрей Рахильчук, генерал-майор казачьих войск',
+    },
+    {
+        id: 6,
+        imgSrc: `${URL}avatars%2Fafkonoplyannikovuv.png?alt=media&token=e5e71a0b-0bee-45f4-b8bc-5c60463541fb`,
+        name: 'Коноплянников Ю. В.,  заслуженный работник культуры РФ',
+    },
+    {
+        id: 7,
+        imgSrc: `${URL}avatars%2Fahkaraulov.png?alt=media&token=4360bf47-39f7-4cab-a6cd-0ec232699d47`,
+        name: 'Игорь Караулов, поэт, общественный деятель',
+    },
+    {
+        id: 8,
+        imgSrc: `${URL}avatars%2Faglyusya-chebotina.png?alt=media&token=d2a7a1df-5c9b-44b2-9701-0931c01b04e7`,
+        name: 'Люся Чеботина, российская певица',
+    },
+    {
+        id: 9,
+        imgSrc: `${URL}avatars%2Faisafronovi.png?alt=media&token=30bab55e-0e2c-4475-9b37-22516a9e7441`,
+        name: 'Братья Сафроновы,  российские иллюзионисты',
+    },
+    {
+        id: 10,
+        imgSrc: `${URL}avatars%2Fakrapoport.png?alt=media&token=08fa9b87-b886-4a84-a14a-308847d4cf0f`,
+        name: 'Александр Рапопорт, российский актер театра и кино',
+    },
+    {
+        id: 11,
+        imgSrc: `${URL}avatars%2Fajsavinandaleksandrov.png?alt=media&token=096c7e98-54fa-43fc-993d-7e71c1f7dcb2`,
+        name: 'Александр Савин, заслуженный артист РФ',
     },
     {
         id: 12,
-        imgSrc: `${URL}avatars%2Fudalovs.png?alt=media&token=94560a5f-cea9-436c-ae4a-ad9f9559d28c`,
-        name: 'Сергей Удалов, генеральный директор газеты "Президент',
+        imgSrc: `${URL}avatars%2Faltorsuevibr.png?alt=media&token=c8efb047-6422-4ad2-901c-b9dd0bd36aa4`,
+        name: 'Братья Владимир и Юрий Торсуевы, Актеры, главные герои фильма "Приключения Электроника"',
     },
+
     {
         id: 13,
-        imgSrc: `${URL}avatars%2Fyandievmi.png?alt=media&token=5c956a21-e6fe-473a-8577-0b015fdb56c0`,
-        name: 'Яндиев М.И,  депутат Мосгордумы',
+        imgSrc: `${URL}avatars%2Famudalovs.png?alt=media&token=a2fb60e7-8a35-41e8-9274-b5773dea54a0`,
+        name: 'Сергей Удалов, генеральный директор газеты "Президент',
+    },
+
+    {
+        id: 14,
+        imgSrc: `${URL}avatars%2Fdorogov.png?alt=media&token=5ecc6106-3020-4577-9453-7e9d299a5b42`,
+        name: 'Дорогов П. И., Председатель антикоррупционного комитета',
     },
 ];

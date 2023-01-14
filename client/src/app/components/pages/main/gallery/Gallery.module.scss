@@ -18,7 +18,7 @@
         justify-content: center;
         img {
             width: calc(var(--index)*30);
-            height: auto;
+            height: calc(var(--index)*20);
         }
     }
 }
