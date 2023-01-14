@@ -1,13 +1,17 @@
 const Footer = () => {
     return (
         <footer className='footer' id='contacts'>
-            <div className='footer_logo'>
+            <div className='footer_logo d-flex flex-column'>
                 <img
                     src='https://thumb.tildacdn.com/tild3232-3134-4133-a431-373835393739/-/resize/476x/-/format/webp/21__.png'
                     alt='logo'
                     width={200}
                     height={50}
                 />
+                <span className='text-light'>Сообщество VK </span>
+                <a href='https://vk.com/public218231687' target='_blank' rel='noopener noreferrer'>
+                    vk/фонд-наш-мир.рф
+                </a>
             </div>
             <section className='footer_content'>
                 <span>По вопросам сотрудничества:</span>

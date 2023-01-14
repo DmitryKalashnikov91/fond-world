@@ -55,7 +55,7 @@ export const AVATARS = [
     },
     {
         id: 12,
-        imgSrc: `${URL}avatars%2Faltorsuevibr.png?alt=media&token=c8efb047-6422-4ad2-901c-b9dd0bd36aa4`,
+        imgSrc: `${URL}avatars%2Ftorsuevi2.webp?alt=media&token=9070725a-d44a-4819-b684-dca6a8996f1b`,
         name: 'Братья Владимир и Юрий Торсуевы, Актеры, главные герои фильма "Приключения Электроника"',
     },
 

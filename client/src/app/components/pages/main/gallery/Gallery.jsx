@@ -18,7 +18,7 @@ const Gallery = () => {
 
     return (
         <div className={styles.gallery} ref={ref}>
-            <h3 className='text-light pt-5 text-center'>Галлерея Нашего Фонда.</h3>
+            <h3 className='text-light pt-5 text-center'>Галерея Нашего Фонда.</h3>
             {inView ? (
                 <Carousel activeIndex={index} onSelect={handleSelect}>
                     {PHOTOS.map(({ id, photoSrc }) => (
