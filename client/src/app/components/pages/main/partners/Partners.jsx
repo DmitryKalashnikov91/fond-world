@@ -10,7 +10,7 @@ const Partners = () => {
         triggerOnce: true,
     });
     return (
-        <div className='container-fluid' ref={ref}>
+        <div className='' ref={ref}>
             {inView ? (
                 <div className={styles.box_img}>
                     {AVATARS.map(({ id, imgSrc, name }) => (

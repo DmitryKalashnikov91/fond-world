@@ -12,6 +12,26 @@ export const newspapers = [
     },
     {
         id: nanoid(8),
+        header: '1-й Межгосударственный Форум «МИР ЕВРАЗИИ-XXIвек» состоялся в Москве',
+        title: 'Федеральное Агенство Новостей',
+        hyperlink: 'https://federalnews24.ru/',
+        content:
+            '20 декабря 2021 года, в Большом Концертном Зале, в здании Правительства Москвы на Новом Арбате, д. 36 состоялся 1-й Учредительный Форум Межгосударственного проекта глобального евразийского сближения «МИР ЕВРАЗИИ-XXIвек».',
+        linkToItem:
+            'https://federalnews24.ru/1-j-mezhgosudarstvennyj-forum-mir-evrazii-xxivek-sostoyalsya-v-moskve/',
+    },
+    {
+        id: nanoid(8),
+        header: 'Сергей Чиграков награжден Евразийским Знаком Почета 1-й степени',
+        title: 'Федеральное Агенство Новостей',
+        hyperlink: 'https://federalnews24.ru/',
+        content:
+            '25 декабря 2021 года во время предновогоднего концерта в столичном клубе «1930» состоялось вручение бессменному лидеру группы «Чиж и Компания» значимой международной награды – Евразийский Знак Почета 1-й степени.',
+        linkToItem:
+            'https://federalnews24.ru/sergej-chigrakov-nagrazhden-evrazijskim-znakom-pocheta-1-j-stepeni/',
+    },
+    {
+        id: nanoid(8),
         header: 'В Москве прошел форум «Наш мир»',
         title: '<img src="https://presidentmedia.ru/wp-content/uploads/2021/05/logotip_prezident_-_okonchatelno.png" alt="president" width="75"/>',
         hyperlink: 'https://presidentmedia.ru/',

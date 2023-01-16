@@ -6,7 +6,7 @@ export const data = [
         id: 1,
         imgSrc: `${URL}sketches%2Fmonument1.png?alt=media&token=80ce1867-6dd1-458e-983a-4f475a27e5c6`,
         alt: 'monument1',
-        caption: 'Скульптор: ',
+        caption: 'Автор: Орлова Олеся Владимировна, г.Кирово-Чепецк',
     },
     {
         id: 2,

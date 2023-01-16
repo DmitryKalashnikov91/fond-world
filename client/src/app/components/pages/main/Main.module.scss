@@ -65,6 +65,9 @@
 @media (max-width: 800px) {
     .poster {
         margin-bottom: 2vh;
+        img {
+            width: 100vw;
+        }
         &_contacts {
             bottom: 10vh;
             left: 19vw;
@@ -95,9 +98,10 @@
         }
         
         .bgimage{
-            display: flex;
-            justify-content: center;
             margin-top: -5vh;
+            img {
+                width: 97vw;
+            }
         }
     }
     button {
