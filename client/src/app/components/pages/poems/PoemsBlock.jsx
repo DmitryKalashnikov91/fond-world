@@ -25,8 +25,8 @@ const PoemsBlock = () => {
             {poems.map((poem, i) => (
                 <Alert variant={poem.variant} key={poem.id}>
                     <div className={styles.poems_avatar}>
-                        <img src={poem.avatar} alt={poem.alt} width={100} />
-                        <strong>{poem.autor}</strong>
+                        <img src={poem.avatar} alt={poem.author} width={100} />
+                        <strong>{poem.author}</strong>
                         <div className={styles.poems_content}>
                             <span>{parse(poem.content1)}</span>
                             <span className='hide'>{parse(poem.content2)}</span>

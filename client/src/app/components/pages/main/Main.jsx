@@ -4,7 +4,6 @@ import MainButton from '../../common/MainButton';
 import Gallery from './gallery/Gallery';
 import Partners from './partners/Partners';
 import img from './sketches/images/mainMon.webp';
-import poster from './poster.test.main.png';
 
 import styles from './Main.module.scss';
 import Posters from './posters/Posters';
@@ -42,21 +41,7 @@ const Main = () => {
             <Gallery />
             <Sketches />
             <AboutProject />
-            <section className={styles.poster}>
-                <img src={poster} alt='poster' />
-                <div className={styles.poster_contacts}>
-                    <a href='tel:+79999152567'>+7 (999) 915-25-67</a>
-                    <a href='tel:+79636188420'>+7 (963) 618-84-20</a>
-                </div>
-                <div className={styles.poster_links}>
-                    <a href='https://kit.ru.com' target='_blank' rel='noopener noreferrer'>
-                        kit.ru.com
-                    </a>
-                    <a href='https://presidentmedia.ru/' target='_blank' rel='noopener noreferrer'>
-                        presidentmedia.ru
-                    </a>
-                </div>
-            </section>
+
             <div className='sub_title' id='images'>
                 <h3>Наш МИР поддержали:</h3>
             </div>

@@ -15,7 +15,6 @@ const Gallery = () => {
         threshold: 0.1,
         triggerOnce: true,
     });
-
     return (
         <div className={styles.gallery} ref={ref}>
             <h3 className='text-light pt-5 text-center'>Галерея Нашего Фонда.</h3>

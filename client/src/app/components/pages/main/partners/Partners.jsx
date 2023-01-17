@@ -9,6 +9,7 @@ const Partners = () => {
         threshold: 0,
         triggerOnce: true,
     });
+    console.log(AVATARS);
     return (
         <div className='' ref={ref}>
             {inView ? (

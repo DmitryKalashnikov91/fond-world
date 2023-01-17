@@ -63,23 +63,6 @@
     }
 }
 @media (max-width: 800px) {
-    .poster {
-        margin-bottom: 2vh;
-        img {
-            width: 100vw;
-        }
-        &_contacts {
-            bottom: 10vh;
-            left: 19vw;
-            a {
-                margin-bottom: 0;
-            }
-        }
-        &_links {
-            bottom: 0;
-            left: 5vw;
-        }
-    }
     .main {
         margin-left: 2vw;
         h1 {
