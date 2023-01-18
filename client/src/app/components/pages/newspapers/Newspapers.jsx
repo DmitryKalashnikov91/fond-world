@@ -16,7 +16,7 @@ const Newspapers = () => {
                     </div>
 
                     <div className={styles.newspapers_card__content}>
-                        <span>{item.content}</span>
+                        <span>{parse(item.content)}</span>
                         <button className='btn btn-outline-primary'>
                             <a href={item.linkToItem} target='_blank' rel='noreferrer'>
                                 Читать статью

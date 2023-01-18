@@ -46,4 +46,8 @@ export const PHOTOS = [
         id: nanoid(8),
         photoSrc: `${URL}gallery%2FDSC_17.webp?alt=media&token=870866d4-1d1a-4c01-9826-021ab0fdaddf`,
     },
+    {
+        id: nanoid(8),
+        photoSrc: `${URL}gallery%2Fforum14_12_22.webp?alt=media&token=b97cd40b-9723-48d3-9db8-46c32aa990d4`,
+    },
 ];
