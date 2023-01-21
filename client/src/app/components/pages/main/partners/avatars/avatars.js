@@ -4,70 +4,70 @@ const URL = config.urlImg;
 export const AVATARS = [
     {
         id: 1,
-        imgSrc: `${URL}avatars%2Faahumilova.png?alt=media&token=4079d09f-4f77-4336-815f-dadfe64c041c`,
+        imgSrc: `${URL}avatars%2Faahumilova.png?alt=media&token=a076a39d-60df-4db8-b1b4-7bc802295849`,
         name: 'Шумилова Елена Борисовна,  сенатор Совета Федерации',
     },
     {
         id: 2,
-        imgSrc: `${URL}avatars%2Fabhumilovlv.png?alt=media&token=1b6d45d8-1972-45f9-9980-a3e71d8101e8`,
+        imgSrc: `${URL}avatars%2Fabhumilovlv.png?alt=media&token=d354c68a-81ac-4f26-bd6e-ad51b4c20cab`,
         name: 'Шумилов Л.В., генерал-полковник',
     },
 
     {
         id: 3,
-        imgSrc: `${URL}avatars%2Fadnelezin.webp?alt=media&token=03757598-3829-4c95-8cc1-a088e59b1599`,
+        imgSrc: `${URL}avatars%2Fabhumilovlv.png?alt=media&token=d354c68a-81ac-4f26-bd6e-ad51b4c20cab`,
         name: 'Нелезин П.В.,  генерал-полковник',
     },
     {
         id: 5,
-        imgSrc: `${URL}avatars%2Faerahilchuk.png?alt=media&token=4aa02f31-2d72-4e96-aaa6-5a3ed032c758`,
+        imgSrc: `${URL}avatars%2Fadnelezin.webp?alt=media&token=e703c9e1-ce12-4820-a063-e2b1e71debcc`,
         name: 'Андрей Рахильчук, генерал-майор казачьих войск',
     },
     {
         id: 6,
-        imgSrc: `${URL}avatars%2Fafkonoplyannikovuv.png?alt=media&token=e5e71a0b-0bee-45f4-b8bc-5c60463541fb`,
+        imgSrc: `${URL}avatars%2Fafkonoplyannikovuv.png?alt=media&token=a8bb7f32-34f6-46d0-89b2-9891c0652f85`,
         name: 'Коноплянников Ю. В.,  заслуженный работник культуры РФ',
     },
     {
         id: 7,
-        imgSrc: `${URL}avatars%2Fahkaraulov.png?alt=media&token=4360bf47-39f7-4cab-a6cd-0ec232699d47`,
+        imgSrc: `${URL}avatars%2Fahkaraulov.png?alt=media&token=ba3e63da-85dd-43cf-8b8a-6f855d7f6204`,
         name: 'Игорь Караулов, поэт, общественный деятель',
     },
     {
         id: 8,
-        imgSrc: `${URL}avatars%2Faglyusya-chebotina.png?alt=media&token=d2a7a1df-5c9b-44b2-9701-0931c01b04e7`,
+        imgSrc: `${URL}avatars%2Faglyusya-chebotina.png?alt=media&token=efa82870-46ee-4cea-a6f8-729c23ff6c7f`,
         name: 'Люся Чеботина, российская певица',
     },
     {
         id: 9,
-        imgSrc: `${URL}avatars%2Faisafronovi.png?alt=media&token=30bab55e-0e2c-4475-9b37-22516a9e7441`,
+        imgSrc: `${URL}avatars%2Faisafronovi.png?alt=media&token=1bb0c438-a5f9-480c-9590-4c99603f0729`,
         name: 'Братья Сафроновы,  российские иллюзионисты',
     },
     {
         id: 10,
-        imgSrc: `${URL}avatars%2Fakrapoport.png?alt=media&token=08fa9b87-b886-4a84-a14a-308847d4cf0f`,
+        imgSrc: `${URL}avatars%2Fakrapoport.png?alt=media&token=bbba1480-8903-4f51-afac-aa7f6b9c39f2`,
         name: 'Александр Рапопорт, российский актер театра и кино',
     },
     {
         id: 11,
-        imgSrc: `${URL}avatars%2Fajsavinandaleksandrov.png?alt=media&token=096c7e98-54fa-43fc-993d-7e71c1f7dcb2`,
+        imgSrc: `${URL}avatars%2Fajsavinandaleksandrov.png?alt=media&token=8d199c13-a348-4ab6-8674-a0a6d1919929`,
         name: 'Александр Савин, заслуженный артист РФ',
     },
     {
         id: 12,
-        imgSrc: `${URL}avatars%2Ftorsuevi2.webp?alt=media&token=9070725a-d44a-4819-b684-dca6a8996f1b`,
+        imgSrc: `${URL}avatars%2Ftorsuevi2.webp?alt=media&token=1e6c92b5-408a-4ef1-b408-d5c88e808a98`,
         name: 'Братья Владимир и Юрий Торсуевы, Актеры, главные герои фильма "Приключения Электроника"',
     },
 
     {
         id: 13,
-        imgSrc: `${URL}avatars%2Famudalovs.png?alt=media&token=a2fb60e7-8a35-41e8-9274-b5773dea54a0`,
+        imgSrc: `${URL}avatars%2Famudalovs.png?alt=media&token=9f9630f3-07d8-4425-ad90-99fea24cff8c`,
         name: 'Сергей Удалов, генеральный директор газеты "Президент',
     },
 
     {
         id: 14,
-        imgSrc: `${URL}avatars%2Fdorogov.png?alt=media&token=5ecc6106-3020-4577-9453-7e9d299a5b42`,
+        imgSrc: `${URL}avatars%2Fdorogov.png?alt=media&token=796bce15-e425-449e-bb55-786a0f6b2129`,
         name: 'Дорогов П. И., Председатель антикоррупционного комитета',
     },
 ];

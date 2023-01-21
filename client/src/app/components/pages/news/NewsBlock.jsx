@@ -8,6 +8,7 @@ const NewsBlock = () => {
             <div className={styles.news_header}>
                 <h2 className='text-danger'>Последние новости Фонда</h2>
             </div>
+
             <section className={styles.news}>
                 {NEWS.map((item) => (
                     <Alert variant='primary' key={item.id} className={styles.news_block}>

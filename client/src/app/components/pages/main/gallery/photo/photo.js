@@ -6,48 +6,48 @@ const URL = config.urlImg;
 export const PHOTOS = [
     {
         id: nanoid(8),
-        photoSrc: `${URL}gallery%2FDSC_1.webp?alt=media&token=655dd197-be32-4f43-817e-29cfe0ff00b3`,
+        photoSrc: `${URL}gallery%2FDSC_1.webp?alt=media&token=cfd07fba-148e-49a6-886e-8b1fe3bf3f6b`,
     },
     {
         id: nanoid(8),
-        photoSrc: `${URL}gallery%2FDSC_2.webp?alt=media&token=60010e70-b528-463c-b05f-30b1d22c2677`,
+        photoSrc: `${URL}gallery%2FDSC_16.webp?alt=media&token=b86c3023-9e1a-46bc-9ea7-6114f28f966f`,
     },
     {
         id: nanoid(8),
-        photoSrc: `${URL}gallery%2FDSC_3.webp?alt=media&token=e4184485-5128-4e08-ae0e-30365aca59e0`,
+        photoSrc: `${URL}gallery%2FDSC_17.webp?alt=media&token=0dbf678d-e762-4a69-b5e1-ff6f229a9e4c`,
     },
     {
         id: nanoid(8),
-        photoSrc: `${URL}gallery%2FDSC_4.webp?alt=media&token=8985f562-a2fb-4e4e-918d-6afe5d73e094`,
-    },
-
-    {
-        id: nanoid(8),
-        photoSrc: `${URL}gallery%2FDSC_5.webp?alt=media&token=43af3c42-dc18-4595-948c-84f4a9fd502c`,
-    },
-    {
-        id: nanoid(8),
-        photoSrc: `${URL}gallery%2FDSC_6.webp?alt=media&token=6a0a4eb3-fb40-4647-827b-5b731b97cb80`,
-    },
-    {
-        id: nanoid(8),
-        photoSrc: `${URL}gallery%2FDSC_7.webp?alt=media&token=5b5cd24d-2343-43f3-8e2a-5b9c6dc974d1`,
+        photoSrc: `${URL}gallery%2FDSC_4.webp?alt=media&token=080d01f9-f693-42d9-a310-5342614bceff`,
     },
 
     {
         id: nanoid(8),
-        photoSrc: `${URL}gallery%2FDSC_16.webp?alt=media&token=c94e31b7-a225-4db9-8cdf-2e51289d14d6`,
+        photoSrc: `${URL}gallery%2FDSC_5.webp?alt=media&token=855f0f83-b413-4ae5-989e-4ec019a15f66`,
     },
     {
         id: nanoid(8),
-        photoSrc: `${URL}gallery%2FDSC_8.webp?alt=media&token=3766834a-7c9e-48ad-a800-bc7f84d5387b`,
+        photoSrc: `${URL}gallery%2FDSC_6.webp?alt=media&token=d0a21d4b-133a-4e26-af43-4364ec16b4c3`,
     },
     {
         id: nanoid(8),
-        photoSrc: `${URL}gallery%2FDSC_17.webp?alt=media&token=870866d4-1d1a-4c01-9826-021ab0fdaddf`,
+        photoSrc: `${URL}gallery%2FDSC_7.webp?alt=media&token=2a6d1e4c-00c1-4ebd-bd6d-2f6036ebdef7`,
+    },
+
+    {
+        id: nanoid(8),
+        photoSrc: `${URL}gallery%2FDSC_8.webp?alt=media&token=190115ac-792a-441b-8de8-fc3816fdb283`,
     },
     {
         id: nanoid(8),
-        photoSrc: `${URL}gallery%2Fforum14_12_22.webp?alt=media&token=b97cd40b-9723-48d3-9db8-46c32aa990d4`,
+        photoSrc: `${URL}gallery%2Fezgif.com-gif-maker%20(1).webp?alt=media&token=7e865a0b-b609-4b7e-96e6-806ae175d50d`,
+    },
+    {
+        id: nanoid(8),
+        photoSrc: `${URL}gallery%2FDSC_2.webp?alt=media&token=283c8c7e-a5e9-482f-8fe0-b55272958f67`,
+    },
+    {
+        id: nanoid(8),
+        photoSrc: `${URL}gallery%2FDSC_3.webp?alt=media&token=ea2cca9a-98f9-4696-b455-d8cee989662f`,
     },
 ];
