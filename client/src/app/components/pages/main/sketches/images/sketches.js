@@ -24,7 +24,7 @@ export const data = [
         id: 4,
         imgSrc: `${URL}sketches%2Fmonument4.png?alt=media&token=d05e3d45-4db1-4002-8866-5511e0eebfa3`,
         alt: 'monument4',
-        caption: 'Скульптор: Колсарчук Татьяна ',
+        caption: 'Скульптор: Колсарчук Татьяна',
     },
     {
         id: 5,

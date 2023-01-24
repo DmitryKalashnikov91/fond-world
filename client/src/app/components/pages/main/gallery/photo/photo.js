@@ -40,7 +40,7 @@ export const PHOTOS = [
     },
     {
         id: nanoid(8),
-        photoSrc: `${URL}gallery%2Fezgif.com-gif-maker%20(1).webp?alt=media&token=7e865a0b-b609-4b7e-96e6-806ae175d50d`,
+        photoSrc: `${URL}gallery%2Fforum14_12_22.webp?alt=media&token=adf48c9a-93f4-40ac-9181-71e81eb6829b`,
     },
     {
         id: nanoid(8),

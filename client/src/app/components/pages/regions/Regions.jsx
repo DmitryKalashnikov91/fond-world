@@ -1,75 +1,31 @@
+import parse from 'html-react-parser';
 import { useState } from 'react';
 import Alert from 'react-bootstrap/Alert';
-import kichaevaE from './photos/KichaevaElena.jpeg';
 import styles from './Regions.module.scss';
+import { regionsPresent } from './RegionsPresents';
+
 const Regions = () => {
     const [state, setState] = useState(false);
+    console.log(regionsPresent);
     return (
         <section className={styles.Regions}>
-            <Alert variant='danger' className={styles.Regions_Alert}>
-                <div className={styles.Regions_Alert__avatar}>
-                    <img src={kichaevaE} alt={kichaevaE} />
-                </div>
-                <div className={styles.Regions_Alert__caption}>
-                    <strong>Кичаева Елена Васильевна </strong>
-                    <a href='tel:+79030205638'>+7 (903) 020-56-38</a>
-                    <span>
-                        <ul>
-                            <li>доверенное лицо Губернатора Саратовской области</li>
-                            <li>
-                                эксперт тематической площадки «Образование» Саратовского
-                                регионального отделения Общероссийского общественного движения
-                                «Народный фронт «За Россию»
-                            </li>
+            {regionsPresent.map((represent) => (
+                <Alert variant='danger' className={styles.Regions_Alert}>
+                    <div className={styles.Regions_Alert__avatar}>
+                        <img src={represent.avatar} alt={represent.name} />
+                    </div>
+                    <div className={styles.Regions_Alert__caption}>
+                        <strong>{represent.name}</strong>
+                        <a href={`tel:${represent.phoneHref}`}>{represent.phone}</a>
+                        <span>{parse(represent.contentShow)}</span>
+                    </div>
 
-                            <li>участник центрального совета Движения «Матери России»</li>
-                            <li>
-                                руководитель программы «Большой путь с первого шага»
-                                Благотворительного проекта «Всегда рядом»
-                            </li>
-                            {state && (
-                                <div>
-                                    <ul>
-                                        <li>
-                                            председатель Региональной общественной организации
-                                            «Ассоциация приемных семей» Саратовской области.
-                                        </li>
-                                        <li>
-                                            председателем Саратовского регионального отделения ВОД
-                                            «Матери России»
-                                        </li>
-                                        <li>
-                                            член Большого экспертного совета при Уполномоченном по
-                                            правам ребенка в Саратовской области
-                                        </li>
-                                        <li>
-                                            общественый помощник Уполномоченного по правам ребенка в
-                                            Саратовской области
-                                        </li>
-                                    </ul>
-                                    <p>
-                                        Активно развивает сообщество замещающих семей Саратовской
-                                        области. Поддержка замещающих семей осуществляется по всем
-                                        направлениям: социальном, образовательном, психологическом,
-                                        благотворительном. В результате деятельности Елены
-                                        Васильевны открыты 20 клубов приемных семей, открываются
-                                        новые клубы в муниципальных районах Саратовской области,
-                                        формируются ресурсные группы самопомощи и самоподдержки по
-                                        принципу «равный -равному». С замещающими семьями работают
-                                        социальные педагоги, психологи, организуются разнообразные
-                                        кружки для детей.
-                                    </p>
-                                </div>
-                            )}
-                        </ul>
-                        <button
-                            className='btn btn-outline-primary'
-                            onClick={() => setState(!state)}>
-                            {state ? 'свернуть' : 'далее...'}
-                        </button>
-                    </span>
-                </div>
-            </Alert>
+                    {state && <span>{parse(represent.contentHide)}</span>}
+                    <button className='btn btn-outline-primary' onClick={() => setState(!state)}>
+                        {state ? 'свернуть' : 'далее...'}
+                    </button>
+                </Alert>
+            ))}
         </section>
     );
 };
