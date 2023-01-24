@@ -15,12 +15,12 @@ export const AVATARS = [
 
     {
         id: 3,
-        imgSrc: `${URL}avatars%2Fabhumilovlv.png?alt=media&token=d354c68a-81ac-4f26-bd6e-ad51b4c20cab`,
+        imgSrc: `${URL}avatars%2Fadnelezin.webp?alt=media&token=e703c9e1-ce12-4820-a063-e2b1e71debcc`,
         name: 'Нелезин П.В.,  генерал-полковник',
     },
     {
         id: 5,
-        imgSrc: `${URL}avatars%2Fadnelezin.webp?alt=media&token=e703c9e1-ce12-4820-a063-e2b1e71debcc`,
+        imgSrc: `${URL}avatars%2Faerahilchuk.png?alt=media&token=18c672dc-38b0-4364-b092-832af5f2269e`,
         name: 'Андрей Рахильчук, генерал-майор казачьих войск',
     },
     {
