@@ -5,6 +5,7 @@ import Newspapers from './app/components/pages/newspapers/Newspapers';
 import PoemsBlock from './app/components/pages/poems/PoemsBlock';
 import Program from './app/components/pages/program/Program';
 import Regions from './app/components/pages/regions/Regions';
+import Trustees from './app/components/pages/trustees/Trustees';
 import VideoBlock from './app/components/pages/videos/VideoBlock';
 
 const routes = [
@@ -40,6 +41,10 @@ const routes = [
     {
         path: 'regions',
         element: <Regions />,
+    },
+    {
+        path: 'trustees',
+        element: <Trustees />,
     },
 ];
 

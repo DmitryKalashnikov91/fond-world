@@ -10,6 +10,9 @@
     &_Alert{
         width: 90vw;
         &__avatar {
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
             img{
             width: calc(var(--index)*4);
     

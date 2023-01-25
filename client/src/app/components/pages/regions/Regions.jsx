@@ -10,9 +10,10 @@ const Regions = () => {
     return (
         <section className={styles.Regions}>
             {regionsPresent.map((represent) => (
-                <Alert variant='danger' className={styles.Regions_Alert}>
+                <Alert variant={represent.variant} className={styles.Regions_Alert}>
                     <div className={styles.Regions_Alert__avatar}>
-                        <img src={represent.avatar} alt={represent.name} />
+                        {represent?.avatar && <img src={represent.avatar} alt={represent.name} />}
+                        <strong>{represent.city}</strong>
                     </div>
                     <div className={styles.Regions_Alert__caption}>
                         <strong>{represent.name}</strong>
@@ -21,9 +22,13 @@ const Regions = () => {
                     </div>
 
                     {state && <span>{parse(represent.contentHide)}</span>}
-                    <button className='btn btn-outline-primary' onClick={() => setState(!state)}>
-                        {state ? 'свернуть' : 'далее...'}
-                    </button>
+                    {represent?.contentHide && (
+                        <button
+                            className='btn btn-outline-primary'
+                            onClick={() => setState(!state)}>
+                            {state ? 'свернуть' : 'далее...'}
+                        </button>
+                    )}
                 </Alert>
             ))}
         </section>
