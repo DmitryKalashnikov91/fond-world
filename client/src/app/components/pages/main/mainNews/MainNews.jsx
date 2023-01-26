@@ -19,10 +19,10 @@ const MainNews = () => {
                         акции "Установка скульптурных групп и монументов "Дети Донбасса" и "Героям
                         России"... Источник:{' '}
                         <Card.Link
-                            href='https://t.me/mecenatrussia'
+                            href='https://xn--b1agj9af.xn--80adxhks/'
                             target='_blank'
                             rel='noopener noreferrer'>
-                            https://t.me/mecenatrussia
+                            Вести.Москва
                         </Card.Link>
                     </Card.Text>
                 </Card.ImgOverlay>

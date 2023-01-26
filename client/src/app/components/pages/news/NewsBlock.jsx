@@ -3,6 +3,7 @@ import Alert from 'react-bootstrap/Alert';
 import styles from './NewsBlock.module.scss';
 import { NEWS } from './newsApi';
 const NewsBlock = () => {
+    console.log(NEWS);
     return (
         <>
             <div className={styles.news_header}>
@@ -11,7 +12,7 @@ const NewsBlock = () => {
 
             <section className={styles.news}>
                 {NEWS.map((item) => (
-                    <Alert variant='primary' key={item.id} className={styles.news_block}>
+                    <Alert variant='primary' key={item._id} className={styles.news_block}>
                         <div className={styles.news_photo}>
                             <img src={item.photo} alt={item.alt} width={100} height='auto' />
                             <div className={styles.news_label}>{item.label}</div>
