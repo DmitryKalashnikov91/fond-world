@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styles from './MobileMenu.module.scss';
 import { BiMenu } from 'react-icons/bi';
 import { useState } from 'react';
-import { NavLinks } from '../common/navLinks';
+import { NavLinksMobile } from '../common/navLinks';
 
 const MobileMenu = () => {
     const [open, setOpen] = useState(false);
@@ -15,7 +15,7 @@ const MobileMenu = () => {
             {open && (
                 <nav className={styles.mob_nav}>
                     <ul>
-                        {NavLinks.map(({ id, path, title }) => (
+                        {NavLinksMobile.map(({ id, path, title }) => (
                             <li key={id}>
                                 <Link to={path} onClick={() => setOpen(false)}>
                                     {title}

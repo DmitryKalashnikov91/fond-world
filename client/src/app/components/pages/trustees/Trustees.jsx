@@ -8,7 +8,6 @@ import { trusteesData } from './trusteesData/trusteesData';
 import styles from './Trustees.module.scss';
 
 const Trustees = () => {
-    console.log(trusteesData);
     return (
         <div className={styles.Trustees}>
             <Row xs={1} md={4} className='g-2'>

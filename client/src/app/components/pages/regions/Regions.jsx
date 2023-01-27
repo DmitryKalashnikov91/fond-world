@@ -6,11 +6,13 @@ import { regionsPresent } from './RegionsPresents';
 
 const Regions = () => {
     const [state, setState] = useState(false);
-    console.log(regionsPresent);
     return (
         <section className={styles.Regions}>
             {regionsPresent.map((represent) => (
-                <Alert variant={represent.variant} className={styles.Regions_Alert}>
+                <Alert
+                    variant={represent.variant}
+                    className={styles.Regions_Alert}
+                    key={represent.id}>
                     <div className={styles.Regions_Alert__avatar}>
                         {represent?.avatar && <img src={represent.avatar} alt={represent.name} />}
                         <strong>{represent.city}</strong>

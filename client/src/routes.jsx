@@ -1,4 +1,5 @@
 import PayForm from './app/components/common/form/payform/PayForm';
+import Faces from './app/components/pages/aboutUs/Faces';
 import Main from './app/components/pages/main/Main';
 import NewsBlock from './app/components/pages/news/NewsBlock';
 import Newspapers from './app/components/pages/newspapers/Newspapers';
@@ -45,6 +46,10 @@ const routes = [
     {
         path: 'trustees',
         element: <Trustees />,
+    },
+    {
+        path: 'faces',
+        element: <Faces />,
     },
 ];
 
