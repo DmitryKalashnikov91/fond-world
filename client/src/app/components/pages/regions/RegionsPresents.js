@@ -102,7 +102,7 @@ export const regionsPresent = [
     {
         id: nanoid(8),
         avatar: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FOsh.webp?alt=media&token=d2d677ad-931a-4aff-b63f-c3ec3f22ea79',
-        city: 'Саратовская область',
+        city: 'Нижегородская область',
         variant: 'success',
         name: 'Ошотин Михаил Михайлович',
         phone: '',
