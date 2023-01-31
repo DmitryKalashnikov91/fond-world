@@ -36,4 +36,18 @@ export const trusteesData = [
         cuption:
             'Депутат Московской городской Думы. Фракция Партии Справедливая Россия. Доцент Московского государственного университета имени М.В.Ломоносова.<br />Активно поддерживает Наш Фонд',
     },
+    {
+        id: nanoid(8),
+        imgSrc: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FAADudkin.webp?alt=media&token=8016b6f7-042b-40ff-8f16-8eb0b6acacbc',
+        name: 'Дудкин Александр Анатольевич',
+        cuption:
+            'депутат Совета Депутатов. Полковник ВДВ, в отставке.<br/> Активно принимает участие в наших акциях',
+    },
+    {
+        id: nanoid(8),
+        imgSrc: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FOshotin.webp?alt=media&token=4640242b-db57-4c1c-88b9-3a77284b4327',
+        name: 'Ошотин Михаил Михайлович',
+        cuption:
+            'Много лет занимал пост тренера сборной олимпийского резерва по самбо (детско-юношеский сектор). Глава производственно-технической базы, на которой изготавливается монумент "Дети Донбасса". Соучредитель Нашего Фонда',
+    },
 ];
