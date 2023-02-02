@@ -1,11 +1,21 @@
 import Alert from 'react-bootstrap/Alert';
 import styles from './Poems.module.scss';
 import parse from 'html-react-parser';
-import poems from './poemsMock/poems.json';
 import { useState } from 'react';
+import { useEffect } from 'react';
+import poemService from '../../../services/poem.servise';
 
 const PoemsBlock = () => {
     const [showMore, setShowMore] = useState(false);
+    const [poemes, setPoemes] = useState([]);
+
+    useEffect(() => {
+        async function fetchData() {
+            const req = await poemService.get();
+            setPoemes(req);
+        }
+        fetchData();
+    }, []);
 
     const addShowClass = (e) => {
         setShowMore((prev) => !prev);
@@ -22,8 +32,8 @@ const PoemsBlock = () => {
 
     return (
         <section className={styles.poems}>
-            {poems.map((poem, i) => (
-                <Alert variant={poem.variant} key={poem.id}>
+            {poemes.map((poem, i) => (
+                <Alert variant={poem.variant} key={poem._id}>
                     <div className={styles.poems_avatar}>
                         <img src={poem.avatar} alt={poem.author} width={100} />
                         <strong>{poem.author}</strong>

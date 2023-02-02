@@ -1,18 +1,27 @@
 import parse from 'html-react-parser';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Alert from 'react-bootstrap/Alert';
+import regionsService from '../../../services/regions.service';
 import styles from './Regions.module.scss';
-import { regionsPresent } from './RegionsPresents';
 
 const Regions = () => {
     const [state, setState] = useState(false);
+    const [regions, setRegions] = useState([]);
+
+    useEffect(() => {
+        async function fetchData() {
+            const req = await regionsService.get();
+            setRegions(req);
+        }
+        fetchData();
+    }, []);
     return (
         <section className={styles.Regions}>
-            {regionsPresent.map((represent) => (
+            {regions.map((represent) => (
                 <Alert
                     variant={represent.variant}
                     className={styles.Regions_Alert}
-                    key={represent.id}>
+                    key={represent._id}>
                     <div className={styles.Regions_Alert__avatar}>
                         {represent?.avatar && <img src={represent.avatar} alt={represent.name} />}
                         <strong>{represent.city}</strong>

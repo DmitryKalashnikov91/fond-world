@@ -1,9 +1,17 @@
 import parse from 'html-react-parser';
 import Alert from 'react-bootstrap/Alert';
+import newsService from '../../../services/news.service';
 import styles from './NewsBlock.module.scss';
-import { NEWS } from './newsApi';
+import { useState, useEffect } from 'react';
 const NewsBlock = () => {
-    console.log(NEWS);
+    const [news, setNews] = useState([]);
+    useEffect(() => {
+        async function fetchData() {
+            const req = await newsService.get();
+            setNews(req);
+        }
+        fetchData();
+    }, []);
     return (
         <>
             <div className={styles.news_header}>
@@ -11,7 +19,7 @@ const NewsBlock = () => {
             </div>
 
             <section className={styles.news}>
-                {NEWS.map((item) => (
+                {news.map((item) => (
                     <Alert variant='primary' key={item._id} className={styles.news_block}>
                         <div className={styles.news_photo}>
                             <img src={item.photo} alt={item.alt} width={100} height='auto' />

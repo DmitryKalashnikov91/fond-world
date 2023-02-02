@@ -1,11 +1,20 @@
 import { useInView } from 'react-intersection-observer';
-import { data } from './images/sketches';
+import React from 'react';
+import sketchesService from '../../../../services/sketches.service';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import styles from './Sketches.module.scss';
 import Slider from 'react-slick';
 
 const Sketches = () => {
+    const [sketches, setSketches] = React.useState([]);
+    React.useEffect(() => {
+        async function fetchData() {
+            const req = await sketchesService.get();
+            setSketches(req);
+        }
+        fetchData();
+    }, []);
     const settings = {
         dots: true,
         infinite: true,
@@ -27,9 +36,9 @@ const Sketches = () => {
                 {inView ? (
                     <div className={styles.Sketches_content}>
                         <Slider {...settings} className={styles.Sketches_content__carousel}>
-                            {data.map((elem) => {
+                            {sketches.map((elem) => {
                                 return (
-                                    <div key={elem.id} className={styles.Sketches_card}>
+                                    <div key={elem._id} className={styles.Sketches_card}>
                                         <img
                                             src={elem.imgSrc}
                                             alt={elem.alt}
@@ -45,7 +54,7 @@ const Sketches = () => {
                             })}
                         </Slider>
                         <div className={styles.Sketches_content__mobile}>
-                            {data.map((elem) => {
+                            {sketches.map((elem) => {
                                 return (
                                     <figure className={styles.Sketches_item} key={elem.id}>
                                         <img src={elem.imgSrc} alt={elem.caption} />
