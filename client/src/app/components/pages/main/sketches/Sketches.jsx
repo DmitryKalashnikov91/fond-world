@@ -56,7 +56,7 @@ const Sketches = () => {
                         <div className={styles.Sketches_content__mobile}>
                             {sketches.map((elem) => {
                                 return (
-                                    <figure className={styles.Sketches_item} key={elem.id}>
+                                    <figure className={styles.Sketches_item} key={elem._id}>
                                         <img src={elem.imgSrc} alt={elem.caption} />
                                         <figcaption className={styles.Sketches_item___caption}>
                                             {elem.caption}

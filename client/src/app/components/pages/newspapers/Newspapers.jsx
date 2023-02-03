@@ -5,6 +5,7 @@ import styles from './Newspapers.module.scss';
 import { useState, useEffect } from 'react';
 
 const Newspapers = () => {
+    const [showMore, setShowMore] = useState(false);
     const [newsPaper, setNewsPaper] = useState([]);
     useEffect(() => {
         async function fetchData() {
@@ -13,10 +14,10 @@ const Newspapers = () => {
         }
         fetchData();
     }, []);
-
+    const filteredNews = newsPaper.filter((news, index) => (!showMore ? index < 4 : index >= 0));
     return (
         <section className={styles.newspapers}>
-            {newsPaper.map((item) => (
+            {filteredNews.map((item) => (
                 <Alert variant='secondary' className={styles.newspapers_card} key={item._id}>
                     <div className={styles.newspapers_card__header}>
                         <strong>{parse(item.header)}</strong>
@@ -35,6 +36,17 @@ const Newspapers = () => {
                     </div>
                 </Alert>
             ))}
+            <button onClick={() => setShowMore(!showMore)}>
+                {!showMore ? (
+                    <span className='text-light'>
+                        Ещё статьи <i class='bi bi-arrow-down'></i>
+                    </span>
+                ) : (
+                    <span className='text-light'>
+                        Свернуть <i class='bi bi-arrow-up'></i>
+                    </span>
+                )}
+            </button>
         </section>
     );
 };

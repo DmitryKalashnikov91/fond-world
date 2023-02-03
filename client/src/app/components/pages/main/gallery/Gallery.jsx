@@ -30,8 +30,8 @@ const Gallery = () => {
             <h3 className='text-light pt-5 text-center'>Галерея Нашего Фонда.</h3>
             {inView ? (
                 <Carousel activeIndex={index} onSelect={handleSelect}>
-                    {gallery.map(({ id, photoSrc }) => (
-                        <Carousel.Item key={id}>
+                    {gallery.map(({ _id, photoSrc }) => (
+                        <Carousel.Item key={_id}>
                             <div className={styles.gallery_card}>
                                 <img src={photoSrc} alt='' />
                             </div>
