@@ -29,7 +29,11 @@ const Newspapers = () => {
                     <div className={styles.newspapers_card__content}>
                         <span>{parse(item.content)}</span>
                         <button className='btn btn-outline-primary'>
-                            <a href={item.linkToItem} target='_blank' rel='noreferrer'>
+                            <a
+                                className='text-danger'
+                                href={item.linkToItem}
+                                target='_blank'
+                                rel='noreferrer'>
                                 Читать статью
                             </a>
                         </button>
@@ -39,11 +43,11 @@ const Newspapers = () => {
             <button onClick={() => setShowMore(!showMore)}>
                 {!showMore ? (
                     <span className='text-light'>
-                        Ещё статьи <i class='bi bi-arrow-down'></i>
+                        Ещё статьи <i className='bi bi-arrow-down'></i>
                     </span>
                 ) : (
                     <span className='text-light'>
-                        Свернуть <i class='bi bi-arrow-up'></i>
+                        Свернуть <i className='bi bi-arrow-up'></i>
                     </span>
                 )}
             </button>

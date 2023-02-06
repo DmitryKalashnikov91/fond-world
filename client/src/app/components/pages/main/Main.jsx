@@ -8,7 +8,6 @@ import img from './sketches/images/mainMon.webp';
 import styles from './Main.module.scss';
 import Posters from './posters/Posters';
 import YandexMap from './contacts/YandexMap';
-import Script from './temporary/Script';
 import MainNews from './mainNews/MainNews';
 
 const Main = () => {
@@ -49,7 +48,6 @@ const Main = () => {
             </div>
             <Partners />
             <Posters />
-            <Script />
             <YandexMap />
         </>
     );
