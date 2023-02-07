@@ -24,6 +24,9 @@ const schema = new Schema({
     content3: {
         type: String,
     },
+    content4: {
+        type: String,
+    },
 });
 
 module.exports = model('Poems', schema);

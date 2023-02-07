@@ -7,12 +7,12 @@ import poemService from '../../../services/poem.servise';
 
 const PoemsBlock = () => {
     const [showMore, setShowMore] = useState(false);
-    const [poemes, setPoemes] = useState([]);
+    const [poems, setPoems] = useState([]);
 
     useEffect(() => {
         async function fetchData() {
             const req = await poemService.get();
-            setPoemes(req);
+            setPoems(req);
         }
         fetchData();
     }, []);
@@ -20,7 +20,7 @@ const PoemsBlock = () => {
     const addShowClass = (e) => {
         setShowMore((prev) => !prev);
         e.target.textContent = showMore ? `< свернуть` : 'ещё... >';
-        for (let i = 1; i < 3; i++) {
+        for (let i = 1; i < 4; i++) {
             let currentPoemsSpan = e.target.offsetParent.children[0].childNodes[2].children[i];
             if (showMore) {
                 currentPoemsSpan.classList.add('show');
@@ -32,7 +32,7 @@ const PoemsBlock = () => {
 
     return (
         <section className={styles.poems}>
-            {poemes.map((poem, i) => (
+            {poems.map((poem, i) => (
                 <Alert variant={poem.variant} key={poem._id}>
                     <div className={styles.poems_avatar}>
                         <img src={poem.avatar} alt={poem.author} width={100} />
@@ -41,6 +41,7 @@ const PoemsBlock = () => {
                             <span>{parse(poem.content1)}</span>
                             <span className='hide'>{parse(poem.content2)}</span>
                             {poem.content3 && <span className='hide'>{parse(poem.content3)}</span>}
+                            {poem.content4 && <span className='hide'>{parse(poem.content4)}</span>}
                             <button className='btn btn-outline-info' onClick={addShowClass}>
                                 {'>'}
                             </button>
