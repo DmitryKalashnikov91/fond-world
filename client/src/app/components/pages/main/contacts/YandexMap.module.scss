@@ -23,6 +23,11 @@
         padding: 0;
         &_aboutKit {
             font-size: 16px;
+            margin-left: 0;
+        }
+        iframe {
+            width: 90vw;
+            height: 30vh;
         }
     }
 }

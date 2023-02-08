@@ -37,6 +37,13 @@
         top: 10vh;
         &_card {
             margin:  10px 0;
+            &__header {
+                font-size: calc(var(--index)*1.2);
+            }
+            &__content {
+                font-size: calc(var(--index)*1.1);
+                text-align: justify;
+            }
         }
     }
     
