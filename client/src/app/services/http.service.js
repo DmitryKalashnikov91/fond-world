@@ -1,6 +1,6 @@
 import axios from 'axios';
 import config from '../config.json';
-import authService from './auth.servise';
+import authService from './auth.service';
 import localStorageService from './localStorage.service';
 
 axios.defaults.baseURL = config.apiEndpoint;

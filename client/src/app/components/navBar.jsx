@@ -1,9 +1,17 @@
 // Libraries
 import { Link } from 'react-router-dom';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Dropdown from 'react-bootstrap/Dropdown';
 import { NavLinks } from './common/navLinks';
+import { useDispatch, useSelector } from 'react-redux';
+import { getIsLoggedIn, logOut } from '../../redux/slices/userSlice';
 
 const NavBar = () => {
+    const isLoggedIn = useSelector(getIsLoggedIn());
+    const dispatch = useDispatch();
+    const handleLogOut = () => {
+        dispatch(logOut());
+    };
     return (
         <nav className='navbar mb-4 '>
             <div className='container-fluid d-flex justify-content-space-between'>
@@ -43,6 +51,29 @@ const NavBar = () => {
                             </Link>
                         </li>
                     ))}
+                    <li className='nav-item'>
+                        {!isLoggedIn ? (
+                            <Link to={'auth'} className='nav-link'>
+                                <i className='bi bi-box-arrow-in-right'></i>
+                            </Link>
+                        ) : (
+                            <Dropdown>
+                                <Dropdown.Toggle variant='success' id='dropdown-basic'>
+                                    <i className='bi bi-person-circle'></i>
+                                </Dropdown.Toggle>
+
+                                <Dropdown.Menu>
+                                    <Dropdown.Item href='profile'>Профиль</Dropdown.Item>
+                                    <Dropdown.Item
+                                        href='#/action-2'
+                                        className='text-danger'
+                                        onClick={handleLogOut}>
+                                        Выйти
+                                    </Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
+                        )}
+                    </li>
                 </ul>
             </div>
         </nav>

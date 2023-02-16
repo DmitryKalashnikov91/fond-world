@@ -1,5 +1,5 @@
 import { createAction, createSlice } from '@reduxjs/toolkit';
-import authService from '../../app/services/auth.servise';
+import authService from '../../app/services/auth.service';
 import userService from '../../app/services/user.service';
 import localStorageService from '../../app/services/localStorage.service';
 import { generateAuthError } from '../../utils/generateAuthError';

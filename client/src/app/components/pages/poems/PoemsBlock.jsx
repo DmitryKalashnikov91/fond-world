@@ -1,21 +1,20 @@
 import Alert from 'react-bootstrap/Alert';
-import styles from './Poems.module.scss';
 import parse from 'html-react-parser';
-import { useState } from 'react';
-import { useEffect } from 'react';
-import poemService from '../../../services/poem.servise';
+import { useState, useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+
+import { getPoems, loadPoemsList } from '../../../../redux/slices/poemsSlice';
+
+import styles from './Poems.module.scss';
 
 const PoemsBlock = () => {
     const [showMore, setShowMore] = useState(false);
-    const [poems, setPoems] = useState([]);
+    const dispatch = useDispatch();
+    const poems = useSelector(getPoems());
 
     useEffect(() => {
-        async function fetchData() {
-            const req = await poemService.get();
-            setPoems(req);
-        }
-        fetchData();
-    }, []);
+        dispatch(loadPoemsList());
+    }, [dispatch]);
 
     const addShowClass = (e) => {
         setShowMore((prev) => !prev);
@@ -32,7 +31,7 @@ const PoemsBlock = () => {
 
     return (
         <section className={styles.poems}>
-            {poems.map((poem, i) => (
+            {poems?.map((poem, i) => (
                 <Alert variant={poem.variant} key={poem._id}>
                     <div className={styles.poems_avatar}>
                         <img src={poem.avatar} alt={poem.author} width={100} />

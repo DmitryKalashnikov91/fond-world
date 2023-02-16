@@ -43,9 +43,3 @@ async function start() {
 }
 
 start();
-
-// if(process.env.NODE_ENV === 'production') {
-//     console.log('production')
-// } else {
-//     console.log('Development')
-// }

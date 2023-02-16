@@ -24,14 +24,6 @@
         "content": "Друзья, у нашего проекта теперь есть свой <a href='https://www.youtube.com/@ourWorld-community' target='_blank' rel='noopener noreferrer'>канал</a> на Youtube. Все актуальные видео, связанные с нашей Акцией"
     },
     {
-        "_id": "DN7ytR5C",
-        "alt": "KIT",
-        "date": "17 января 2023 г.",
-        "label": "Профессия Будущего",
-        "photo": "https://firebasestorage.googleapis.com/v0/b/fow-test-images.appspot.com/o/KIT_sign_BG_gradient-01.png?alt=media&token=8f7cdb4f-3006-47e3-ab9d-c06707b83af2",
-        "content": "<strong>21 января 2023 года в 14:00</strong> в Образовательном центре &#34;KIT&#34; состоится &quot;Круглый стол: Профессия Будущего&quot;.<br /> Темы: <ul><li>умение грамотно проводить переговоры,</li><li>заключать контракты,</li><li>создавать и развивать проекты нового поколения</li></ul><p>Вход свободный, по <a href='mailto:dmitrynashmir@gmail.com'>записи</a></p>"
-    },
-    {
         "_id": "G1Ngbyss",
         "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/news%2Ftelegraf-logotip.webp?alt=media&token=ca1dcd39-8a44-42a1-8616-d1e91e960356",
         "alt": "telegraf-coworking",
