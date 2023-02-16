@@ -17,7 +17,7 @@ const Profile = () => {
                 <h3
                     className={
                         styles.Profile_head
-                    }>{`${currentUser.name} ${currentUser.lastName}`}</h3>
+                    }>{`Приветствуем, ${currentUser.name}. Скоро здесь будет больше информации `}</h3>
             )}
         </div>
     );

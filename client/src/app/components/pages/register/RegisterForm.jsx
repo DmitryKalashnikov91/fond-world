@@ -65,12 +65,7 @@ const RegisterForm = () => {
                     onChange={handleChange}
                     error={errors.name}
                 />
-                <TextField
-                    label='Фамилия'
-                    name='lastName'
-                    value={data.lastName}
-                    onChange={handleChange}
-                />
+
                 <TextField
                     label='Эл. почта*'
                     name='email'
