@@ -1,15 +1,15 @@
 [
     {
-        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/trustees%2FDAPevcov.webp?alt=media&token=7c301210-e8d7-42c8-994f-ebba7c7ffec0",
-        "name": "Певцов Дмитрий Анатольевич",
-        "caption":
-            "Народный артист России, депутат Государственной Думы РФ (фракция &#34;Новые люди&#34;).<br />Лицо проекта и попечитель Всероссийской акции &#34;Установка скульптурных групп и монументов &#34;Дети Донбасса&#34; и &#34;Герои России&#34;"
-    },
-    {
         "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/trustees%2FGJukov.webp?alt=media&token=baae6810-92be-485b-a86c-abdf01c3178b",
         "name": "Жуков Георгий Александрович",
         "caption":
             "Политический и общественный деятель. Член правления партии &#34;Зеленая Альтернатива&#34;, член совета в Общественной Палате РФ, Директор по развитию в школе телевидения &#34;ОСТАНКИНО&#34;.<br />Активно участвует в развитии нашего Фонда (Креативный дирекор)"
+    },
+    {
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/trustees%2FDAPevcov.webp?alt=media&token=7c301210-e8d7-42c8-994f-ebba7c7ffec0",
+        "name": "Певцов Дмитрий Анатольевич",
+        "caption":
+            "Народный артист России, депутат Государственной Думы РФ (фракция &#34;Новые люди&#34;).<br />Лицо проекта и попечитель Всероссийской акции &#34;Установка скульптурных групп и монументов &#34;Дети Донбасса&#34; и &#34;Герои России&#34;"
     },
     {
         "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/trustees%2FKonoplyannikov.webp?alt=media&token=423e84dc-e7e4-4514-8bcf-3017407e4354",

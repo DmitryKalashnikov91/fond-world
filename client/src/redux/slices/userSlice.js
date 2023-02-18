@@ -84,7 +84,7 @@ const userUpdateRequested = createAction('users/userUpdateRequested');
 const userUpdateFailed = createAction('users/userUpdateFailed');
 
 export const login =
-    ({ payload, redirect }) =>
+    ({ payload }) =>
     async (dispatch) => {
         const { email, password } = payload;
         dispatch(authRequested());
@@ -92,7 +92,6 @@ export const login =
             const data = await authService.login({ email, password });
             localStorageService.setTokens(data);
             dispatch(authRequestSuccess({ userId: data.userId }));
-            history.push(redirect);
         } catch (error) {
             const { code, message } = error.response.data.error;
             if (code === 400) {
@@ -110,7 +109,6 @@ export const signUp = (payload) => async (dispatch) => {
         const data = await authService.register(payload);
         localStorageService.setTokens(data);
         dispatch(authRequestSuccess({ userId: data.userId }));
-        history.push('/');
     } catch (error) {
         dispatch(authRequestFailed(error.message));
     }

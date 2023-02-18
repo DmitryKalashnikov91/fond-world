@@ -9,8 +9,12 @@ import styles from './Main.module.scss';
 import Posters from './posters/Posters';
 import YandexMap from './contacts/YandexMap';
 import MainNews from './mainNews/MainNews';
+import { useResize } from '../../../../hoc/useResize';
+import TrusteesMobile from '../trustees/Trustees_mobile';
+import NewsMobile from '../newspapers/NewsMobile';
 
 const Main = () => {
+    const resize = useResize();
     return (
         <>
             <div className={styles.main}>
@@ -38,10 +42,12 @@ const Main = () => {
                     </div>
                 </div>
             </div>
+            {!resize.isScreenMd && <TrusteesMobile />}
             <MainNews />
             <Gallery />
             <Sketches />
             <AboutProject />
+            {!resize.isScreenMd && <NewsMobile />}
 
             <div className='sub_title' id='images'>
                 <h3>Наш МИР поддержали:</h3>

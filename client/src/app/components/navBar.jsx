@@ -65,7 +65,7 @@ const NavBar = () => {
                                 <Dropdown.Menu>
                                     <Dropdown.Item href='profile'>Профиль</Dropdown.Item>
                                     <Dropdown.Item
-                                        href='#/action-2'
+                                        href='/'
                                         className='text-danger'
                                         onClick={handleLogOut}>
                                         Выйти

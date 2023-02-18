@@ -3,7 +3,6 @@ const { Schema, model } = require('mongoose');
 const schema = new Schema({
     avatar: {
         type: String,
-        required: true,
     },
     author: {
         type: String,
@@ -19,7 +18,6 @@ const schema = new Schema({
     },
     content2: {
         type: String,
-        required: true,
     },
     content3: {
         type: String,

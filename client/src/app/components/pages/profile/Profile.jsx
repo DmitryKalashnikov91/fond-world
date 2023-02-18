@@ -6,10 +6,9 @@ import styles from './Profile.module.scss';
 const Profile = () => {
     const dispatch = useDispatch();
     const currentUser = useSelector(getCurrentUserData());
-    console.log(currentUser);
 
     useEffect(() => {
-        const users = dispatch(loadUsersList());
+        dispatch(loadUsersList());
     }, [dispatch]);
     return (
         <div className={styles.Profile}>

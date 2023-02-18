@@ -38,5 +38,10 @@
         "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/sketches%2Fmonument8.png?alt=media&token=000497e9-0cd8-4c26-9797-f9d135ac30f7",
         "alt": "monument8",
         "caption": "Скульптор: "
+    },
+    {
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/sketches%2Fhero.webp?alt=media&token=f76a4e67-21e9-4cd3-a272-0744af613cca",
+        "alt": "monument9",
+        "caption": "Название: «Героям России»"
     }
 ]

@@ -59,10 +59,6 @@ const RegisterForm = () => {
         return Object.keys(errors).length === 0;
     };
 
-    // useEffect(() => {
-    //     validate();
-    // }, [data]);
-
     const isValid = Object.keys(errors).length === 0;
 
     const handleSubmit = async (e) => {
@@ -71,7 +67,6 @@ const RegisterForm = () => {
         const isValid = validate();
         if (!isValid) return;
         dispatch(signUp(data));
-        // navigate('/all');
     };
 
     return (
