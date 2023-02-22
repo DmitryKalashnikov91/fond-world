@@ -42,7 +42,7 @@ const NewsMobile = () => {
                     </div>
                 </Alert>
             ))}
-            <button onClick={() => navigate('/newspapers')}>Ещё статьи</button>
+            <button onClick={() => navigate('/newspapers')}>Все статьи</button>
         </section>
     );
 };

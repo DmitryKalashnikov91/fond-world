@@ -29,7 +29,7 @@ const NewsBlock = () => {
                             </div>
                         </div>
                         <div className={styles.news_string}>
-                            <span>{parse(item.content)}</span>
+                            <p>{parse(item.content)}</p>
                         </div>
                     </Alert>
                 ))}

@@ -35,6 +35,9 @@
     .newspapers {
         margin-bottom: 10vh;
         top: 10vh;
+        button {
+            font-size: calc(var(--index)*1.2);
+        }
         &_card {
             margin:  10px 0;
             &__header {

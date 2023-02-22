@@ -40,7 +40,7 @@ const Newspapers = () => {
                     </div>
                 </Alert>
             ))}
-            <button onClick={() => setShowMore(!showMore)}>
+            <button className='mb-2' onClick={() => setShowMore(!showMore)}>
                 {!showMore ? (
                     <span className='text-light'>
                         Ещё статьи <i className='bi bi-arrow-down'></i>

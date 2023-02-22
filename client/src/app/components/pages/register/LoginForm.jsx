@@ -44,7 +44,7 @@ const LoginForm = () => {
         if (!isValid) return;
 
         dispatch(login({ payload: data }));
-        navigate('/profile');
+        navigate('/');
     };
     const isValid = Object.keys(errors).length === 0;
 

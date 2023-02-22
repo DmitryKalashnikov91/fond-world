@@ -21,6 +21,10 @@ const Trustees = () => {
     }, []);
     return (
         <div className={styles.Trustees}>
+            <div className='text-center mb-3'>
+                <h2>Наши попечители</h2>
+                <span>Главные лица, поддерживающие Наши проекты.</span>
+            </div>
             {trustees ? (
                 <Row xs={1} md={4} className='g-2'>
                     {trustees.map((trustee) => (

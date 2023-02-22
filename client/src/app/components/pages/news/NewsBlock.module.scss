@@ -18,7 +18,7 @@
         top: 20vh;
         text-align: justify;
         padding: 40px;
-        border-radius: 25px; 
+        border-radius: 15px; 
         margin-top: 2%;   
         @media (max-width: 600px) { 
             width: 98%;
@@ -44,5 +44,10 @@
     }
     .news_date p {
         color: red;
+    }
+}
+@media (max-width: 800px) {
+    p {
+        font-size: calc(var(--index)*1.5);
     }
 }

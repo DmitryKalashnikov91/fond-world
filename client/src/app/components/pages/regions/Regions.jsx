@@ -17,6 +17,9 @@ const Regions = () => {
     }, []);
     return (
         <section className={styles.Regions}>
+            <div className='text-center mb-3'>
+                <h2>Наши представители в регионах</h2>
+            </div>
             {regions.map((represent) => (
                 <Alert
                     variant={represent.variant}
