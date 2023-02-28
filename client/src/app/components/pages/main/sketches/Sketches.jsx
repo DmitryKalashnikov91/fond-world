@@ -5,9 +5,11 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import styles from './Sketches.module.scss';
 import Slider from 'react-slick';
+import { useNavigate } from 'react-router-dom';
 
 const Sketches = () => {
     const [sketches, setSketches] = React.useState([]);
+    const navigate = useNavigate();
     React.useEffect(() => {
         async function fetchData() {
             const req = await sketchesService.get();
@@ -29,6 +31,7 @@ const Sketches = () => {
         threshold: 0.1,
         triggerOnce: true,
     });
+    const filteredSketches = sketches.filter((sketch, index) => index < 3);
     return (
         <>
             <div className={styles.Sketches} ref={ref}>
@@ -54,7 +57,7 @@ const Sketches = () => {
                             })}
                         </Slider>
                         <div className={styles.Sketches_content__mobile}>
-                            {sketches.map((elem) => {
+                            {filteredSketches.map((elem) => {
                                 return (
                                     <figure className={styles.Sketches_item} key={elem._id}>
                                         <img src={elem.imgSrc} alt={elem.caption} />
@@ -64,6 +67,11 @@ const Sketches = () => {
                                     </figure>
                                 );
                             })}
+                            <button
+                                className='btn btn-primary'
+                                onClick={() => navigate('/sketches')}>
+                                Все эскизы
+                            </button>
                         </div>
                     </div>
                 ) : (

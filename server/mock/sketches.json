@@ -1,6 +1,6 @@
 [
     {
-        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/sketches%2Fmonument1.png?alt=media&token=bb20f918-2c72-4f9e-90d0-96a61baccc0e",
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/sketches%2Fmon1.jpeg?alt=media&token=3bcf0a1f-9943-4cad-98e2-92c4a7b0414b",
         "alt": "monument1",
         "caption": "Автор: Орлова Олеся Владимировна, г.Кирово-Чепецк"
     },
@@ -44,4 +44,5 @@
         "alt": "monument9",
         "caption": "Название: «Героям России»"
     }
+    
 ]

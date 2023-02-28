@@ -2,6 +2,7 @@ import { Navigate } from 'react-router-dom';
 import PayForm from './app/components/common/form/payform/PayForm';
 import Faces from './app/components/pages/aboutUs/Faces';
 import Main from './app/components/pages/main/Main';
+import SketchesMobile from './app/components/pages/main/sketches/SketchesMobile';
 import NewsBlock from './app/components/pages/news/NewsBlock';
 import Newspapers from './app/components/pages/newspapers/Newspapers';
 import PoemsBlock from './app/components/pages/poems/PoemsBlock';
@@ -81,6 +82,10 @@ const routes = [
     {
         path: 'profile',
         element: <Profile />,
+    },
+    {
+        path: 'sketches',
+        element: <SketchesMobile />,
     },
 ];
 

@@ -1,18 +1,13 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import {
-    getCurrentUserData,
-    getIsLoggedIn,
-    loadUsersList,
-    logOut,
-} from '../../../../redux/slices/userSlice';
+import { getCurrentUserData, loadUsersList, logOut } from '../../../../redux/slices/userSlice';
 import styles from './Profile.module.scss';
 
 const Profile = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
-    const isLoggedIn = useSelector(getIsLoggedIn());
+    // const isLoggedIn = useSelector(getIsLoggedIn());
     const currentUser = useSelector(getCurrentUserData());
     const handleLogOut = () => {
         dispatch(logOut());
@@ -26,7 +21,6 @@ const Profile = () => {
         <div className={styles.Profile}>
             {currentUser && (
                 <div>
-                    <input type='file' />
                     <h3
                         className={
                             styles.Profile_head
