@@ -29,7 +29,7 @@ const Trustees_mobile = () => {
                     {filteredTrustees.map((trustee) => (
                         <Col key={trustee._id}>
                             <Card>
-                                <Card.Img variant='top' src={trustee.imgSrc} className='p-2' />
+                                <Card.Img variant='top' src={trustee.imgSrc} className='p-3' />
                                 <Card.Body>
                                     <Card.Title>{trustee.name}</Card.Title>
                                     <Card.Text>{parse(trustee.caption)}</Card.Text>

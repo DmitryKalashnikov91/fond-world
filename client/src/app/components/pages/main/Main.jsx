@@ -12,6 +12,7 @@ import MainNews from './mainNews/MainNews';
 import { useResize } from '../../../../hoc/useResize';
 import TrusteesMobile from '../trustees/Trustees_mobile';
 import NewsMobile from '../newspapers/NewsMobile';
+import Metropol from './metropol/Metropol';
 
 const Main = () => {
     const resize = useResize();
@@ -42,6 +43,7 @@ const Main = () => {
                     </div>
                 </div>
             </div>
+            <Metropol />
             {!resize.isScreenMd && <TrusteesMobile />}
             <MainNews />
             <Gallery />
