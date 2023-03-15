@@ -18,6 +18,7 @@
             position: absolute;
             text-align: center;
             top: 15%;
+            margin: 2rem 10rem;
             background-color: rgba($color: #000000, $alpha: .6);
             padding: 2rem 10rem;
             &___logos {
@@ -55,7 +56,9 @@
             margin-left: 2vw;
         }
         &_bg__caption {
-            top: 30%;
+            top: 20%;
+            padding: 1rem;
+            margin: 1rem;
             span {
                 font-size: calc(var(--index)*0.9);
             }

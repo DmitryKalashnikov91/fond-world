@@ -11,6 +11,7 @@
         justify-content: flex-start;
         position: fixed;
         top: 0;
+        padding-top: 5rem;
         z-index: 10;
         width: 75vw;
         height: 100vh;
@@ -19,7 +20,7 @@
     .burger {
         position: absolute;
         right: 5%;
-        top: 10%;
+        top: 5vh;
         color: black;
         display: block;
         cursor: pointer;
@@ -27,7 +28,7 @@
     
     .mob_nav  li {
         list-style-type: none;
-        padding-top: 2.5rem;
+        padding-top: 1rem;
         font-size: 20px;
         a {
             text-decoration: none;

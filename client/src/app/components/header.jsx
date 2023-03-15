@@ -2,19 +2,18 @@
 import { useNavigate } from 'react-router-dom';
 import logo from '../../images/logo.jpeg';
 import MobileMenu from './mobileMenu/MobileMenu';
+// import Money from './Money';
 import NavBar from './navBar';
 
 const Header = () => {
     const navigate = useNavigate();
-
     return (
-        <header className='d-flex justify-content-between fixed-top'>
-            <img src={logo} alt='logo' width={70} height={70} onClick={() => navigate('/')} />
-            {/* <h1
-                className='shadow-lg p-2 mb-3 rounded user-select-none title text-primary logo_top'
-                onClick={() => navigate('/')}>
-                Фонд наш МИР
-            </h1> */}
+        <header className={`d-flex justify-content-between fixed-top`}>
+            {/* <Money /> */}
+            <div className='mt-4'>
+                <img src={logo} alt='logo' width={80} height={80} onClick={() => navigate('/')} />
+            </div>
+
             <NavBar />
             <MobileMenu />
         </header>

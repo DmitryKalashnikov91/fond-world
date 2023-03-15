@@ -40,6 +40,7 @@ header {
     z-index: 3;
     img {
         cursor: pointer;
+        margin: 8px;
     }
 }
 .navbar {
@@ -116,7 +117,6 @@ header {
 }
 
 .footer {
-    position: relative;
     margin-top: 10vh;
     padding: 2%;
     bottom: 0;

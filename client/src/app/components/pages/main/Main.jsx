@@ -3,7 +3,6 @@ import AboutProject from './aboutProject/AboutProject';
 import MainButton from '../../common/MainButton';
 import Gallery from './gallery/Gallery';
 import Partners from './partners/Partners';
-import img from './sketches/images/mainMon.webp';
 
 import styles from './Main.module.scss';
 import Posters from './posters/Posters';
@@ -19,7 +18,7 @@ const Main = () => {
     return (
         <>
             <div className={styles.main}>
-                <h1 className='text-danger'>ВСЕРОССИЙСКАЯ БЛАГОТВОРИТЕЛЬНАЯ АКЦИЯ</h1>
+                <h1 className='text-danger mt-5'>ВСЕРОССИЙСКАЯ БЛАГОТВОРИТЕЛЬНАЯ АКЦИЯ</h1>
 
                 <div className={styles.main_content}>
                     <section className={styles.description}>
@@ -39,7 +38,10 @@ const Main = () => {
                     </section>
 
                     <div className={styles.bgimage}>
-                        <img src={img} alt='bg' />
+                        <img
+                            src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/sketches%2FReady.jpeg?alt=media&token=5f4c5dd4-13fc-4696-8661-3a5cea30c77a'
+                            alt='bg'
+                        />
                     </div>
                 </div>
             </div>

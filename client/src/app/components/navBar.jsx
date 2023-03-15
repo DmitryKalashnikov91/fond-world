@@ -13,12 +13,12 @@ const NavBar = () => {
         dispatch(logOut());
     };
     return (
-        <nav className='navbar mb-4 '>
+        <nav className='navbar mb-4 mt-4'>
             <div className='container-fluid d-flex justify-content-space-between'>
                 <ul className='nav shadow-sm p-3'>
                     <li className='nav-item'>
-                        <Link to={'/'} className='nav-link'>
-                            Главная
+                        <Link to={'/club'} className='nav-link'>
+                            Клуб меценатов
                         </Link>
                     </li>
                     <li>

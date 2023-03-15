@@ -1,0 +1,52 @@
+.Club {
+   &_bg {
+    position: relative;
+    & > img {
+    width: 98.9vw;
+    }
+   }
+   &_caption {
+    text-align: center;
+    position: absolute;
+    margin: 0 7rem;
+    top: 20vh;
+    background-color: rgba($color: #111144, $alpha: .5);
+    padding: 5rem 10rem;
+    p {
+        color: white;
+        font-size: x-large;
+
+    }
+   
+    
+   }  
+   li {
+    list-style: none;
+}
+}
+
+@media (max-width:800px) {
+    .Club {
+        &_bg {
+            display: none;
+        }
+        &_caption {
+            position: relative;
+            top: 0;
+            padding: 10rem 0;
+            margin: 0;
+            background-color: rgba($color: #111144, $alpha: .7);
+            width: 100%;
+        }
+        &_organizers {
+            margin-top: 10vh;
+            ul {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                li>img {margin-top: 20px;}
+            }
+        }
+    }
+}
