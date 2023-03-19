@@ -27,11 +27,11 @@ const Main = () => {
                             &quot;Героям России&quot;
                         </h2>
 
-                        <p className='text-primary mt-5'>
+                        <p className='text-primary mt-5 fs-5'>
                             Все работы – оригинального характера, с указанием имени автора
                             (художника, скульптора).
                         </p>
-                        <p className='text-primary mt-5'>
+                        <p className='text-primary mt-5 fs-5'>
                             Материал – природный камень, бетон, металлы (бронза, др.).
                         </p>
                         <MainButton title='Поддержать проект' />

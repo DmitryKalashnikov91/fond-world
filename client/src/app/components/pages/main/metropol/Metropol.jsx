@@ -18,7 +18,9 @@ const Metropol = () => {
                             Мероприятия начнутся с марта 2023 года.
                         </article>
                         <article className='pt-3'>
-                            Заявки по телефону: <a href='tel:+79999152567'>+7 999 915-25-67</a>
+                            Прием заявок: <a href='tel:+79999152567'>+7 999 915-25-67</a>
+                            <br />
+                            <a href='mailto:info@фонд-наш-мир.рф'>info@фонд-наш-мир.рф</a>
                         </article>
                     </span>
                     <div className={styles.Metropol_bg__caption___logos}>

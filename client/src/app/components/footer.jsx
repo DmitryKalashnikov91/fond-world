@@ -9,12 +9,22 @@ const Footer = () => {
                     height={50}
                 />
                 <span className='text-light'>Сообщество VK </span>
-                <a href='https://vk.com/public218231687' target='_blank' rel='noopener noreferrer'>
+                <a
+                    href='https://vk.com/public218231687'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='fs-6'>
                     vk/фонд-наш-мир.рф
                 </a>
             </div>
             <section className='footer_content'>
-                <span>По вопросам сотрудничества:</span>
+                <span>
+                    По вопросам сотрудничества:
+                    <br />
+                    <a href='mailto:info@фонд-наш-мир.рф' className='fs-5'>
+                        info@фонд-наш-мир.рф
+                    </a>
+                </span>
                 <div className='footer_contacts'>
                     <p className='mt-4'>Официальный представитель МФКЭС "НАШ МИР-XXI ВЕК"</p>
                     <span>Игорь А.Алекс </span>

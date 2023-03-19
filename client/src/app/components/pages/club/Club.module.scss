@@ -5,11 +5,15 @@
     width: 98.9vw;
     }
    }
+   &_organizers > ul {
+    display: flex;
+    justify-content: space-evenly;
+   }
    &_caption {
     text-align: center;
     position: absolute;
     margin: 0 7rem;
-    top: 20vh;
+    top: 16vh;
     background-color: rgba($color: #111144, $alpha: .5);
     padding: 5rem 10rem;
     p {
