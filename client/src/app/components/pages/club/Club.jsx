@@ -73,6 +73,13 @@ const Club = () => {
                     </li>
                 </ul>
             </div>
+            <div className='text-center'>
+                <span>
+                    По вопросам вступления в клуб:
+                    <br />
+                    <a href='mailto:info@фонд-наш-мир.рф'>info@фонд-наш-мир.рф</a>
+                </span>
+            </div>
         </section>
     );
 };
