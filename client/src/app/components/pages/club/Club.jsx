@@ -19,12 +19,7 @@ const Club = () => {
                         киноактеры и литераторы, дизайнеры. Представители крупных российских
                         компаний.
                     </p>
-                    <img
-                        src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/Metropol.png?alt=media&token=e7518054-dfea-4e5c-a1ac-d10170821daf'
-                        alt='Метрополь'
-                        width={200}
-                        className='mb-4'
-                    />
+
                     <p>
                         Среди почетных гостей:{' '}
                         <ul>
@@ -77,7 +72,7 @@ const Club = () => {
                 <span>
                     По вопросам вступления в клуб:
                     <br />
-                    <a href='mailto:info@фонд-наш-мир.рф'>info@фонд-наш-мир.рф</a>
+                    <a href='mailto:info@org-nashmir.tech'>info@org-nashmir.tech</a>
                 </span>
             </div>
         </section>
