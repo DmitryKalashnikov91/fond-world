@@ -6,21 +6,6 @@ const URL = config.urlImg;
 export const posters = [
     {
         id: nanoid(8),
-        posterSrc: `${URL}posters%2FUntitled%20(2).png?alt=media&token=6df24d29-3f2a-4ab7-acb6-4914881e4c0d`,
-        alt: 'poster10',
-    },
-    {
-        id: nanoid(8),
-        posterSrc: `${URL}posters%2FDomocosh.jpeg?alt=media&token=fc50e723-aab5-4d13-a98d-4afbc015bdb3`,
-        alt: 'poster10',
-    },
-    {
-        id: nanoid(8),
-        posterSrc: `${URL}posters%2Frybnikov.png?alt=media&token=e7d93958-66cb-48bf-b782-0c48a50be4f3`,
-        alt: 'poster10',
-    },
-    {
-        id: nanoid(8),
         posterSrc: `${URL}posters%2Fposter3.png?alt=media&token=291cfb06-874a-439d-a67e-0db405507ada`,
         alt: 'poster1',
     },

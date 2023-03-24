@@ -17,26 +17,37 @@
         &__caption {
             position: absolute;
             text-align: center;
-            top: 15%;
-            margin: 2rem 10rem;
-            background-color: rgba($color: #000000, $alpha: .6);
-            padding: 2rem 10rem;
+            top: 43%;
+            margin: 5rem 10rem 10rem 0;
+            background-color: rgba($color: #000000, $alpha: .2);
+            padding: 2rem 1rem 2rem 8rem;
+            p {
+                text-align: left;
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+            }
             &___logos {
                 display: flex;
                align-items: center;
                justify-content: space-around;
                 img {
                     width: calc(var(--index)*6);
-                    margin-top: calc(var(--index)*15);
+                    margin-top: calc(var(--index)*5);
                     transition: all 500ms ease;
                     &:hover {
                         transform: scale(1.2);
                     }
                 }
             }
+            &___button {
+                margin-left: 20vw;
+                margin-top: 10vh;
+               
+            }
             span {
-                color: aliceblue;
+                color: rgb(255, 255, 255);
                 font-size: calc(var(--index)*1.2);
+
                 a {
                     text-decoration: none;
                 }
@@ -51,15 +62,25 @@
 }
 @media (max-width: 800px) {
     .Metropol {
+        height: 120vh;
+
         &_bg__head {
             margin-left: 2vw;
         }
         &_bg__caption {
-            top: 20%;
+            top: 60%;
             padding: 1rem;
             margin: 1rem;
             span {
-                font-size: calc(var(--index)*0.9);
+                font-size: calc(var(--index)*1.2);
+                color: #ffffff;
+            }
+            p {
+                font-size: 14px;
+                color: #000000;
+            }
+            article {
+                color: #000000;
             }
             &___logos {
                 img {

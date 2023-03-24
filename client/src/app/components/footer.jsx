@@ -21,8 +21,8 @@ const Footer = () => {
                 <span>
                     По вопросам сотрудничества:
                     <br />
-                    <a href='mailto:info@фонд-наш-мир.рф' className='fs-5'>
-                        info@фонд-наш-мир.рф
+                    <a href='mailto:info@org-nashmir.tech' className='fs-5'>
+                        info@org-nashmir.tech
                     </a>
                 </span>
                 <div className='footer_contacts'>
