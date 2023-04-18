@@ -46,6 +46,17 @@
     },
     {
         "variant": "info",
+        "city": "Кировская область, г.Кирово-чепецк",
+        "avatar": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FOrlova.webp?alt=media&token=472675d0-aa6d-4ffd-8b1b-3e62fb272a08",
+        "name": "Орлова Олеся Владимировна",
+        "phone": "",
+        "phoneHref": "",
+        "contentShow":
+            "<p>Орлова Олеся Владимировна. Художник-живописец, преподаватель, художник-гравер по оформлению камня, дизайнер.</p>",
+        "contentHide": ""
+    },
+    {
+        "variant": "info",
         "city": "Саратовская область",
         "avatar": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FFetisova.webp?alt=media&token=1faaf6cf-fe39-4a92-9c62-52f382f590df",
         "name": "Фетисова Алла Валериевна",

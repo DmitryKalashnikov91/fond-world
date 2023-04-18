@@ -15,6 +15,7 @@ import LoginForm from './app/components/pages/register/LoginForm';
 import RegisterForm from './app/components/pages/register/RegisterForm';
 import Trustees from './app/components/pages/trustees/Trustees';
 import VideoBlock from './app/components/pages/videos/VideoBlock';
+import Confidencial from './app/components/pages/confidently/Confidencial';
 
 const routes = [
     //main
@@ -91,6 +92,10 @@ const routes = [
     {
         path: 'club',
         element: <Club />,
+    },
+    {
+        path: 'confidency',
+        element: <Confidencial />,
     },
 ];
 

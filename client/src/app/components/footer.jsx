@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
     return (
         <footer className='footer' id='contacts'>
@@ -16,6 +18,7 @@ const Footer = () => {
                     className='fs-6'>
                     vk/фонд-наш-мир.рф
                 </a>
+                <p className='mt-5 pt-5'>Copyright &copy; 2023 | фонд-наш-мир.рф</p>
             </div>
             <section className='footer_content'>
                 <span>
@@ -35,12 +38,7 @@ const Footer = () => {
                 </div>
             </section>
             <div className='footer_confidently'>
-                <a
-                    href='https://xn-----7kc7aqdefshzj3d.xn--p1ai/page27721924.html'
-                    target='_blank'
-                    rel='noreferrer'>
-                    Политика конфиденциальности
-                </a>
+                <Link to={'confidency'}>Политика конфиденциальности</Link>
             </div>
         </footer>
     );

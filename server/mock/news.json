@@ -23,6 +23,7 @@
         "photo": "https://firebasestorage.googleapis.com/v0/b/fow-test-images.appspot.com/o/youtube.svg?alt=media&token=c1abc9ba-5e58-46b9-931d-22f36c8f2c06",
         "content": "Друзья, у нашего проекта теперь есть свой <a href='https://www.youtube.com/@ourWorld-community' target='_blank' rel='noopener noreferrer'>канал</a> на Youtube. </p>Все актуальные видео, связанные с нашей Акцией"
     },
+       
     {
         "_id": "G1Ngbyss",
         "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/news%2Ftelegraf-logotip.webp?alt=media&token=ca1dcd39-8a44-42a1-8616-d1e91e960356",
@@ -31,14 +32,7 @@
         "date": "7 февраля 2023 г.",
         "content": "Наши ряды партнеров пополняются! </p><a href='https://telegraph-coworking.ru/' target='_blank' rel='noopener noreferrer'>Коворкинг &quot;Телеграф&quot;</a> теперь поддерживает наши проекты своим участием, предоставив шикарное помещение и теплую, дружескую атмосферу"
     },
-    {
-        "_id": "G1Ngbyrj",
-        "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logo2.jpeg?alt=media&token=b9f6769f-a4c2-4d1b-a77d-bcd90ee3a805",
-        "alt": "@mecenatrussia",
-        "label": "Поэтический конкурс",
-        "date": "19 марта 2023 г.",
-        "content": "Телеграмм канал &quot;Меценат&quot;, Международный форум &quot;Наш Мир-21  век&quot; объявляют поэтический конкурс &quot;Дети Донбасса - Дети России&quot;.<p>Председатель жюри - Игорь Караулов, поэт, публицист, общественный деятель.</p><p>Художественный руководитель - Александр Савин, заслуженный артист РФ, поэт, певец, композитор.</p><p>Лучшие работы по результатам зрительского голосования будут положены на музыку, и станут гимном Всероссийской благотворительной акции Установка скульптурных групп и монументов &quot;Дети Донбасса&quot; и &quot;Героям России&quot; (попечитель проекта народный артист России Дмитрий Певцов).<p>Все работы принимаем на <a href='mailto:info@фонд-наш-мир.рф'>info@фонд-наш-мир.рф</a></p>"
-    },
+
     {
         "_id": "G1NgbaIO",
         "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/gallery%2FforumBlago.webp?alt=media&token=2a6b0d10-3146-4787-87c1-4fd2a121c72d",
@@ -46,6 +40,14 @@
         "label": "https://blagovestt.ru",
         "date": "14 марта 2023 г.",
         "content": "Представили на III Форуме &quot;Связь поколений&quot; (орг. Фонд &quot;Благовест&quot;) наш барельеф с уже готовой надписью &quot;Дети Донбасса - Дети России&quot; Как руководитель проектов МФКЭС &quot;Наш Мир&quot; и Всероссийской благотворительной акции Установка скульптурных групп и монументов &quot;Дети Донбасса&quot; и &quot;Героям России&quot;, а также тг-канала &quot;Меценат&quot;, получил &quot;Диплом почётного гостя&quot;."
+    },
+    {
+        "_id": "G1Ngbyrj",
+        "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logo2.jpeg?alt=media&token=b9f6769f-a4c2-4d1b-a77d-bcd90ee3a805",
+        "alt": "@mecenatrussia",
+        "label": "Поэтический конкурс",
+        "date": "19 марта 2023 г.",
+        "content": "Телеграмм канал &quot;Меценат&quot;, Международный форум &quot;Наш Мир-21  век&quot; объявляют поэтический конкурс &quot;Дети Донбасса - Дети России&quot;.<p>Председатель жюри - Игорь Караулов, поэт, публицист, общественный деятель.</p><p>Художественный руководитель - Александр Савин, заслуженный артист РФ, поэт, певец, композитор.</p><p>Лучшие работы по результатам зрительского голосования будут положены на музыку, и станут гимном Всероссийской благотворительной акции Установка скульптурных групп и монументов &quot;Дети Донбасса&quot; и &quot;Героям России&quot; (попечитель проекта народный артист России Дмитрий Певцов).<p>Все работы принимаем на <a href='mailto:info@org-nashmir.tech'>info@org-nashmir.tech</a></p>"
     },
     {
         "_id": "w8plOHPd",
