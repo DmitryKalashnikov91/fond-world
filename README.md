@@ -4,3 +4,4 @@
 ## DB: MongoDB
 ## Deploy: Docker, VDS by Selectel
 Ссылка [фонд-наш-мир.рф](http://фонд-наш-мир.рф) 
+![Screen fond](https://github.com/DmitryKalashnikov91/fond-world/blob/master/2023-06-06_09-31-51.png)
