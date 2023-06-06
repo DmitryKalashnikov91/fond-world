@@ -7,4 +7,4 @@
 
 
 <img src="https://github.com/DmitryKalashnikov91/fond-world/blob/master/2023-06-06_09-31-51.png" width="300" alt="фонд наш мир"/>
-<img src="https://github.com/DmitryKalashnikov91/fond-world/blob/master/Screenshot%202023-06-06%20093757.jpeg" width="100" />
+<img src="https://github.com/DmitryKalashnikov91/fond-world/blob/master/Screenshot%202023-06-06%20093757.jpeg" width="100" alt="mobile fow screen"/>
