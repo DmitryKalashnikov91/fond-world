@@ -1,5 +1,4 @@
-# fond-world
-This is my fullstack web-app. 
+# This is my fullstack web-app. 
 ## Stack: React, Rdedux Toolkit, Bootstrap, SCSS, react-intersection-observer;
 ## Server: NodeJS, Express, chalk, cors, mongoose;
 ## DB: MongoDB
