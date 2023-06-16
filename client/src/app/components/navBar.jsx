@@ -18,7 +18,7 @@ const NavBar = () => {
                 <ul className='nav shadow-sm p-3'>
                     <li className='nav-item'>
                         <Link to={'/club'} className='nav-link'>
-                            Клуб меценатов
+                            Образовательная программа
                         </Link>
                     </li>
                     <li>

@@ -1,56 +1,61 @@
 .Club {
-   &_bg {
-    position: relative;
-    & > img {
-    width: 98.9vw;
-    }
-   }
-   &_organizers > ul {
+    margin-top: 17vh;
     display: flex;
-    justify-content: space-evenly;
-   }
-   &_caption {
-    text-align: center;
-    position: absolute;
-    margin: 0 7rem;
-    top: 15vh;
-    background-color: rgba($color: #111144, $alpha: .5);
-    padding: 1rem 5rem;
-    p {
-        color: white;
-        font-size: x-large;
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10% 0 10%;
+    text-align: justify;
+     p, ul, span, ol >li {
+        color: azure;
+        padding-bottom: 2rem;
+        line-height: 1.5;
+        font-size: large;
     }
-   
-    
-   }  
-   li {
-    list-style: none;
-}
-}
-
-@media (max-width:800px) {
-    .Club {
+        &_mainText {
+           text-align: center;
+           margin-top: 2rem;
+           h1 {
+            color: #ff7474;
+           }
+           span{
+            font-size: x-large;
+            color: burlywood;
+           }
+        }
         &_bg {
-            display: none;
-        }
-        &_caption {
-            position: relative;
+            // background: #368ee6 url("https://firebasestorage.googleapis.com/v0/b/fow-test-images.appspot.com/o/1.png?alt=media&token=8e2bde4b-bb79-4be9-a699-97de0095eaa1");
+            position: absolute;
+            position: fixed;
+            background-position: 100% 88%;
             top: 0;
-            padding: 10rem 0;
-            margin: 0;
-            background-color: rgba($color: #111144, $alpha: .7);
-            width: 100%;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+            min-height: 100vh;
+            background-color: rgb(33, 26, 86);
         }
-        &_organizers {
+
+        &_description,&_description2 {
+            display: flex;
+            flex-direction: column;
+            align-items:center;
             margin-top: 10vh;
-            ul {
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                li>img {margin-top: 20px;}
+            
+        }
+        &_logo {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            img {
+                transition: all .5s;
+                &:hover {
+                    transform: scale(1.2);
+                }
             }
         }
-    }
 }
