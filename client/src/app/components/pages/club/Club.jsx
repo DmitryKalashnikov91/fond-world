@@ -6,10 +6,10 @@ const Club = () => {
             <section className={styles.Club}>
                 <div className={styles.Club_bg}>{/* <img src={bg} alt='bgImg' /> */}</div>
                 <div className={styles.Club_mainText}>
-                    <h1 className=''>
+                    <h1>
                         Профессия будущего: <strong>"Продюсер проекта"</strong>
                     </h1>
-                    <span className='title2'>Специальный образовательный курс</span>
+                    <span>Специальный образовательный курс</span>
                 </div>
 
                 <div className={styles.Club_description}>
