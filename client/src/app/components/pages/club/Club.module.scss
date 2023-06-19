@@ -8,9 +8,9 @@
     text-align: justify;
      p, ul, span, ol >li {
         color: azure;
-        padding-bottom: 2rem;
         line-height: 1.5;
-        font-size: large;
+        font-size: 16px;
+
     }
         &_mainText {
            text-align: center;
@@ -20,7 +20,7 @@
            }
            span{
             font-size: x-large;
-            color: burlywood;
+            color: rgb(255, 255, 255);
            }
         }
         &_bg {
@@ -44,13 +44,63 @@
             flex-direction: column;
             align-items:center;
             margin-top: 10vh;
+            &__message {
+                padding: 20px 20px;
+                background: #5c2eb7; 
+                font-size: 20px; 
+                border: 2px dashed #3d6baf; 
+                border-radius: 10px;
+                box-shadow: 0 0 0 4px #4960c7, 2px 1px 6px 4px rgba(77, 109, 223, 0.5);
+                 color: #ffffff;
+                 font-family: 'Lato', sans-serif;
+                 margin-bottom: 2rem;
+                 text-align: center;
+                 width: 75vw;
+                 h3 {
+                    color:#b7a3ff
+                 }
+                 @media (max-width:850px) {
+                    width: 90vw;
+                    padding: 5px 5px;
+                 }
+                 &___3 {
+                    padding: 20px 20px;
+                background: #661a84; 
+                font-size: 20px; 
+                border: 2px dashed #3d6baf; 
+                width: 75vw;
+                border-radius: 10px;
+                box-shadow: 0 0 0 4px #4960c7, 2px 1px 6px 4px rgba(77, 109, 223, 0.5);
+                 color: #fff;
+                 font-family: 'Lato', sans-serif;
+                 margin-bottom: 2rem;
+                 h3 {
+                    color:#b7a3ff
+                 }
+                 @media (max-width:850px) {
+                    width: 90vw;
+                    padding: 5px 5px;
+                 }
+                 text-align: center;
+                 li {
+                    padding: 1rem;
+                 }
+                 }
+            }
             
+        }
+        &_plane{
+            width: 90%;
+            text-align: center;
+            margin: 2rem 0 2rem 0;
         }
         &_logo {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
+            gap: 2rem;
+
             @media (max-width: 800px) {
                 flex-direction: column;
             }
