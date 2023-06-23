@@ -28,6 +28,14 @@ const facesData = [
         imgSrc: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FSivohinVM.webp?alt=media&token=d26f5018-1582-408f-9384-c48d1fda0779',
         alt: 'Сивохин В.М.',
     },
+    {
+        id: nanoid(8),
+        name: 'Лариса Солнечная',
+        role: 'Художественный руководитель благотворительных мероприятий',
+        mail: '',
+        imgSrc: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2Fsolnechnaya.webp?alt=media&token=08dd89a7-d6d4-4f3d-b54e-88253cd38020',
+        alt: 'Солнечная Лариса',
+    },
 
     {
         id: nanoid(8),

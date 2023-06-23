@@ -28,8 +28,8 @@ const Main = () => {
                         </h2>
 
                         <p className='text-primary mt-5 fs-5'>
-                            Все работы – оригинального характера, с указанием имени автора
-                            (художника, скульптора).
+                            08 июля 2023 года в городе воинской славы Наро-Фоминске запланировано
+                            открытие первого монумента «Дети Донбасса — Дети России»
                         </p>
                         <p className='text-primary mt-5 fs-5'>
                             Материал – природный камень, бетон, металлы (бронза, др.).
@@ -39,7 +39,7 @@ const Main = () => {
 
                     <div className={styles.bgimage}>
                         <img
-                            src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/sketches%2FReady.jpeg?alt=media&token=5f4c5dd4-13fc-4696-8661-3a5cea30c77a'
+                            src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/monum_foto.webp?alt=media&token=65419463-b622-4d6f-b153-7924be9602dd'
                             alt='bg'
                         />
                     </div>
