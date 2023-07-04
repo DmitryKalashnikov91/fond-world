@@ -18,7 +18,7 @@ const Footer = () => {
                     className='fs-6'>
                     vk/фонд-наш-мир.рф
                 </a>
-                <p className='mt-5 pt-5'>Copyright &copy; 2023 | фонд-наш-мир.рф</p>
+                <p className='mt-5 pt-5'>фонд-наш-мир.рф &copy; | 2023</p>
             </div>
             <section className='footer_content'>
                 <span>

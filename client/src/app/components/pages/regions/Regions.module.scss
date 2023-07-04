@@ -8,11 +8,13 @@
         text-decoration: none;
     }
     &_Alert{
-        width: 90vw;
+        width: 75vw;
+        padding: 2rem;
         &__avatar {
             display: flex;
             align-items:center;
             justify-content: space-between;
+            margin-bottom: 2rem;
             img{
             width: calc(var(--index)*8);
     

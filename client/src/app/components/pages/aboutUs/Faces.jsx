@@ -1,5 +1,4 @@
 import { nanoid } from 'nanoid';
-import Attention from '../../common/Attention';
 import styles from './Faces.module.scss';
 import parse from 'html-react-parser';
 
@@ -50,7 +49,6 @@ const facesData = [
 const Faces = () => {
     return (
         <div className={styles.Faces}>
-            <Attention />
             <h2 className={styles.Faces_head}>Наша команда</h2>
             <ul className={styles.Faces_items}>
                 {facesData.map((face) => (

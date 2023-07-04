@@ -7,7 +7,7 @@ const Confidencial = () => {
         {
             id: 1,
             head: 'Кто мы',
-            content: 'Наш адресс сайта: http://фонд-наш-мир.рф',
+            content: 'Наш адрес сайта: http://фонд-наш-мир.рф',
         },
         {
             id: 2,
@@ -48,7 +48,7 @@ const Confidencial = () => {
     ];
     return (
         <section className={styles.Confidencial}>
-            <div>
+            <div className={styles.Confidencial_content}>
                 {contentData.map((content) => (
                     <div key={content.id}>
                         <h2>{content.head}</h2>

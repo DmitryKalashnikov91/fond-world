@@ -163,7 +163,7 @@ const Club = () => {
                     <a href='http://фонд-наш-мир.рф/' target='_blank' rel='noopener noreferrer'>
                         <img
                             width='120'
-                            src='https://firebasestorage.googleapis.com/v0/b/lending-for-course-89b48.appspot.com/o/logo%2Flogo2.jpeg?alt=media&token=7974dd0e-c9a0-492d-a4df-5f1c04231426'
+                            src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logoNM.svg?alt=media&token=9c068682-a396-441b-82ce-c718eb6c78f7'
                             alt='Фонд-наш-мир'
                         />
                     </a>

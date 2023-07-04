@@ -4,7 +4,6 @@
         margin-left: 2rem;
     }
     &_items {
-        
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: repeat(1, 1fr);
@@ -24,11 +23,18 @@
         &__block {
             display: flex;
             flex-direction: column;
+            background-color: #e0f2fe;
             align-items: center;
             justify-content: center;
             height: 450px;
             padding: 1.5rem;
-            border: 2px solid red;
+            border: 2px solid rgb(168, 131, 131);
+            img {
+                width: calc(var(--index)*7);
+                @media (max-width: 800px) {
+                    width: calc(var(--index)*9);
+                }
+            }
             @media (max-width: 520px) {
                 height: 470px;
             }

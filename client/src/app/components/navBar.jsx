@@ -15,7 +15,7 @@ const NavBar = () => {
     return (
         <nav className='navbar mb-4 mt-4'>
             <div className='container-fluid d-flex justify-content-space-between'>
-                <ul className='nav shadow-sm p-3'>
+                <ul className='nav shadow-sm bg-light'>
                     <li className='nav-item'>
                         <Link to={'/club'} className='nav-link'>
                             Образовательная программа

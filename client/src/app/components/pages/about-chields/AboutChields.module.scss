@@ -1,0 +1,51 @@
+.Chields {
+  margin-top: 20vh;
+    &_grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 50px;
+      grid-row-gap: 50px;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+      
+        @media (max-width: 1000px) {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            margin-right: 2rem;
+           }
+  }
+    h2 {
+    text-align: center;
+    }
+    &_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &__block {
+            padding: 5rem;
+            width: 65%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @media (max-width: 900px) {
+                width: 95%;
+                padding: 1rem;
+            }
+            &_start {
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                gap: 3rem;
+                @media (max-width: 1000px) {
+                    flex-direction: column;
+                }
+                img {
+                    border: 4px solid rgb(243, 192, 84);
+                    border-radius: 10px;
+                }
+                
+            }
+        }
+    }
+}
