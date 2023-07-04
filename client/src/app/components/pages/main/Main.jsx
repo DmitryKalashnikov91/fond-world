@@ -11,11 +11,11 @@ import MainNews from './mainNews/MainNews';
 import { useResize } from '../../../../hoc/useResize';
 import TrusteesMobile from '../trustees/Trustees_mobile';
 import NewsMobile from '../newspapers/NewsMobile';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 // import Metropol from './metropol/Metropol';
 
 const Main = () => {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     const resize = useResize();
     return (
         <>
@@ -42,7 +42,7 @@ const Main = () => {
                         <MainButton title='Поддержать проект' />
                     </section>
 
-                    <div className={styles.bgimage} onClick={() => navigate('/about-chields')}>
+                    <div className={styles.bgimage}>
                         <img
                             src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/monum_foto.webp?alt=media&token=65419463-b622-4d6f-b153-7924be9602dd'
                             alt='bg'
