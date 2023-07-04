@@ -16,7 +16,7 @@ import RegisterForm from './app/components/pages/register/RegisterForm';
 import Trustees from './app/components/pages/trustees/Trustees';
 import VideoBlock from './app/components/pages/videos/VideoBlock';
 import Confidencial from './app/components/pages/confidently/Confidencial';
-// import AboutChields from './app/components/pages/about-chields/AboutChields';
+import AboutChields from './app/components/pages/about-chields/AboutChields';
 
 const routes = [
     //main
@@ -98,10 +98,10 @@ const routes = [
         path: 'confidency',
         element: <Confidencial />,
     },
-    // {
-    //     path: 'about-chields',
-    //     element: <AboutChields />,
-    // },
+    {
+        path: 'about-chields',
+        element: <AboutChields />,
+    },
 ];
 
 export default routes;
