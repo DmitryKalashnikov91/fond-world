@@ -1,3 +1,14 @@
 .Trustees {
     margin: 20vh 5vw; 
+    &_border {
+        position: relative;
+        height: 67vh;
+        display: flex;
+        align-items: center;
+        img {
+            position: absolute;
+            
+        }
+    }
+    
 }

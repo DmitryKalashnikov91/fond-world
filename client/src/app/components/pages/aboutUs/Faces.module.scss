@@ -26,17 +26,17 @@
             background-color: #e0f2fe;
             align-items: center;
             justify-content: center;
-            height: 450px;
+            height: 350px;
             padding: 1.5rem;
             border: 2px solid rgb(168, 131, 131);
             img {
-                width: calc(var(--index)*7);
+                width: calc(var(--index)*5);
                 @media (max-width: 800px) {
                     width: calc(var(--index)*9);
                 }
             }
             @media (max-width: 520px) {
-                height: 470px;
+                height: 330px;
             }
             &___text {
                 text-align: start;

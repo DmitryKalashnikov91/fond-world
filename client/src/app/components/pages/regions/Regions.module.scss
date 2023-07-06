@@ -8,8 +8,11 @@
         text-decoration: none;
     }
     &_Alert{
-        width: 75vw;
+        width: 75%;
         padding: 2rem;
+        @media (max-width:800px) {
+            width: 95%;
+        }
         &__avatar {
             display: flex;
             align-items:center;

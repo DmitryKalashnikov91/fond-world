@@ -40,5 +40,12 @@
         "mail": "",
         "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-test-images.appspot.com/o/poems%2FnadezdaSp.jpeg?alt=media&token=56b33615-8518-4f2f-a9e1-fa43d62d5211",
         "alt": "Крекшина Н.Ю."
+    },
+    {
+        "name": "Копнева Светлана Викторовна",
+        "role": "Художник-дизайнер, педагог, член ТСХ россии",
+        "mail": "",
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FKopneva.webp?alt=media&token=54117bc5-df9e-421f-90d2-bcbdee6593c2",
+        "alt": "Копнева С.В."
     }
 ]

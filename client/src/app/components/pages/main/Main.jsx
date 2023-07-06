@@ -41,11 +41,16 @@ const Main = () => {
                         <MainButton title='Поддержать проект' />
                     </section>
 
-                    <div className={styles.bgimage} onClick={() => navigate('/about-chields')}>
+                    <div className={styles.bgimage}>
                         <img
                             src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/monum_foto.webp?alt=media&token=65419463-b622-4d6f-b153-7924be9602dd'
                             alt='bg'
                         />
+                        <button
+                            className={styles.bgimage_btn}
+                            onClick={() => navigate('/about-chields')}>
+                            Подробно об акции
+                        </button>
                     </div>
                 </div>
             </div>

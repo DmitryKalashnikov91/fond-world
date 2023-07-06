@@ -29,8 +29,10 @@ const Trustees = () => {
                 <Row xs={1} md={4} className='g-2'>
                     {trustees.map((trustee) => (
                         <Col key={trustee._id}>
-                            <Card>
-                                <Card.Img variant='top' src={trustee.imgSrc} className='p-2' />
+                            <Card className={styles.Trustees_card}>
+                                <div className={styles.Trustees_border}>
+                                    <Card.Img variant='top' src={trustee.imgSrc} className='p-2' />
+                                </div>
                                 <Card.Body>
                                     <Card.Title>{trustee.name}</Card.Title>
                                     <Card.Text>{parse(trustee.caption)}</Card.Text>

@@ -20,6 +20,17 @@
     }
     &_wrapper {
         display: flex;
+        flex-direction: column;
+        > p {
+            width: 700px;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 18px;
+            @media (max-width: 900px) {
+                width: 95%;
+                padding: 1rem;
+            }
+        }
         align-items: center;
         justify-content: center;
         &__block {

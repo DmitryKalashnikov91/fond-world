@@ -34,11 +34,13 @@
 @media (max-width:800px) {
     .newspapers {
         margin-bottom: 10vh;
-        top: 10vh;
+        top: 12vh;
         button {
             font-size: calc(var(--index)*1.2);
         }
         &_card {
+            width: 95%;
+            padding: 30px;
             margin:  10px 0;
             &__header {
                 font-size: calc(var(--index)*1.2);
