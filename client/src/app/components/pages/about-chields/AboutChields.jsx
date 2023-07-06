@@ -6,7 +6,7 @@ import styles from './AboutChields.module.scss';
 const AboutChields = () => {
     return (
         <div className={styles.Chields}>
-            <h2>"Дети Донбасса - Дети России"</h2>
+            <h3>"Дети Донбасса - Дети России"</h3>
             <div className={styles.Chields_wrapper}>
                 <Alert variant='primary' className={styles.Chields_wrapper__block}>
                     <Alert.Heading>С чего всё начиналось</Alert.Heading>

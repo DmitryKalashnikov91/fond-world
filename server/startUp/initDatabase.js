@@ -8,6 +8,7 @@ const Poems = require('../models/Poems');
 const Sketches = require('../models/Sketches');
 const Trustees = require('../models/Trustees');
 const Regions = require('../models/Regions');
+const Faces = require('../models/Faces');
 
 const avatarsMock = require('../mock/avatars.json');
 const galleryMock = require('../mock/gallery.json');
@@ -17,6 +18,7 @@ const poemsMock = require('../mock/poems.json');
 const sketchesMock = require('../mock/sketches.json');
 const trusteesMock = require('../mock/trustees.json');
 const regionsMock = require('../mock/regions.json');
+const facesMock = require('../mock/faces.json');
 
 module.exports = async () => {
     const rooms = await Room.find();
@@ -61,6 +63,10 @@ module.exports = async () => {
     const regions = await Regions.find();
     if (regions.length !== regionsMock.length) {
         await createInitialEntity(Regions, regionsMock);
+    }
+    const faces = await Faces.find();
+    if (faces.length !== facesMock.length) {
+        await createInitialEntity(Faces, facesMock);
     }
 };
 

@@ -8,6 +8,9 @@
     @media (max-width: 800px) {
         flex-direction: column;
     }
+    &_alert {
+        min-width: 70%;
+    }
     &_battle {
         width: 50%;
         font-size: 24px;

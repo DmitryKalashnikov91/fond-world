@@ -1,6 +1,8 @@
 import { nanoid } from 'nanoid';
 import styles from './Faces.module.scss';
 import parse from 'html-react-parser';
+import { useEffect, useState } from 'react';
+import facesService from '../../../services/faces.service';
 
 const facesData = [
     {
@@ -47,6 +49,15 @@ const facesData = [
 ];
 
 const Faces = () => {
+    const [faces, setFaces] = useState([]);
+    useEffect(() => {
+        async function fetchData() {
+            const req = await facesService.get();
+            setFaces(req);
+        }
+        fetchData();
+    }, []);
+    console.log(faces.role);
     return (
         <div className={styles.Faces}>
             <h2 className={styles.Faces_head}>Наша команда</h2>

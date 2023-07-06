@@ -13,4 +13,5 @@ router.use('/poems', require('./poems.routes'));
 router.use('/regions', require('./regions.routes'));
 router.use('/sketches', require('./sketches.routes'));
 router.use('/trustees', require('./trustees.routes'));
+router.use('/faces', require('./faces.routes'));
 module.exports = router;
