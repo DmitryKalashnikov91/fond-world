@@ -1,5 +1,8 @@
 .Trustees {
     margin: 20vh 5vw; 
+    &_card {
+        margin-right: 2rem;
+    }
     &_border {
         position: relative;
         height: 67vh;
@@ -7,7 +10,6 @@
         align-items: center;
         img {
             position: absolute;
-            
         }
     }
     

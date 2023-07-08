@@ -1,9 +1,52 @@
-import styles from './Faces.module.scss';
 import parse from 'html-react-parser';
+import { nanoid } from 'nanoid';
 import { useEffect, useState } from 'react';
 import facesService from '../../../services/faces.service';
+import styles from './Faces.module.scss';
 
 const Faces = () => {
+    const otherFaces = [
+        {
+            id: nanoid(8),
+            name: 'Инна Мальцева',
+        },
+        {
+            id: nanoid(8),
+            name: 'Мария Левина',
+        },
+        {
+            id: nanoid(8),
+            name: 'Роман Лосев',
+        },
+        {
+            id: nanoid(8),
+            name: 'Ангелина Попова',
+        },
+        {
+            id: nanoid(8),
+            name: 'Алексей Квашнин',
+        },
+        {
+            id: nanoid(8),
+            name: 'Александр Айгистов',
+        },
+        {
+            id: nanoid(8),
+            name: 'Сергей Кулаков',
+        },
+        {
+            id: nanoid(8),
+            name: 'Екатерина Семенкова',
+        },
+        {
+            id: nanoid(8),
+            name: 'Ирина Яшина',
+        },
+        {
+            id: nanoid(8),
+            name: 'Елена Лисина',
+        },
+    ];
     const [faces, setFaces] = useState([]);
     useEffect(() => {
         async function fetchData() {
@@ -29,6 +72,12 @@ const Faces = () => {
                             </div>
                         </div>
                     </li>
+                ))}
+            </ul>
+            <span className='ms-5'>А также:</span>
+            <ul className={styles.Faces_other}>
+                {otherFaces.map(({ id, name }) => (
+                    <li key={id}>{name}</li>
                 ))}
             </ul>
         </div>

@@ -42,6 +42,27 @@
         "alt": "Крекшина Н.Ю."
     },
     {
+        "name": "Екатерина Кириенко",
+        "role": "Актрисса кино и сериалов. Концертный директор. Ведущая и соорганизатор форумов",
+        "mail": "",
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FKirienko.webp?alt=media&token=d9cdeb19-6b78-4c44-86ee-978c1a4cbbfd",
+        "alt": "Екатерина Кириенко"
+    },
+    {
+        "name": "Кирилл Игнатов",
+        "role": "Поэт, актер. Участник акций и форумов",
+        "mail": "",
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-test-images.appspot.com/o/avatars%2FkIgnatov.jpg?alt=media&token=40ecd017-8ebf-4ed5-bc9f-0a996c1fd28d",
+        "alt": "Кирилл Игнатов"
+    },
+    {
+        "name": "Александр Савин",
+        "role": "Заслуженный артист РФ. Соорганизатор форумов, аций и мероприятий",
+        "mail": "",
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FSavin.webp?alt=media&token=0dd702e8-0f27-4652-9269-f0fdaf053453",
+        "alt": "Александр Савин"
+    },
+    {
         "name": "Копнева Светлана Викторовна",
         "role": "Художник-дизайнер, педагог, член ТСХ россии",
         "mail": "",

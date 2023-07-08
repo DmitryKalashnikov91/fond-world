@@ -10,7 +10,7 @@ const AboutChields = () => {
             <div className={styles.Chields_wrapper}>
                 <p>
                     Торжественное открытие монумента «Дети Донбасса – Дети России», в качестве
-                    символа воссоединения народов, запланировано на 15 июля 2023 года, в городе
+                    символа воссоединения народов, запланировано на 21 июля 2023 года, в городе
                     Воинской Славы Наро-Фоминске (Московская область).
                 </p>
                 <Alert variant='primary' className={styles.Chields_wrapper__block}>
@@ -86,6 +86,11 @@ const AboutChields = () => {
                             />
                             <img
                                 src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/gallery%2FchieldTravel.webp?alt=media&token=7e5a6512-b2ee-49a2-aa5b-8d812ccaba4f'
+                                alt=''
+                                width={250}
+                            />
+                            <img
+                                src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/monCargo.webp?alt=media&token=54deb4e3-394b-4be1-b124-2aec7e112659'
                                 alt=''
                                 width={250}
                             />
