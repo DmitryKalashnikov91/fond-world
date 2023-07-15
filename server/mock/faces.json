@@ -57,15 +57,15 @@
     },
     {
         "name": "Александр Савин",
-        "role": "Заслуженный артист РФ. Соорганизатор форумов, аций и мероприятий",
+        "role": "Заслуженный артист РФ. Соорганизатор форумов, акций и мероприятий",
         "mail": "",
         "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FSavin.webp?alt=media&token=0dd702e8-0f27-4652-9269-f0fdaf053453",
         "alt": "Александр Савин"
     },
     {
         "name": "Копнева Светлана Викторовна",
-        "role": "Художник-дизайнер, педагог, член ТСХ россии",
-        "mail": "",
+        "role": "Художник-дизайнер, педагог, член ТСХ России",
+        "mail": "svs2608@mail.ru",
         "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FKopneva.webp?alt=media&token=54117bc5-df9e-421f-90d2-bcbdee6593c2",
         "alt": "Копнева С.В."
     }

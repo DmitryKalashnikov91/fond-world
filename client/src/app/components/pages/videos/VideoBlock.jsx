@@ -53,7 +53,13 @@ const VideoBlock = () => {
                     </div>
                 </section>
             ) : (
-                <section className={styles.skeleton}></section>
+                <section className={styles.skeleton}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </section>
             )}
         </div>
     );

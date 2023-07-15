@@ -8,12 +8,22 @@ const AboutChields = () => {
         <div className={styles.Chields}>
             <h3>"Дети Донбасса - Дети России"</h3>
             <div className={styles.Chields_wrapper}>
-                <p>
-                    Торжественное открытие монумента «Дети Донбасса – Дети России», в качестве
-                    символа воссоединения народов, запланировано на 21 июля 2023 года, в городе
-                    Воинской Славы Наро-Фоминске (Московская область).
-                </p>
+                <p></p>
                 <Alert variant='primary' className={styles.Chields_wrapper__block}>
+                    <div className='d-flex justify-content-around flex-wrap'>
+                        <img
+                            src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logoNM.svg?alt=media&token=9c068682-a396-441b-82ce-c718eb6c78f7'
+                            alt='logo'
+                            width={180}
+                            className='mb-5 me-2'
+                        />
+                        <p className='fs-5  mb-5 pt-2'>
+                            Торжественное открытие монумента «Дети Донбасса – Дети России», в
+                            качестве символа воссоединения народов, запланировано на 21 июля 2023
+                            года, в городе Воинской Славы Наро-Фоминске (Московская область). Справа
+                            от здания Детской Поликлиники по ул. Калинина 1
+                        </p>
+                    </div>
                     <Alert.Heading>С чего всё начиналось</Alert.Heading>
                     <div className={styles.Chields_wrapper__block_start}>
                         <img

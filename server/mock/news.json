@@ -16,24 +16,6 @@
         "content": "21 декабря состоялась встреча в Комитете по культуре Государственной Думы РФ.</p> Предмет встречи - стратегическое сотрудничество в рамках Всероссийской акции &quot;Скульптурные группы и монументы &quot;Дети Донбасса&quot; и &quot;Героям России&quot;. Договорились о дальнейшем налаживании взаимодействия."
     },
     {
-        "_id": "Pd8YLFtK",
-        "alt": "yuotube",
-        "date": "23 декабря 2022 г.",
-        "label": "НАШ МИР-21 ВЕК",
-        "photo": "https://firebasestorage.googleapis.com/v0/b/fow-test-images.appspot.com/o/youtube.svg?alt=media&token=c1abc9ba-5e58-46b9-931d-22f36c8f2c06",
-        "content": "Друзья, у нашего проекта теперь есть свой <a href='https://www.youtube.com/@ourWorld-community' target='_blank' rel='noopener noreferrer'>канал</a> на Youtube. </p>Все актуальные видео, связанные с нашей Акцией"
-    },
-       
-    {
-        "_id": "G1Ngbyss",
-        "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/news%2Ftelegraf-logotip.webp?alt=media&token=ca1dcd39-8a44-42a1-8616-d1e91e960356",
-        "alt": "telegraf-coworking",
-        "label": "telegraph-coworking.ru",
-        "date": "7 февраля 2023 г.",
-        "content": "Наши ряды партнеров пополняются! </p><a href='https://telegraph-coworking.ru/' target='_blank' rel='noopener noreferrer'>Коворкинг &quot;Телеграф&quot;</a> теперь поддерживает наши проекты своим участием, предоставив шикарное помещение и теплую, дружескую атмосферу"
-    },
-    
-    {
         "_id": "G1NgbaIO",
         "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/gallery%2FforumBlago.webp?alt=media&token=2a6b0d10-3146-4787-87c1-4fd2a121c72d",
         "alt": "Благовест",
@@ -42,12 +24,31 @@
         "content": "Представили на III Форуме &quot;Связь поколений&quot; (орг. Фонд &quot;Благовест&quot;) наш барельеф с уже готовой надписью &quot;Дети Донбасса - Дети России&quot; Как руководитель проектов МФКЭС &quot;Наш Мир&quot; и Всероссийской благотворительной акции Установка скульптурных групп и монументов &quot;Дети Донбасса&quot; и &quot;Героям России&quot;, а также тг-канала &quot;Меценат&quot;, получил &quot;Диплом почётного гостя&quot;."
     },
     {
+        "_id": "Pd8YLFtK",
+        "alt": "yuotube",
+        "date": "23 декабря 2022 г.",
+        "label": "НАШ МИР-21 ВЕК",
+        "photo": "https://firebasestorage.googleapis.com/v0/b/fow-test-images.appspot.com/o/youtube.svg?alt=media&token=c1abc9ba-5e58-46b9-931d-22f36c8f2c06",
+        "content": "Друзья, у нашего проекта теперь есть свой <a href='https://www.youtube.com/@ourWorld-community' target='_blank' rel='noopener noreferrer'>канал</a> на Youtube. </p>Все актуальные видео, связанные с нашей Акцией"
+    },
+
+    {
         "_id": "G1Ngbsdyrj",
         "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FSivohinVM.webp?alt=media&token=d26f5018-1582-408f-9384-c48d1fda0779",
         "alt": "Сивохин В.М.",
         "label": "Сивохин Виктор Михайлович",
         "date": "24 мая 2023 г.",
         "content": "Соорганизатором Всероссийской акции &quot;Детии Донбасса - Дети России&quot; выступил Международный фонд поддержки ветеранов, инвалидов и членов семей, погибших при исполнении служебного долга &quot;Боевое братство без границ&quot; в лице Председателя - Виктора Михайловича Сивохина. Наша команда растет и, мы стали ближе ещё на один шаг к установке монумента уже в ближайшее время."
+    },
+  
+    
+    {
+        "_id": "jhjUUo777",
+        "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/childsOutBG.webp?alt=media&token=5da9ff6a-76b3-407d-8d9b-6ba4c1ff5f99",
+        "alt": "Дети Донбасса - Дети России",
+        "label": "Торжественная церемония открытия монумента «Дети Донбасса - Дети России»",
+        "date": "21 июля 20023 г.",
+        "content": "21 июля 2023 года в 14:00 в городе Воинской Славы Наро-Фоминске состоится торжественная церемония открытия монумента &quot;Дети Донбасса - Дети России&quot; в качестве символа воссоединения народов. На церемонию приглашены деятели культуры, Заслуженные артисты и послы разных республик, депутаты, поддерживающие акцию. Также, приглашаем всех жителей Наро-Фоминска, Москвы и регионов"
     },
     {
         "_id": "G1Ngbyrj",
@@ -57,7 +58,14 @@
         "date": "19 марта 2023 г.",
         "content": "Телеграмм канал &quot;Меценат&quot;, Международный форум &quot;Наш Мир-21  век&quot; объявляют поэтический конкурс &quot;Дети Донбасса - Дети России&quot;.<p>Председатель жюри - Игорь Караулов, поэт, публицист, общественный деятель.</p><p>Художественный руководитель - Александр Савин, заслуженный артист РФ, поэт, певец, композитор.</p><p>Лучшие работы по результатам зрительского голосования будут положены на музыку, и станут гимном Всероссийской благотворительной акции Установка скульптурных групп и монументов &quot;Дети Донбасса&quot; и &quot;Героям России&quot; (попечитель проекта народный артист России Дмитрий Певцов).<p>Все работы принимаем на <a href='mailto:info@org-nashmir.tech'>info@org-nashmir.tech</a></p>"
     },
-    
+    {
+        "_id": "G1Ngbyss",
+        "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/news%2Ftelegraf-logotip.webp?alt=media&token=ca1dcd39-8a44-42a1-8616-d1e91e960356",
+        "alt": "telegraf-coworking",
+        "label": "telegraph-coworking.ru",
+        "date": "7 февраля 2023 г.",
+        "content": "Наши ряды партнеров пополняются! </p><a href='https://telegraph-coworking.ru/' target='_blank' rel='noopener noreferrer'>Коворкинг &quot;Телеграф&quot;</a> теперь поддерживает наши проекты своим участием, предоставив шикарное помещение и теплую, дружескую атмосферу"
+    },
     {
         "_id": "w8plOHPd",
         "alt": "Президент",
