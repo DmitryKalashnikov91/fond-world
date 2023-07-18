@@ -18,18 +18,22 @@ const Footer = () => {
                     className='fs-6'>
                     vk/фонд-наш-мир.рф
                 </a>
-                <p className='mt-5 pt-5'>фонд-наш-мир.рф &copy; | 2023</p>
+                <p className='pt-5'>фонд-наш-мир.рф &copy; | 2023</p>
             </div>
             <section className='footer_content'>
                 <span>
-                    По вопросам сотрудничества:
+                    Общие сведения
                     <br />
-                    <a href='mailto:info@org-nashmir.tech' className='fs-5'>
-                        info@org-nashmir.tech
-                    </a>
+                    <p>
+                        <strong>Полное наименование организации: </strong>
+                        БЛАГОТВОРИТЕЛЬНЫЙ ФОНД СОХРАНЕНИЯ ПАМЯТИ ПОКОЛЕНИЙ "НАШ МИР - 21 ВЕК"
+                    </p>
+                    <p>
+                        <strong>ИНН:</strong> 9728097957 (регион получения ИНН – Москва)
+                    </p>
                 </span>
                 <div className='footer_contacts'>
-                    <p className='mt-4'>Официальный представитель МФКЭС "НАШ МИР-XXI ВЕК"</p>
+                    <p className='mt-4'>Генеральный продюсер</p>
                     <span>Игорь А.Алекс </span>
                     <a href='tel:+79251586579'>+7 (925) 158-65-79</a>
                     <p className='mt-4'>Разработчик</p>

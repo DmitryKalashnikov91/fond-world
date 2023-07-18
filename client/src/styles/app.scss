@@ -118,19 +118,18 @@ header {
 
 .footer {
     margin-top: 10vh;
-    padding: 2%;
+    padding: 2vh 2vw 2vh 3vw;
     bottom: 0;
     background-color: var(--main-color);
     display: flex;
     p, a {
         color: white;
-        font-size: calc(var(--index)*0.7);
+        // font-size: calc(var(--index)*0.7);
         text-decoration: none;
     }
     .footer_content {
         margin-left: 10%;
         span {
-            font-size: calc(var(--index)*1.1);
             color: white;
             
         }
@@ -141,7 +140,7 @@ header {
         }
     }
     .footer_contacts {
-        margin-top: 2%;
+        // margin-top: 2%;
         line-height: 10px;
     }
     .footer_confidently {
@@ -182,9 +181,11 @@ header {
         mix-blend-mode:hard-light;
     }
     .footer {
-        // display: block;
         flex-direction: column;
         margin-top: 2vh;
+        &_confidently {
+            padding-top: 2rem;
+        }
     } 
     
    
