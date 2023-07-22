@@ -1,196 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto+Flex:opsz@8..144&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
-// globall
-:root {
-    --index: calc(1vw + 1vh); 
-    --main-color: #0284c7
-  }
-  
-
-body {
-    font-family: 'Roboto', sans-serif;
-    caret-color: transparent;
-    padding: 0;
-    margin: 0;
-background-color: #f4f6fc;
-    h1,h2,h3,h4,span {
-        color: var(--main-color);
-    }
-}
-button {
-    padding: 20px 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: none;
-    font-size: 20px;
-    color: #ffffff;
-    border-radius: 50px;
-    background: #FF5F04;
-    transition: all 0.3s;
-  }
-  button:hover {
-    background: #FF9519;
-    cursor: pointer;
-  }
-header {
-    position: relative;
-    z-index: 3;
-    img {
-        cursor: pointer;
-        margin: 8px;
-    }
-}
-.navbar {
-    position: relative;
-    z-index: 2;
-    a {
-        font-size: 22px;
-    }
-}
-
-.box_img {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    top: 5vh;
-    gap: 2vw;
-    padding: 80px 20px;
-    align-items:center;
-    justify-content: center;
-    background-color: rgba(12, 117, 178, 0.636);
-    caret-color: transparent;
-    box-shadow: inset 0 0 30px black, 0 0 0 black;
-}
-.sub_title {
-    position: relative;
-    top: 14vh;
-    text-align: center;
-    z-index: 2;
-    h3 {
-        color: white;
-    }
-}
-.arrow-up {
-    position: fixed;
-      bottom: 40px;
-      right: 40px;
-      z-index: 10;
-      border: none;
-      background: none;
-      border-radius: 5px;
-      caret-color: transparent;
-      &:hover {
-        cursor: pointer;
-      }
-  }
-
-  .hide {
-    display: none;
-   }
-.show {
-    display: block  ;
-}
-// video
-// .show {display: block;}
-
-.snowman {
-    position: absolute;
-    right: 0;
-    top: 10vh;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-   animation: snow-scale 3s ease-in-out infinite;
-    
-}
-@keyframes snow-scale {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {transform: translateY(20px);}
-    100% {
-        transform: translateY(0px);
-    }
-}
-
-.footer {
-    margin-top: 10vh;
-    padding: 2vh 2vw 2vh 3vw;
-    bottom: 0;
-    background-color: var(--main-color);
-    display: flex;
-    p, a {
-        color: white;
-        // font-size: calc(var(--index)*0.7);
-        text-decoration: none;
-    }
-    .footer_content {
-        margin-left: 10%;
-        span {
-            color: white;
-            
-        }
-        
-        strong {
-            color: white;
-
-        }
-    }
-    .footer_contacts {
-        // margin-top: 2%;
-        line-height: 10px;
-    }
-    .footer_confidently {
-        display: flex;
-        margin-left: 10%;
-        align-items: flex-end;
-    }
-}
-
-@media (max-width: 800px) {
-    body {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .snowman {
-        display: none;
-    }
-    .main_content {
-        flex-direction: column-reverse;
-    }
-    .logo_top {
-        display: none;
-    }
-    .navbar {
-        display: none;
-    }
-    
-    
-    .bgimage{
-        margin-top: 0;
-    }
-    .main h1 {
-        font-size: 18px;
-        color: #2925ff;
-        mix-blend-mode:hard-light;
-    }
-    .footer {
-        flex-direction: column;
-        margin-top: 2vh;
-        &_confidently {
-            padding-top: 2rem;
-        }
-    } 
-    
-   
-  }
-  * {
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -221,16 +29,16 @@ p {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	width: 50vw;
+	width: 90vmin;
 	height: 40em;
-	margin: 6rem auto;
+	margin: 2rem auto;
 	border: 8px solid;
 	border-image: linear-gradient(-50deg, rgb(0, 58, 128), #002db3, rgb(34, 53, 139), rgb(0, 58, 128), rgb(144, 164, 238), #0013e6, rgb(0, 38, 128)) 1;
 	transition: .3s ease-in-out;
 	position: relative;
 	overflow: hidden;
  @media (max-width:800px) {
-	width: 95vw;
+	width: 100vmin;
  }
 }
 

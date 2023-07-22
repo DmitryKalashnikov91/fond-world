@@ -17,6 +17,7 @@ import Trustees from './app/components/pages/trustees/Trustees';
 import VideoBlock from './app/components/pages/videos/VideoBlock';
 import Confidencial from './app/components/pages/confidently/Confidencial';
 import AboutChields from './app/components/pages/about-chields/AboutChields';
+import { ChieldsBlock } from './app/components/pages/about-chields/ChieldsBlock';
 
 const routes = [
     //main
@@ -101,6 +102,10 @@ const routes = [
     {
         path: 'about-chields',
         element: <AboutChields />,
+    },
+    {
+        path: 'chields-block',
+        element: <ChieldsBlock />,
     },
 ];
 

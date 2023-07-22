@@ -48,7 +48,7 @@ const Main = () => {
                         />
                         <button
                             className={styles.bgimage_btn}
-                            onClick={() => navigate('/about-chields')}>
+                            onClick={() => navigate('/chields-block')}>
                             Подробно об акции
                         </button>
                     </div>
