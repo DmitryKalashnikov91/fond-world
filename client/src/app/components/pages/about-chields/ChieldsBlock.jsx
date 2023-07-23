@@ -1,12 +1,13 @@
 import React from 'react';
+import styles from './Chields-block.module.scss';
 
 export const ChieldsBlock = () => {
     return (
         <>
-            <div className='wrap animate pop'>
-                <div className='overlay'>
-                    <div className='overlay-content animate slide-left delay-2'>
-                        <h1 className='animate slide-left pop delay-4'>
+            <div className={styles.Wrap + ' animate pop'}>
+                <div className={styles.Wrap_overlay}>
+                    <div className={styles.Wrap_overlay__content + ' animate slide-left delay-2'}>
+                        <h1 className='animate slide-left pop delay-4 text-light'>
                             Дети Донбасса - Дети России
                         </h1>
                         <p
@@ -15,14 +16,26 @@ export const ChieldsBlock = () => {
                             Всероссийская акция
                         </p>
                     </div>
-                    <div className='image-content animate slide delay-5'></div>
-                    <div className='dots animate'>
-                        <div className='dot animate slide-up delay-6'></div>
-                        <div className='dot animate slide-up delay-7'></div>
-                        <div className='dot animate slide-up delay-8'></div>
+                    <div
+                        className={
+                            styles.Wrap_overlay__image_content + ' animate slide delay-5'
+                        }></div>
+                    <div className={styles.Wrap_overlay__dots + ' animate'}>
+                        <div
+                            className={
+                                styles.Wrap_overlay__dots_dot + ' animate slide-up delay-6'
+                            }></div>
+                        <div
+                            className={
+                                styles.Wrap_overlay__dots_dot + ' animate slide-up delay-7'
+                            }></div>
+                        <div
+                            className={
+                                styles.Wrap_overlay__dots_dot + ' animate slide-up delay-8'
+                            }></div>
                     </div>
                 </div>
-                <div className='text'>
+                <div className={styles.Wrap_text}>
                     <p>
                         21 июня 2022 года с главной сцены Дома Правительства Москвы Организаторами и
                         участниками Международного культурно-экономического форума «Наш Мир-21век»
