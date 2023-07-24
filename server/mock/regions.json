@@ -14,12 +14,34 @@
     {
         "variant": "info",
         "city": "Саратовская область",
+        "avatar": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FZagorodnyaya.jpg?alt=media&token=6001145f-12a7-40a4-8913-04ec80ff127b",
+        "name": "Загородняя Татьяна Николаевна",
+        "phone": "",
+        "phoneHref": "",
+        "contentShow":
+            "<p>Уполномоченный по правам ребенка в Саратовской области</p>",
+        "contentHide": ""
+    },
+    {
+        "variant": "info",
+        "city": "Саратовская область",
         "avatar": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FChernyaeva.webp?alt=media&token=0887cddc-a4ac-4689-b70b-616fc2cd0c4e",
         "name": "Черняева Татьяна Николаевна",
         "phone": "",
         "phoneHref": "",
         "contentShow":
             "<ul><li>Член Саратовского регионального отделения партии Единая Россия (с 2011 г.)</li><li>Автор более 300 статей, 7 монографий, 5 учебно-методических пособий.</li><li>доцент по кафедре педагогики, Министерство образования Российской Федерации, 2002 г.</li><li>Кандидат педагогических наук, Формирование опыта творческой педагогической деятельности студентов педвуза, 1998 г.</li></ul>",
+        "contentHide": ""
+    },
+    {
+        "variant": "info",
+        "city": "Саратовская область",
+        "avatar": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FChalov.webp?alt=media&token=f7f3cbd4-0820-496f-ae2a-c5c91603be6d",
+        "name": "Чалов Денис Владимирович",
+        "phone": "",
+        "phoneHref": "",
+        "contentShow":
+            "<p>Председатель Энгельсского районного отделения ВООВ &#34;БОЕВОЕ БРАТСТВО&#34;.</p><p>Директор АНО &#34;Своих не бросаем- Боевое Братство&#34;</p>",
         "contentHide": ""
     },
     {
