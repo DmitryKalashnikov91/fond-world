@@ -74,9 +74,9 @@ export const ChieldsBlock = () => {
                         height='250'
                         src='https://www.youtube.com/embed/6Pg0e9YAoKo'
                         title='YouTube video player'
-                        frameborder='0'
+                        frameBorder='0'
                         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                        allowfullscreen></iframe>
+                        allowFullScreen></iframe>
                 </div>
                 <div>
                     <span className='pb-2'>
@@ -89,7 +89,7 @@ export const ChieldsBlock = () => {
                         title='YouTube video player'
                         frameborder='0'
                         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                        allowfullscreen></iframe>
+                        allowFullScreen></iframe>
                 </div>
             </div>
         </>
