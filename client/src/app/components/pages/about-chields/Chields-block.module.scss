@@ -108,3 +108,11 @@
 	}
 }
 
+.Video > div{
+	position: relative;
+	width: 95vw;
+	margin: 6rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

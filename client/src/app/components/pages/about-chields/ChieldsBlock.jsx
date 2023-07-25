@@ -66,6 +66,32 @@ export const ChieldsBlock = () => {
                     </p>
                 </div>
             </div>
+            <div className={styles.Video}>
+                <div>
+                    <span className='pb-2'>Обращение нашего попечителя Дмитрия Певцова</span>
+                    <iframe
+                        width='350'
+                        height='250'
+                        src='https://www.youtube.com/embed/6Pg0e9YAoKo'
+                        title='YouTube video player'
+                        frameborder='0'
+                        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                        allowfullscreen></iframe>
+                </div>
+                <div>
+                    <span className='pb-2'>
+                        1-й замруководителя фракции «Справедливая Россия - За правду» Дмитрий Гусев
+                    </span>
+                    <iframe
+                        width='350'
+                        height='250'
+                        src='https://www.youtube.com/embed/vzxhpJeAatY'
+                        title='YouTube video player'
+                        frameborder='0'
+                        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                        allowfullscreen></iframe>
+                </div>
+            </div>
         </>
     );
 };
