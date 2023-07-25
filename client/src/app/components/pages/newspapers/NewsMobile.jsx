@@ -21,7 +21,7 @@ const NewsMobile = () => {
     const filteredNews = newsPaper.filter((news, index) => index < 2);
     return (
         <>
-            <h3>СМИ о нас:</h3>
+            <h3 className='mt-5'>СМИ о нас:</h3>
             {!loading ? (
                 <section className={styles.newspapers}>
                     {filteredNews.map((item) => (
