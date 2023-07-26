@@ -6,6 +6,11 @@ const URL = config.urlImg;
 export const posters = [
     {
         id: nanoid(8),
+        posterSrc: `${URL}posters%2Fanimated.webp?alt=media&token=5bc03a14-5f8c-49a8-ae22-f9750da9fa3f`,
+        alt: 'poster1',
+    },
+    {
+        id: nanoid(8),
         posterSrc: `${URL}posters%2Fposter3.png?alt=media&token=291cfb06-874a-439d-a67e-0db405507ada`,
         alt: 'poster1',
     },

@@ -11,7 +11,7 @@ import { useResize } from '../../../../hoc/useResize';
 import TrusteesMobile from '../trustees/Trustees_mobile';
 import NewsMobile from '../newspapers/NewsMobile';
 import { useNavigate } from 'react-router-dom';
-import { Marquee } from '../../common/marquee/Marquee';
+import { MarqLogos } from '../../common/marquee/MarqLogos';
 
 const Main = () => {
     const navigate = useNavigate();
@@ -61,7 +61,7 @@ const Main = () => {
 
             <AboutProject />
             <h3 className='mt-5 ms-3'>Фонды и компании - партнеры</h3>
-            <Marquee />
+            <MarqLogos />
             {!resize.isScreenMd && <NewsMobile />}
 
             <div className='sub_title' id='images'>
