@@ -3,17 +3,17 @@ import { nanoid } from 'nanoid';
 export const Logos = [
     {
         id: nanoid(8),
-        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2Flogo_promsvyazbank.png?alt=media&token=712c5b45-3df0-4315-82a3-80cb4aa66f32',
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2Flogo-promsvyazbank.png?alt=media&token=c8a28a40-eada-480f-a137-14f5b3632e22',
         alt: 'Промсвязьбанк',
     },
     {
         id: nanoid(8),
-        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2Fvsedobr.jpg?alt=media&token=5ab320f3-e498-4f6c-83d3-0117354af80a',
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FGroup%201.png?alt=media&token=e0c82845-177e-4378-8604-81ca13eafdde',
         alt: 'Вселенная добра',
     },
     {
         id: nanoid(8),
-        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2F%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0%20%D0%A0%D0%9D%D0%94.png?alt=media&token=c6f7cd66-5eb4-4e83-9a12-5cc40deee000',
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2F%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0%20%D0%A0%D0%9D%D0%94-PhotoRoom.png-PhotoRoom.png?alt=media&token=31a71676-feb1-4810-bb7d-58650687c324',
         alt: 'Россия наш дом',
     },
     {
@@ -28,6 +28,11 @@ export const Logos = [
     },
     {
         id: nanoid(8),
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FLS.jpg?alt=media&token=f1daad32-2265-454f-9484-eb03bccee369',
+        alt: 'Лариса Солнечная',
+    },
+    {
+        id: nanoid(8),
         url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2F7-19%20at%2016.35.44.jpg?alt=media&token=154999be-9966-4f0c-8d10-8688264e95c2',
         alt: 'Надежда, вера, возрождение',
     },
@@ -38,8 +43,28 @@ export const Logos = [
     },
     {
         id: nanoid(8),
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FMTA.jpg?alt=media&token=7cf2df45-9669-4dea-b586-2629bf5e3918',
+        alt: 'МТА',
+    },
+    {
+        id: nanoid(8),
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2Fbelka.jpg?alt=media&token=4d1c1d17-665f-432b-a75e-4830e8b2f3a2',
+        alt: 'Белка парк',
+    },
+    {
+        id: nanoid(8),
         url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FWhatsApp%20Image%202023-07-23%20at%2009.22.53.jpg?alt=media&token=a4a91bf7-1b24-405b-8683-8e947359ff38',
         alt: 'Федеральная служба новостей',
+    },
+    {
+        id: nanoid(8),
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2Flider.jpg?alt=media&token=8d8f0810-3058-42b4-868e-fbb8a84ae0ec',
+        alt: 'Маленький лидер',
+    },
+    {
+        id: nanoid(8),
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FsuninH.jpg?alt=media&token=141e2cf3-12fa-4681-a570-96fd9fcb9d9d',
+        alt: 'Солнце в ладонях',
     },
     {
         id: nanoid(8),
