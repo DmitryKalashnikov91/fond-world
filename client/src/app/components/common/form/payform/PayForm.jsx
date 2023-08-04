@@ -9,7 +9,7 @@ const PayForm = () => {
             <Attention />
             <h2 className='text-light'>
                 Главный партнер{' '}
-                <a href='http://https://www.psbank.ru/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.psbank.ru/' target='_blank' rel='noopener noreferrer'>
                     ПАО "Промсвязьбанк"{' '}
                     <img
                         src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FPSB_logo_white_png%20(1).png?alt=media&token=162413e0-fd83-40f6-b8e3-6fad219321a2'
