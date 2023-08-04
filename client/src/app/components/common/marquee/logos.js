@@ -28,7 +28,7 @@ export const Logos = [
     },
     {
         id: nanoid(8),
-        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FLS.jpg?alt=media&token=f1daad32-2265-454f-9484-eb03bccee369',
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FLSphotoAid-removed-background.png?alt=media&token=4c8ac297-90b8-4122-929d-cd04f55b4d7b',
         alt: 'Лариса Солнечная',
     },
     {
@@ -48,7 +48,17 @@ export const Logos = [
     },
     {
         id: nanoid(8),
-        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2Fbelka.jpg?alt=media&token=4d1c1d17-665f-432b-a75e-4830e8b2f3a2',
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2Fresource.png?alt=media&token=31986ee3-dfc9-4298-9e62-4d412d5a482c',
+        alt: 'Ресурс',
+    },
+    {
+        id: nanoid(8),
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2Fchance.jpg?alt=media&token=aed05569-db9d-40d3-a4f0-289694379808',
+        alt: 'Твой Шанс',
+    },
+    {
+        id: nanoid(8),
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FbelkaphotoAid-removed-background.png?alt=media&token=5aaa7110-036c-440a-9cd5-63a091f73779',
         alt: 'Белка парк',
     },
     {

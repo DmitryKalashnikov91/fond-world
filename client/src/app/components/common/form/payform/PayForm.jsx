@@ -7,6 +7,17 @@ const PayForm = () => {
     return (
         <div className={styles.PayForm}>
             <Attention />
+            <h2 className='text-light'>
+                Главный партнер{' '}
+                <a href='http://https://www.psbank.ru/' target='_blank' rel='noopener noreferrer'>
+                    ПАО "Промсвязьбанк"{' '}
+                    <img
+                        src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FPSB_logo_white_png%20(1).png?alt=media&token=162413e0-fd83-40f6-b8e3-6fad219321a2'
+                        alt='ПСБ'
+                        width={200}
+                    />
+                </a>
+            </h2>
             <Form>
                 <Form.Group className='mb-3' controlId='formBasicEmail'>
                     <Form.Label>Email адресс</Form.Label>
@@ -26,10 +37,10 @@ const PayForm = () => {
                     <option value='3' className='text-primary'>
                         500
                     </option>
-                    <option value='3' className='text-success'>
+                    <option value='4' className='text-success'>
                         1000
                     </option>
-                    <option value='3'>Другая сумма...</option>
+                    <option value='5'>Другая сумма...</option>
                 </Form.Select>
                 <Button variant='primary' type='submit' className='mt-3'>
                     Оплата
