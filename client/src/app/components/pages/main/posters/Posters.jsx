@@ -1,6 +1,5 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
-// import { posters } from './data/posters';
 import posterService from '../../../../services/poster.service';
 import Carousel from 'react-bootstrap/Carousel';
 import styles from './Posters.module.scss';
@@ -16,7 +15,6 @@ const Posters = () => {
         }
         fetchData();
     }, []);
-    console.log(posters ? posters : 'false');
 
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
@@ -30,8 +28,8 @@ const Posters = () => {
         <section className={styles.posters} ref={ref}>
             {inView ? (
                 <Carousel activeIndex={index} onSelect={handleSelect}>
-                    {posters.map(({ id, posterSrc, alt }) => (
-                        <Carousel.Item key={id}>
+                    {posters.map(({ _id, posterSrc, alt }) => (
+                        <Carousel.Item key={_id}>
                             <div className={styles.posters_card}>
                                 <img src={posterSrc} alt={alt} />
                             </div>

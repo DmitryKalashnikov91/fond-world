@@ -1,5 +1,7 @@
 .poems {
-   
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
     margin-top: 15vh;
     margin-left: 2vw;
     ul > li {
@@ -8,22 +10,8 @@
     @media (max-width: 800px) {
         flex-direction: column;
     }
-    &_alert {
-        min-width: 70%;
-    }
-    &_battle {
-        width: 50%;
-        font-size: 24px;
-        line-height: 1.5;
-        margin-right: 5vw;
-        @media (max-width: 800px) {
-            width: 95%;
-            text-align: justify;
-        }
-        p {
-            margin-top: 10vh;
-        }
-    }
+    
+    
     &_avatar {
         display: flex;
         flex-direction: column;

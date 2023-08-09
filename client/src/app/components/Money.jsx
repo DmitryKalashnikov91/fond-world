@@ -4,7 +4,7 @@ const Money = () => {
     const navigate = useNavigate();
     return (
         <div
-            className='fixed-top w-100  bg-primary text-center money
+            className='fixed-top w-100 text-center money
         '>
             <button onClick={() => navigate('payform')}>Стать меценатом</button>
         </div>

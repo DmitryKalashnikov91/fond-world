@@ -51,14 +51,13 @@ header {
     }
 }
 .money {
-  opacity: 0.5;
   font-size: 12px;
-  padding: 0.5rem;
+  margin-top: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   button {
-    padding: 0 0.3rem;
+    padding: 0 1rem;
     font-size: 12px;
     background-color: rgb(234, 86, 20);
   }
