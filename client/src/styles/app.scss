@@ -37,7 +37,7 @@ button {
   }
 header {
     position: relative;
-    z-index: 3;
+    z-index: 5;
     img {
         cursor: pointer;
         margin: 8px;
@@ -49,6 +49,19 @@ header {
     a {
         font-size: 22px;
     }
+}
+.money {
+  opacity: 0.5;
+  font-size: 12px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  button {
+    padding: 0 0.3rem;
+    font-size: 12px;
+    background-color: rgb(234, 86, 20);
+  }
 }
 
 .box_img {

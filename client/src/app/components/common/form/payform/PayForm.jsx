@@ -9,17 +9,20 @@ const PayForm = () => {
     const [isAgree, setIsAgree] = useState(false);
     return (
         <div className={styles.PayForm}>
-            <Attention />
-            <h2 className='text-light'>
-                Главный партнер{' '}
-                <a href='https://www.psbank.ru/' target='_blank' rel='noopener noreferrer'>
-                    <img
-                        src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FPSB_logo_white_png%20(1).png?alt=media&token=162413e0-fd83-40f6-b8e3-6fad219321a2'
-                        alt='ПСБ'
-                        width={200}
-                    />
+            <div className={styles.PayForm_aboutTG}>
+                <a href='https://t.me/+GewYrvJ--TM1ODJi' target='_blank' rel='noopener noreferrer'>
+                    @mecenatrussia
                 </a>
-            </h2>
+                <span> - наш телеграм канал, вступив в который, вы уже становитесь Меценатом.</span>
+                <p>Внести свой вклад в увековечивание памяти можно, пожертвовав любой суммой.</p>
+                <span>
+                    Денежные средства пойдут на изготовление и установку скульптурных групп и
+                    монументов "Дети Донбасса - Дети России", "Героям России", "Волонтерам России" и
+                    "Священнослужителям"
+                </span>
+            </div>
+            <Attention />
+
             <Form>
                 <Form.Group className='mb-3 text-light' controlId='formBasicEmail'>
                     <Form.Label>Email адресс</Form.Label>
@@ -59,12 +62,26 @@ const PayForm = () => {
                         rel='noopener noreferrer'>
                         публичную оферту
                     </a>{' '}
-                    и соглашаюсь с <Link to={'confidency'}> политикой конфиденциальности</Link>
+                    и соглашаюсь с <Link to={'/confidency'}> политикой конфиденциальности</Link>
                 </p>
                 <Button type='submit' className='mt-3' disabled={!isAgree}>
                     Оплата
                 </Button>
             </Form>
+            <p className='text-light'>
+                Другие варианты сотрудничества и вся информация:{' '}
+                <a href='mailto:info@org-nashmir.tech'>info@org-nashmir.tech</a>
+            </p>
+            <h3 className='text-light pt-5 text-center'>
+                Главный партнер{' '}
+                <a href='https://www.psbank.ru/' target='_blank' rel='noopener noreferrer'>
+                    <img
+                        src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FPSB_logo_white_png%20(1).png?alt=media&token=162413e0-fd83-40f6-b8e3-6fad219321a2'
+                        alt='ПСБ'
+                        width={200}
+                    />
+                </a>
+            </h3>
         </div>
     );
 };

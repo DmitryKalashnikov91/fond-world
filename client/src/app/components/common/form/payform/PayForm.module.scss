@@ -1,18 +1,19 @@
 .PayForm {
-    position: relative;
-    top: 15vh;
+    margin-top: 17vh;
     display: flex;
     align-items: center;
+    padding: 15vh 5vw;
     justify-content: center;
     flex-direction: column;
-    padding: 20vh 0;
-    margin-bottom: 15%;
     background-color: rgb(043, 44, 132);
     button {
         background-color: rgb(234, 86, 20);
-        width: 15vw;
+        width: 150px;
         &:hover {
             background-color: rgb(139, 56, 18);
         }
+    }
+    &_aboutTG, span {
+        color: white;
     }
 }

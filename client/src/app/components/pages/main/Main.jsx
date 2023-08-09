@@ -20,7 +20,6 @@ const Main = () => {
         <>
             <div className={styles.main}>
                 <h1 className='text-danger mt-5'>ВСЕРОССИЙСКАЯ БЛАГОТВОРИТЕЛЬНАЯ АКЦИЯ</h1>
-
                 <div className={styles.main_content}>
                     <section className={styles.description}>
                         <h2 className='text-danger mt-5'>

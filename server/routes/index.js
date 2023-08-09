@@ -14,4 +14,5 @@ router.use('/regions', require('./regions.routes'));
 router.use('/sketches', require('./sketches.routes'));
 router.use('/trustees', require('./trustees.routes'));
 router.use('/faces', require('./faces.routes'));
+router.use('/posters', require('./posters.routes'));
 module.exports = router;

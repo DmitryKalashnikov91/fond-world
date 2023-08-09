@@ -1,9 +1,12 @@
+import { useNavigate } from 'react-router-dom';
+
 const Money = () => {
+    const navigate = useNavigate();
     return (
-        <div className='fixed-top w-100 pt-1 bg-success text-center'>
-            <p>
-                <span className='text-light fw-bold'>Поступления: 1000,00 рублей</span>
-            </p>
+        <div
+            className='fixed-top w-100  bg-primary text-center money
+        '>
+            <button onClick={() => navigate('payform')}>Стать меценатом</button>
         </div>
     );
 };
