@@ -31,6 +31,7 @@
         "photo": "https://firebasestorage.googleapis.com/v0/b/fow-test-images.appspot.com/o/youtube.svg?alt=media&token=c1abc9ba-5e58-46b9-931d-22f36c8f2c06",
         "content": "Друзья, у нашего проекта теперь есть свой <a href='https://www.youtube.com/@ourWorld-community' target='_blank' rel='noopener noreferrer'>канал</a> на Youtube. </p>Все актуальные видео, связанные с нашей Акцией"
     },
+ 
 
     {
         "_id": "G1Ngbsdyrj",
@@ -40,8 +41,14 @@
         "date": "24 мая 2023 г.",
         "content": "Соорганизатором Всероссийской акции &quot;Детии Донбасса - Дети России&quot; выступил Международный фонд поддержки ветеранов, инвалидов и членов семей, погибших при исполнении служебного долга &quot;Боевое братство без границ&quot; в лице Председателя - Виктора Михайловича Сивохина. Наша команда растет и, мы стали ближе ещё на один шаг к установке монумента уже в ближайшее время."
     },
-  
-    
+    {
+        "_id": "Pd8YsatK",
+        "alt": "oxyterra",
+        "date": "10 августа 2023 г.",
+        "label": "OXYTERRA",
+        "photo": "https://oxyterra.ru/upload/media/contraindications-img.png",
+        "content": "Рады представить нашего нового Партнера - компанию <a href='https://oxyterra.ru/' target='_blank' rel='noopener noreferrer'>Oxyterra</a>, Российского производителя аппарата для интервальной гипокси-гипероксической тренировки. Интервальные гипокси-гипероксические тренировки — это научное название популярного метода дыхания горным воздухом, который улучшает здоровье и повышает работоспособность."
+    },
     {
         "_id": "jhjUUo777",
         "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/childsOutBG.webp?alt=media&token=5da9ff6a-76b3-407d-8d9b-6ba4c1ff5f99",
@@ -58,6 +65,8 @@
         "date": "21 июля 20023 г.",
         "content": "21 июля 2023 года в Городе Воинской Славы Наро-Фоминске состоялось торжественная церемония открытия монумента &quot;Дети Донбасса - Дети России&quot; в качестве символа воссоединения народов. Администрация фонда «Наш Мир 21 Век» благодарит всех участников церемонии.  "
     },
+   
+   
     {
         "_id": "G1Ngbyrj",
         "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logo2.jpeg?alt=media&token=b9f6769f-a4c2-4d1b-a77d-bcd90ee3a805",

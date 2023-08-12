@@ -13,6 +13,11 @@ export const Logos = [
     },
     {
         id: nanoid(8),
+        url: 'https://oxyterra.ru/upload/site/logo.png',
+        alt: 'Oxyterra',
+    },
+    {
+        id: nanoid(8),
         url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2F%D0%AD%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0%20%D0%A0%D0%9D%D0%94-PhotoRoom.png-PhotoRoom.png?alt=media&token=31a71676-feb1-4810-bb7d-58650687c324',
         alt: 'Россия наш дом',
     },

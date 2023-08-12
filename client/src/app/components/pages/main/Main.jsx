@@ -12,6 +12,7 @@ import TrusteesMobile from '../trustees/Trustees_mobile';
 import NewsMobile from '../newspapers/NewsMobile';
 import { useNavigate } from 'react-router-dom';
 import { MarqLogos } from '../../common/marquee/MarqLogos';
+import { Oxiterra } from './mainPartner/Oxiterra';
 
 const Main = () => {
     const navigate = useNavigate();
@@ -41,7 +42,7 @@ const Main = () => {
 
                     <div className={styles.bgimage}>
                         <img
-                            src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/monum_foto.webp?alt=media&token=65419463-b622-4d6f-b153-7924be9602dd'
+                            src='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/gallery%2FnewCD.webp?alt=media&token=37de6f75-6dfd-4a84-8570-cf9e3ea992cf'
                             alt='bg'
                         />
                         <button
@@ -55,6 +56,7 @@ const Main = () => {
             {/* <Metropol /> */}
             {!resize.isScreenMd && <TrusteesMobile />}
             <MainNews />
+            <Oxiterra />
             <Gallery />
             <Sketches />
 
