@@ -35,7 +35,7 @@ const Sketches = () => {
     return (
         <>
             <div className={styles.Sketches} ref={ref}>
-                <h2 className='text-center mt-5'>Скульптурные группы и эскизы</h2>
+                <h2 className='text-center mt-5 text-light'>Скульптурные группы и эскизы</h2>
                 {inView ? (
                     <div className={styles.Sketches_content}>
                         <Slider {...settings} className={styles.Sketches_content__carousel}>

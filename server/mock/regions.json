@@ -36,6 +36,17 @@
     {
         "variant": "info",
         "city": "Саратовская область",
+        "avatar": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FKovalenko.webp?alt=media&token=9ef00da4-1aa5-4ceb-8a11-5928ca9f5cae",
+        "name": "Коваленко Наталия Александровна",
+        "phone": "",
+        "phoneHref": "",
+        "contentShow":
+            "<p>Директор ООО ИА &#34Саратов Сегодня&#34, Вице-Президент Ассоциации &#34Лига Профи&#34</p>",
+        "contentHide": ""
+    },
+    {
+        "variant": "info",
+        "city": "Саратовская область",
         "avatar": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FChernyaeva.webp?alt=media&token=0887cddc-a4ac-4689-b70b-616fc2cd0c4e",
         "name": "Черняева Татьяна Николаевна",
         "phone": "",

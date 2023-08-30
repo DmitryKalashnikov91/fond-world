@@ -1,12 +1,17 @@
 .Sketches {
+    
+        &_caption{
+            color: azure;
+        }
     &_content__carousel {
         width: 80vw;
         margin-top: 5vh;   
         margin-left: 5vw; 
         padding: 2%;
+        
         button {
-            background: #000;
-            color: black;
+            background: #ffffff;
+            color: rgb(255, 255, 255);
             margin-right: 1%;
             &:hover {
                 background-color: #FF5F04;
@@ -50,11 +55,13 @@
         align-items:center;
         position: relative;
         margin-left: 2rem;
+        color: #ffffff;
        
         &__caption {
             margin-top: 10px;
             font-size: 0.8rem;
             line-height: 1.2;
+            color: azure;
         }
        }
 }

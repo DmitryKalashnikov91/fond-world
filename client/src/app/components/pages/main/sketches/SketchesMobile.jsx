@@ -18,12 +18,12 @@ const SketchesMobile = () => {
     }, []);
     return (
         <div className='mt-5'>
-            <h1 className=' pt-5 text-center'>Эскизы и скульптурные группы </h1>
+            <h1 className=' pt-5 text-center text-light'>Эскизы и скульптурные группы </h1>
             {sketches ? (
                 <Row xs={1} md={4} className='g-2 mt-5'>
                     {sketches.map((sketch) => (
                         <Col key={sketch._id}>
-                            <Card>
+                            <Card className='main_box'>
                                 <Card.Img
                                     variant='top'
                                     src={sketch.imgSrc}
@@ -33,7 +33,7 @@ const SketchesMobile = () => {
                                 />
                                 <Card.Body>
                                     {/* <Card.Title>{sketch.name}</Card.Title> */}
-                                    <Card.Text>{sketch.caption}</Card.Text>
+                                    <Card.Text className='text-light'>{sketch.caption}</Card.Text>
                                 </Card.Body>
                             </Card>
                         </Col>

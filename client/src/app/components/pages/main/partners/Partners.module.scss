@@ -6,10 +6,19 @@
     grid-column-gap: 20px;
     grid-row-gap: 25px;
     margin-top: 5vh;
-    padding: 15vh 10vh 10vh 10vh;
-    background-color: rgba(12, 117, 178, 0.636);
+    padding: 4rem;
+    background: #5c2eb7; 
+    font-size: 20px; 
+    border: 2px dashed #3d6baf; 
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #4960c7, 2px 1px 6px 4px rgba(77, 109, 223, 0.5);
+     color: #ffffff;
+     font-family: 'Lato', sans-serif;
+     margin-bottom: 2rem;
+     text-align: start;
+     width: 95vw;
     caret-color: transparent;
-    box-shadow: inset 0 0 30px black, 0 0 0 black;
+    
     .avatar {
         position: relative;
         display: flex;

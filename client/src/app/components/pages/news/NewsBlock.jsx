@@ -24,7 +24,10 @@ const NewsBlock = () => {
             {!loading ? (
                 <section className={styles.news}>
                     {news.map((item) => (
-                        <Alert variant='primary' key={item._id} className={styles.news_block}>
+                        <Alert
+                            variant='primary'
+                            key={item._id}
+                            className={'main_box text-start mt-5 ' + styles.news_alert}>
                             <div className={styles.news_photo}>
                                 <img src={item.photo} alt={item.alt} width={100} height='auto' />
                                 <div className={styles.news_label}>{item.label}</div>

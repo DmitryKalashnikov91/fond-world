@@ -35,7 +35,7 @@ const YandexMap = () => {
                     />
                     :
                 </span>
-                <ul>
+                <ul className='text-light'>
                     <li>Деловой Центр 225 м.</li>
                     <li>Международная 290 м.</li>
                     <li>Выставочная 373 м.</li>

@@ -12,7 +12,7 @@ body {
     caret-color: transparent;
     padding: 0;
     margin: 0;
-background-color: #f4f6fc;
+background-color: rgb(33, 26, 86);
     h1,h2,h3,h4,span {
         color: var(--main-color);
     }
@@ -203,7 +203,19 @@ header {
    
   }
 
-
+.main_box {
+  padding: 20px 20px;
+    background: #5c2eb7; 
+    font-size: 20px; 
+    border: 2px dashed #3d6baf; 
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #4960c7, 2px 1px 6px 4px rgba(77, 109, 223, 0.5);
+     color: #ffffff;
+     font-family: 'Lato', sans-serif;
+     margin-bottom: 2rem;
+     text-align: center;
+     
+}
 
 
 

@@ -52,26 +52,37 @@ const Main = () => {
                         </button>
                     </div>
                 </div>
+                <div className={'main_box mt-5 ' + styles.video}>
+                    <iframe
+                        src='https://www.youtube.com/embed/cW-bbhlJjuQ?si=pO4klX5I4I1BoczA'
+                        title='YouTube video player'
+                        frameBorder='0'
+                        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                        allowFullScreen></iframe>
+                </div>
             </div>
             {/* <Metropol /> */}
-            {!resize.isScreenMd && <TrusteesMobile />}
-            <MainNews />
-            <Oxiterra />
-            <Gallery />
-            <Sketches />
+            <div className={styles.components}>
+                {!resize.isScreenMd && <TrusteesMobile />}
 
-            <AboutProject />
-            <h3 className='mt-5 ms-3'>Фонды и компании - партнеры</h3>
-            <MarqLogos />
-            {!resize.isScreenMd && <NewsMobile />}
+                <MainNews />
+                <Oxiterra />
+                <Gallery />
+                <Sketches />
 
-            <div className='sub_title' id='images'>
-                <h3>Наш МИР поддержали:</h3>
+                {/* <AboutProject /> */}
+                <h3 className='mt-5 ms-3'>Фонды и компании - партнеры</h3>
+                <MarqLogos />
+                {!resize.isScreenMd && <NewsMobile />}
+
+                <div className='sub_title' id='images'>
+                    <h3>Наш МИР поддержали:</h3>
+                </div>
+                <Partners />
+
+                <Posters />
+                <YandexMap />
             </div>
-            <Partners />
-
-            <Posters />
-            <YandexMap />
         </>
     );
 };

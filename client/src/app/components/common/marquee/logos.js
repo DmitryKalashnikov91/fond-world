@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 export const Logos = [
     {
         id: nanoid(8),
-        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2Flogo-promsvyazbank.png?alt=media&token=c8a28a40-eada-480f-a137-14f5b3632e22',
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FPSB_logo_white_png%20(1).png?alt=media&token=162413e0-fd83-40f6-b8e3-6fad219321a2',
         alt: 'Промсвязьбанк',
     },
     {

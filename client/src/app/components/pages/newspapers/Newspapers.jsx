@@ -24,18 +24,22 @@ const Newspapers = () => {
                 <section className={styles.newspapers}>
                     {filteredNews.map((item) => (
                         <Alert
-                            variant='secondary'
-                            className={styles.newspapers_card}
+                            variant='info'
+                            className={'main_box text-start ' + styles.newspapers_alert}
                             key={item._id}>
                             <div className={styles.newspapers_card__header}>
                                 <strong>{parse(item.header)}</strong>
-                                <a href={item.hyperlink} target='_blank' rel='noreferrer'>
+                                <a
+                                    className='bg-light p-2'
+                                    href={item.hyperlink}
+                                    target='_blank'
+                                    rel='noreferrer'>
                                     {parse(item.title)}
                                 </a>
                             </div>
 
                             <div className={styles.newspapers_card__content}>
-                                <span>{parse(item.content)}</span>
+                                <span className='text-light'>{parse(item.content)}</span>
                                 <button className='btn btn-outline-primary'>
                                     <a
                                         className='text-danger'

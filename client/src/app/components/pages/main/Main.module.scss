@@ -5,14 +5,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    .video {
+        iframe {
+            width: 660px;
+            height: 418px;
+        }}
     h1 {
         position: relative;
         text-align: center;
         z-index: 2;
         top: 20vh;
         font-style: italic;
-        font-size: 44px;
+        font-size: 38px;
         font-weight: 700;
         text-shadow: var(--shadow);
     } 
@@ -35,7 +39,7 @@
         position: relative;
         caret-color: transparent;
         img {
-            width: calc(var(--index)*26);
+            // width: calc(var(--index)*26);
             height: auto;
     } 
     &_btn {
@@ -85,12 +89,20 @@
     }
 }
 @media (max-width: 800px) {
+    
     .main {
+        .video {
+            iframe {
+                width: 300px;
+                height: auto;
+            }}
         h1 {
             top: 10vh;
-            font-size: 22px;
+            font-size: 22px ;
             color: #2925ff;
             mix-blend-mode:hard-light;
+        }
+        
         }
         .main_content {
             flex-direction: column-reverse;
@@ -109,4 +121,9 @@
         }
     }
     
+
+.components {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
