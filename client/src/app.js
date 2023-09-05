@@ -1,5 +1,5 @@
 import withRouter from './hoc/withRouter';
-
+import { useEffect } from 'react';
 import { useRoutes } from 'react-router-dom';
 import routes from './routes';
 
@@ -10,6 +10,9 @@ import Footer from './app/components/footer';
 import './styles/app.scss';
 
 const App = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     const elements = useRoutes(routes);
 
     return (

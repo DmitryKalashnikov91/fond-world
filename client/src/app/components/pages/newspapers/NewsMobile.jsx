@@ -21,14 +21,11 @@ const NewsMobile = () => {
     const filteredNews = newsPaper.filter((news, index) => index < 2);
     return (
         <>
-            <h3 className='mt-5'>СМИ о нас:</h3>
             {!loading ? (
                 <section className={styles.newspapers}>
+                    <h3 className='mt-5'>СМИ о нас:</h3>
                     {filteredNews.map((item) => (
-                        <Alert
-                            variant='secondary'
-                            className={styles.newspapers_card}
-                            key={item._id}>
+                        <Alert className='main_box' key={item._id}>
                             <div className={styles.newspapers_card__header}>
                                 <strong>{parse(item.header)}</strong>
                                 <a href={item.hyperlink} target='_blank' rel='noreferrer'>
@@ -37,7 +34,7 @@ const NewsMobile = () => {
                             </div>
 
                             <div className={styles.newspapers_card__content}>
-                                <span>{parse(item.content)}</span>
+                                <span className='text-light'>{parse(item.content)}</span>
                                 <button className='btn btn-outline-primary'>
                                     <a
                                         className='text-danger'

@@ -6,7 +6,9 @@ const Money = () => {
         <div
             className='fixed-top w-100 text-center money
         '>
-            <button onClick={() => navigate('payform')}>Стать меценатом</button>
+            <button className='p-2 px-4' onClick={() => navigate('payform')}>
+                Стать меценатом
+            </button>
         </div>
     );
 };

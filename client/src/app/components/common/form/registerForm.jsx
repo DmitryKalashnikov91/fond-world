@@ -95,12 +95,11 @@ const RegisterForm = () => {
                     onChange={handleChange}
                     error={errors.password}
                 />
-                <p>
-                    Уже есть аккаунт?
-                    <NavLink to='/auth/logIn'>
-                        <button className='btn btn-link'>войти</button>
-                    </NavLink>
-                </p>
+                <p className='text-light'>Уже есть аккаунт?</p>
+                <NavLink to='/auth/logIn'>
+                    <button className='btn btn-link'>войти</button>
+                </NavLink>
+
                 <button type='submit' disabled={!isValid} className='btn btn-primary w-100 mx-auto'>
                     регистрация
                 </button>

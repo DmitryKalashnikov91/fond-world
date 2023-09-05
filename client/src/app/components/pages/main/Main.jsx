@@ -1,5 +1,4 @@
 import Sketches from './sketches/Sketches';
-import AboutProject from './aboutProject/AboutProject';
 import Gallery from './gallery/Gallery';
 import Partners from './partners/Partners';
 
@@ -12,11 +11,11 @@ import TrusteesMobile from '../trustees/Trustees_mobile';
 import NewsMobile from '../newspapers/NewsMobile';
 import { useNavigate } from 'react-router-dom';
 import { MarqLogos } from '../../common/marquee/MarqLogos';
-import { Oxiterra } from './mainPartner/Oxiterra';
 
 const Main = () => {
     const navigate = useNavigate();
     const resize = useResize();
+
     return (
         <>
             <div className={styles.main}>
@@ -66,7 +65,6 @@ const Main = () => {
                 {!resize.isScreenMd && <TrusteesMobile />}
 
                 <MainNews />
-                <Oxiterra />
                 <Gallery />
                 <Sketches />
 

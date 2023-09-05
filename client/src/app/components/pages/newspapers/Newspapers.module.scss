@@ -5,6 +5,10 @@
     align-items:center;
     justify-content: center;
     margin-bottom: 20vh;
+    margin-top: 150px;
+    @media (max-width: 800px) {
+        margin-top: 70px;
+    }
     &_alert {
         width: 65vw;
         @media (max-width: 800px) {

@@ -78,12 +78,11 @@ const LoginForm = () => {
                     error={errors.password}
                 />
                 {loginError && <p className='text-danger'>{loginError}</p>}
-                <span>
-                    Еще не регистрировались?{' '}
-                    <NavLink to='/auth/register'>
-                        <button className='btn btn-link'> регистрация</button>
-                    </NavLink>
-                </span>
+                <p className='text-light'>Еще не регистрировались?</p>
+                <NavLink to='/auth/register'>
+                    <button className='btn btn-link'> регистрация</button>
+                </NavLink>
+
                 <button type='submit' disabled={!isValid} className='btn btn-primary w-100 mx-auto'>
                     вход
                 </button>

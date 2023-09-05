@@ -1,9 +1,15 @@
 import styles from './PayForm.module.scss';
 
 const PayForm = () => {
-    // const [isAgree, setIsAgree] = useState(false);
     return (
         <div className={styles.PayForm}>
+            <a
+                className='text-light mb-3'
+                href='https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/DOCS%2Foferta.pdf?alt=media&token=67431f55-3b22-4d27-9bfe-8afbb182b3fe'
+                target='_blank'
+                rel='noopener noreferrer'>
+                Публичная оферта<i class='bi bi-file-earmark-arrow-down'></i>
+            </a>
             <div className={styles.PayForm_aboutTG}>
                 <a href='https://t.me/+GewYrvJ--TM1ODJi' target='_blank' rel='noopener noreferrer'>
                     @mecenatrussia
