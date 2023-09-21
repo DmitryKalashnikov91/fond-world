@@ -13,7 +13,7 @@ const MainNews = () => {
                     <Card.Title>
                         <h1 className='text-light text-center'>ДМИТРИЙ ПЕВЦОВ И "ДЕТИ ДОНБАССА"</h1>
                     </Card.Title>
-                    <Card.Text className={styles.content}>
+                    <Card.Text className={styles.MainNews_content}>
                         Народный артист России, депутат Государственной Думы РФ (фракция "Новые
                         люди") стал лицом проекта и попечителем Всероссийской благотворительной
                         акции "Установка скульптурных групп и монументов "Дети Донбасса" и "Героям

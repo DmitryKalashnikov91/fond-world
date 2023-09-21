@@ -23,16 +23,26 @@ const Main = () => {
                 <div className={styles.main_content}>
                     <section className={styles.description}>
                         <h2 className='text-danger mt-5'>
-                            Установка скульптурных групп и монументов &quot;Дети Донбасса&quot; и
-                            &quot;Героям России&quot;
+                            Установка скульптурных групп и монументов &quot;Дети Донбасса - Дети
+                            России&quot; и &quot;Героям России&quot;
                         </h2>
-
+                        <h3 className='text-danger text-decoration-underline text-center'>
+                            Открыт сбор на монумент в г. Саратов <br /> 2 750 000 р.{' '}
+                            <a
+                                href='https://saratov-detydnr.ru/'
+                                target='_blank'
+                                rel='noopener noreferrer'>
+                                Подробнее{'>>>'}
+                            </a>
+                        </h3>
                         <p className='text-primary mt-5 fs-5'>
+                            <span>История:</span>
+                            <br />
                             21 июля 2023 года в городе Воинской Славы Наро-Фоминске состоялось
                             открытие первого монумента «Дети Донбасса — Дети России»
                         </p>
                         <p className='text-primary mt-5 fs-5'>
-                            Материал: природный камень - Ракушечник дагестанский.
+                            Материал: природный камень - Ракушечник Дагестанский.
                         </p>
                         <p className='text-primary mt-5 fs-5'>
                             Монумент символизирует воссоединение народов
