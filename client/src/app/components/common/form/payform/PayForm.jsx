@@ -69,7 +69,7 @@ const PayForm = () => {
             </h3>
             <div className={styles.PayForm_paySystems}>
                 {paySysstemsLogos.map(({ id, url }) => (
-                    <img className='pe-5' key={id} alt={id} src={url} />
+                    <img key={id} alt={id} src={url} />
                 ))}
             </div>
         </div>
