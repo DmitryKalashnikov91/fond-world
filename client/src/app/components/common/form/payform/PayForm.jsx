@@ -1,4 +1,28 @@
+import { nanoid } from 'nanoid';
 import styles from './PayForm.module.scss';
+
+const paySysstemsLogos = [
+    {
+        id: 'mir',
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/paySyst%2Fmir.png?alt=media&token=311f5f51-29fb-47b2-a5b0-8cb7cdbf570b',
+    },
+    {
+        id: 'ruble',
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/paySyst%2Fruble.png?alt=media&token=ebf33def-1eac-468f-b3e1-beb53d3ee813',
+    },
+    {
+        id: 'maestro',
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/paySyst%2Fmaestro.png?alt=media&token=9e28fa3a-a80a-4467-85f6-8473449edc86',
+    },
+    {
+        id: 'master card',
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/paySyst%2Fmaster%20card.png?alt=media&token=f7a025bb-7030-4fd1-bfbb-c1111b787230',
+    },
+    {
+        id: 'visa',
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/paySyst%2Fvisa.png?alt=media&token=c283e763-829a-471b-a382-85dfecf13ae5',
+    },
+];
 
 const PayForm = () => {
     return (
@@ -43,6 +67,11 @@ const PayForm = () => {
                     />
                 </a>
             </h3>
+            <div className={styles.PayForm_paySystems}>
+                {paySysstemsLogos.map(({ id, url }) => (
+                    <img className='pe-5' key={id} alt={id} src={url} />
+                ))}
+            </div>
         </div>
     );
 };
