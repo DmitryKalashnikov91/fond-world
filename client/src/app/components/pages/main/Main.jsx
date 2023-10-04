@@ -84,7 +84,7 @@ const Main = () => {
                 {!resize.isScreenMd && <NewsMobile />}
 
                 <div className='sub_title' id='images'>
-                    <h3>Наш МИР поддержали:</h3>
+                    <h3>Гости и друзья форума "Наш МИР":</h3>
                 </div>
                 <Partners />
 
