@@ -22,6 +22,13 @@
         "alt": "Солнечная Лариса"
     },
     {
+        "name": "Сергей Сидоров",
+        "role": "Руководитель проекта по связям с органами государственной власти, институтами развития и СМИ",
+        "mail": "sergey.sidorov25@gmail.com",
+        "imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FSidorovS.webp?alt=media&token=28a0b9f1-9a0a-42e0-8f82-71d479088c26",
+        "alt": "Сергей Сидоров"
+    },
+    {
         "name": "Калашников Дмитрий Александрович",
         "role": "Заместитель главного продюсера, руководитель службы IT",
         "mail": "dmitrynashmir@gmail.com",

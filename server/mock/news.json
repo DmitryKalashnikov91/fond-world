@@ -1,4 +1,5 @@
 [
+    
     {
         "_id": "LtyFygh-",
         "alt": "logo-fow",
@@ -42,13 +43,22 @@
         "content": "Соорганизатором Всероссийской акции &quot;Детии Донбасса - Дети России&quot; выступил Международный фонд поддержки ветеранов, инвалидов и членов семей, погибших при исполнении служебного долга &quot;Боевое братство без границ&quot; в лице Председателя - Виктора Михайловича Сивохина. Наша команда растет и, мы стали ближе ещё на один шаг к установке монумента уже в ближайшее время."
     },
     {
-        "_id": "Pd8YsatK",
-        "alt": "oxyterra",
-        "date": "10 августа 2023 г.",
-        "label": "OXYTERRA",
-        "photo": "https://oxyterra.ru/upload/media/contraindications-img.png",
-        "content": "Рады представить нашего нового Партнера - компанию <a href='https://oxyterra.ru/' target='_blank' rel='noopener noreferrer'>Oxyterra</a>, Российского производителя аппарата для интервальной гипокси-гипероксической тренировки. Интервальные гипокси-гипероксические тренировки — это научное название популярного метода дыхания горным воздухом, который улучшает здоровье и повышает работоспособность."
+        "_id": "IIk11223l",
+        "alt": "Волонтерские палатки в Саратове",
+        "date": "12 октября 2023г.",
+        "label": "Волонтерские палатки в Саратове",
+        "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/news%2FpalatkyTors.jpg?alt=media&token=030a05a6-7f72-4d2c-ac2b-5ff90497374e",
+        "content": "12 октября в 14.00 стартовала акция по сбору средств на установку памятного барельефа «Дети Донбасса – Дети России» в Саратове <a href='https://www.youtube.com/watch?v=NlfTHtJqrOA' target='_blank' rel='noopener noreferrer'>Посмотреть</a>"
     },
+    {
+        "_id": "IIk112oll",
+        "alt": "Комсомольская правда Саратов",
+        "date": "4 октября 2023г.",
+        "label": "Брифинг в КП Саратов",
+        "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2FK_pravda_logo.svg?alt=media&token=dfe2928a-131f-4106-83f3-330bb80e1761",
+        "content": "4 октября в 14.00 в пресс-центре «Комсомольская правда» состоялась онлайн пресс-конференция на тему «О благотворительном проекте «Дети Донбасса – Дети России». <a href='https://www.youtube.com/watch?v=1K7GwXUqKQI&t=69s' target='_blank' rel='noopener noreferrer'>Посмотреть</a>"
+    },
+    
     {
         "_id": "jhjUUo777",
         "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/childsOutBG.webp?alt=media&token=5da9ff6a-76b3-407d-8d9b-6ba4c1ff5f99",
@@ -91,6 +101,7 @@
         "photo": "https://presidentmedia.ru/wp-content/uploads/2021/05/logotip_prezident_-_okonchatelno.png",
         "content": "Вышла очередная статья о нас в газете &quot;Президент&quot;.</p><p>В статье рассказано о Нашем Мире и о возрождении традиций великих Российских меценатов</p><p><a href='https://presidentmedia.ru/blog/2023/02/14/rossijskie-tradiczii-velikih-meczenatov/' target='_blank' rel='noopener noreferrer'>Подробнее</a>"
     },
+    
     {
         "_id": "w8plOHPd",
         "alt": "Фото Д.Певцов и И.А.Алекс",
@@ -99,6 +110,7 @@
         "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/gallery%2Fezgif.com-gif-maker%20(5).webp?alt=media&token=ecf80e5e-c592-4473-bd84-1176c650b89f",
         "content": "Народный артист России, депутат Государственной Думы РФ (фракция &quot;Новые люди&quot;) стал лицом проекта и попечителем Всероссийской благотворительной акции &quot;Установка скульптурных групп и монументов &quot;Дети Донбасса&quot; и &quot;Героям России&quot;</p><p>Данная инициатива носит общественный характер, и поддерживается самыми разными людьми, осознающими важность вопроса увековечения памяти. </p><p>Первый монумент &quot;Дети Донбасса&quot; будет установлен в ближайшее время.</p><p>Пресс-служба и новости проекта: <a href='https://t.me/mecenatrussia' target='_blank' rel='noopener noreferrer'>https://t.me/mecenatrussia</a>"
     },
+
     {
         "_id": "G1Ngbyuj",
         "photo": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/news%2FQRTG.png?alt=media&token=dbaac011-afca-48d4-8110-e9c788377855",
@@ -107,4 +119,5 @@
         "date": "25 января 2023 г.",
         "content": "Мы открыли новостной специализированный телеграм канал &quot;Меценат&quot;. </p>Проект общественный, благотворительный, создается на сугубо волонтерских началах. Сами основатели канала тоже в движении &quot;D&quot;, в этом году будут, в числе прочего (гумпомощи фронту,  благотворительных концертов и др.), устанавливать Скульптурные группы и монументы &quot;Дети Донбасса&quot; и &quot;Героям России&quot; <a href='https://t.me/mecenatrussia' target='_blank' rel='noopener noreferrer'>https://t.me/mecenatrussia</a>"
     }
+ 
 ]

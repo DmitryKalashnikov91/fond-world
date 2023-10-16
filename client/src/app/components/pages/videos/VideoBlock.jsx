@@ -13,6 +13,14 @@ const VideoBlock = () => {
                 <section className={styles.media}>
                     <div className={styles.media_frame}>
                         <iframe
+                            src='https://www.youtube.com/embed/NlfTHtJqrOA?si=4_dhMBCI4Hb5GtDW'
+                            title='YouTube video player'
+                            frameBorder='0'
+                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                            allowFullScreen></iframe>
+                    </div>
+                    <div className={styles.media_frame}>
+                        <iframe
                             src='https://www.youtube.com/embed/qov3m2gZZ_s'
                             title='YouTube video player'
                             frameBorder='0'
