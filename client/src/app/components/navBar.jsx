@@ -18,7 +18,7 @@ const NavBar = () => {
                 <ul className='nav shadow-sm'>
                     <li className='nav-item'>
                         <Link to={'/club'} className='nav-link'>
-                            Образовательная программа
+                            Организаторы установки первого монумента
                         </Link>
                     </li>
                     <li>

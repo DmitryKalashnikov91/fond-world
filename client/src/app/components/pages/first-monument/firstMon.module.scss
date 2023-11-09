@@ -1,0 +1,18 @@
+.FirstMon {
+    &_head {
+        color: beige;
+        margin-top: 120px;
+        text-align: center;
+    }
+    &_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+        h3 {
+            text-align: center;
+            width: 700px;
+        }
+    }
+}

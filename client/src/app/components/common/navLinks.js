@@ -6,7 +6,7 @@ export const NavLinks = [
 ];
 
 export const NavLinksMobile = [
-    { id: 1, path: 'club', title: 'Образовательная программа' },
+    { id: 1, path: 'club', title: 'Организаторы установки первого монумента' },
     { id: 2, path: 'trustees', title: 'Наши попечители' },
     { id: 3, path: 'regions', title: 'Региональные представители' },
     { id: 4, path: 'faces', title: 'Наши лица' },

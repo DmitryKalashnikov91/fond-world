@@ -1,7 +1,7 @@
 import { Navigate } from 'react-router-dom';
 import PayForm from './app/components/common/form/payform/PayForm';
 import Faces from './app/components/pages/aboutUs/Faces';
-import Club from './app/components/pages/club/Club';
+import FirstMon from './app/components/pages/first-monument/firstMon';
 import Main from './app/components/pages/main/Main';
 import SketchesMobile from './app/components/pages/main/sketches/SketchesMobile';
 import NewsBlock from './app/components/pages/news/NewsBlock';
@@ -92,7 +92,7 @@ const routes = [
     },
     {
         path: 'club',
-        element: <Club />,
+        element: <FirstMon />,
     },
     {
         path: 'confidency',
