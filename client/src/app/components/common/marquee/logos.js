@@ -101,4 +101,9 @@ export const Logos = [
         url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/KIT_sign_BG_gradient-01.png?alt=media&token=78bdf50d-d5b7-47c3-b7e7-fbf655ffb671',
         alt: 'КИТ',
     },
+    {
+        id: nanoid(8),
+        url: 'https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/logos%2F%D0%BB%D0%BE%D0%B3%D0%BE%203.jpg?alt=media&token=907d76d2-a5d2-45f9-b961-4f5bfa01e6b7',
+        alt: 'Поволжье',
+    },
 ];

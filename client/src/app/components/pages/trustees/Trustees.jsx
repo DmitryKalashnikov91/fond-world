@@ -32,7 +32,10 @@ const Trustees = () => {
                     <Row xs={1} md={4} className='g-2'>
                         {trustees.map((trustee) => (
                             <Col key={trustee._id}>
-                                <Card className={styles.Trustees_card}>
+                                <Card
+                                    variant='none'
+                                    className={styles.Trustees_card}
+                                    border='primary'>
                                     <div className={styles.Trustees_border}>
                                         <Card.Img
                                             variant='top'
@@ -41,8 +44,12 @@ const Trustees = () => {
                                         />
                                     </div>
                                     <Card.Body>
-                                        <Card.Title>{trustee.name}</Card.Title>
-                                        <Card.Text>{parse(trustee.caption)}</Card.Text>
+                                        <Card.Title className='text-primary'>
+                                            {trustee.name}
+                                        </Card.Title>
+                                        <Card.Text className='text-light'>
+                                            {parse(trustee.caption)}
+                                        </Card.Text>
                                     </Card.Body>
                                 </Card>
                             </Col>
