@@ -8,8 +8,12 @@
         text-decoration: none;
     }
     &_Alert{
+         strong {
+            color:azure;
+         }
         width: 75%;
         padding: 2rem;
+        background-color: rgba(0, 125, 215, 0.3);
         @media (max-width:800px) {
             width: 95%;
         }

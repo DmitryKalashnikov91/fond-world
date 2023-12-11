@@ -109,7 +109,8 @@ header {
 // .show {display: block;}
 
 .snowman {
-    position: absolute;
+    position: fixed;
+    z-index: -1;
     right: 0;
     top: 10vh;
     display: flex;

@@ -27,8 +27,8 @@ const Regions = () => {
                     </div>
                     {regions.map((represent) => (
                         <Alert
-                            variant={represent.variant}
-                            className={styles.Regions_Alert}
+                            variant='none'
+                            className={styles.Regions_Alert + ' border border-primary'}
                             key={represent._id}>
                             <div className={styles.Regions_Alert__avatar}>
                                 {represent?.avatar && (

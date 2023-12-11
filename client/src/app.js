@@ -8,6 +8,7 @@ import Header from './app/components/header';
 import Footer from './app/components/footer';
 //style
 import './styles/app.scss';
+import Temporary from './app/components/pages/main/temporary/Temporary';
 
 const App = () => {
     useEffect(() => {
@@ -18,6 +19,7 @@ const App = () => {
     return (
         <div className='app'>
             <Header />
+            <Temporary />
             {elements}
             <Footer />
             <UpButton />

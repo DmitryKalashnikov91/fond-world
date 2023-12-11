@@ -75,6 +75,7 @@ const Main = () => {
                 {!resize.isScreenMd && <TrusteesMobile />}
 
                 <MainNews />
+
                 <Gallery />
                 <Sketches />
 
