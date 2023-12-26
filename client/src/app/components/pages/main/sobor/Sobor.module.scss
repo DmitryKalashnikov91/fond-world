@@ -1,0 +1,14 @@
+.Sobor {
+	margin: 20px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	img {
+		width: 600px;
+		@media (max-width: 1000px) {
+			width: 250px;
+		}
+	}
+	span {
+	}
+}
