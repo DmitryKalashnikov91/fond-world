@@ -11,7 +11,6 @@ import styles from './Main.module.scss'
 import YandexMap from './contacts/YandexMap'
 import MainNews from './mainNews/MainNews'
 import Posters from './posters/Posters'
-import Sobor from './sobor/Sobor'
 
 const Main = () => {
 	const navigate = useNavigate()
@@ -30,7 +29,7 @@ const Main = () => {
 							Дети России&quot; и &quot;Героям России&quot;
 						</h2>
 						<h3 className='text-danger text-decoration-underline text-center'>
-							Открыт сбор на монумент в г. Саратов <br /> 2 750 000 р.{' '}
+							Открыт сбор на монумент в г. Саратов <br /> 3 650 000 р.{' '}
 							<a
 								href='https://saratov-detydnr.ru/'
 								target='_blank'
@@ -66,7 +65,6 @@ const Main = () => {
 						</button>
 					</div>
 				</div>
-				<Sobor />
 				<div className={'main_box mt-5 ' + styles.video}>
 					<iframe
 						src='https://www.youtube.com/embed/cW-bbhlJjuQ?si=pO4klX5I4I1BoczA'

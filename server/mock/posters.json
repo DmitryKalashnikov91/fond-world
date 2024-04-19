@@ -1,17 +1,33 @@
 [
-    {
-        "posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2Fbiznessblock.jpeg?alt=media&token=c59f6530-1eb8-4359-8dd1-6180b7fa9610"
-    },
-    {
-        "posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2Fkinochas.jpeg?alt=media&token=b2760cc6-df30-4c3d-a678-1eaaa278e8c5"
-    },
-    {
-        "posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2Fpevcov.jpeg?alt=media&token=3fa8a82c-c3a6-4f7d-81aa-2e8c04bb1975"
-    },
-    {
-        "posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2Fposter2.png?alt=media&token=146384b2-858e-4224-abb2-6706d93d8f30"
-    },
-    {
-        "posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2F8_08_23.webp?alt=media&token=cae7b1c0-5ba3-4af1-97c1-22f621ce1dfa"
-    }
+	{
+		"posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2Fbiznessblock.jpeg?alt=media&token=c59f6530-1eb8-4359-8dd1-6180b7fa9610"
+	},
+	{
+		"posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2Fkinochas.jpeg?alt=media&token=b2760cc6-df30-4c3d-a678-1eaaa278e8c5"
+	},
+	{
+		"posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2FETosunidi.webp?alt=media&token=b8d0944f-8f76-4b60-8f2d-7f474c097e28"
+	},
+
+	{
+		"posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2Fpevcov.jpeg?alt=media&token=3fa8a82c-c3a6-4f7d-81aa-2e8c04bb1975"
+	},
+	{
+		"posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2Fposter2.png?alt=media&token=146384b2-858e-4224-abb2-6706d93d8f30"
+	},
+	{
+		"posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2FDDuzev.webp?alt=media&token=16261bbc-3e88-426a-8276-ea175cf9e855"
+	},
+	{
+		"posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2FMVatutina.webp?alt=media&token=c4aecc06-3cfa-4d17-80bb-3b76a7810c90"
+	},
+	{
+		"posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2FSMironov.webp?alt=media&token=3b1e6e2a-2b0f-4f32-bf46-bd8023d25c89"
+	},
+	{
+		"posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2Fcathedral.webp?alt=media&token=6a459dbe-8a1e-4b79-91b5-3c6a84d535e8"
+	},
+	{
+		"posterSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/posters%2F8_08_23.webp?alt=media&token=cae7b1c0-5ba3-4af1-97c1-22f621ce1dfa"
+	}
 ]
