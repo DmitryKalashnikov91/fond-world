@@ -13,7 +13,7 @@ const Sobor = () => {
 				target='_blank'
 				rel='noopener noreferrer'
 			>
-				Купить билеты
+				Подробнее...
 			</a>
 		</div>
 	)
