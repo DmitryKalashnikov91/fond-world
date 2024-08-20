@@ -1,9 +1,11 @@
 .Trustees {
-    margin: 20vh 5vw; 
-    &_card {
-        margin-right: 2rem;
-        background-color: rgba(0, 125, 215, 0.3);
-    }
-    
-    
+	margin-top: 75px;
+	&_card {
+		margin-right: 2rem;
+		height: 1200px;
+		background-color: rgba(0, 125, 215, 0.3);
+		@media (max-width: 800px) {
+			height: auto;
+		}
+	}
 }
