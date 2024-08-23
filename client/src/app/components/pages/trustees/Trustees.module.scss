@@ -2,9 +2,9 @@
 	margin-top: 75px;
 	&_card {
 		margin-right: 2rem;
-		height: 1200px;
+		height: 870px;
 		background-color: rgba(0, 125, 215, 0.3);
-		@media (max-width: 800px) {
+		@media (max-width: 1450px) {
 			height: auto;
 		}
 	}

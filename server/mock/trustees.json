@@ -41,7 +41,11 @@
 		"name": "Ольга Игнатьева",
 		"caption": "Кандидат экономических наук, предприниматель, психолог, меценат. Сопредседатель Попечительского Совета - Куратор программ фонда детской направленности"
 	},
-
+	{
+		"imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/trustees%2FAndreevaV.webp?alt=media&token=2b1548d9-9969-4110-ac28-97021af94181",
+		"name": "Валерия Андреева",
+		"caption": "Советник по вопросам стратегических коммуникаций. PR-руководитель спортивных проектов, спортивно-образовательных форумов EVS sports & health, коммерческий директор спортивных digital-каналов видеоплатформ"
+	},
 	{
 		"imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FAADudkin.webp?alt=media&token=8016b6f7-042b-40ff-8f16-8eb0b6acacbc",
 		"name": "Дудкин Александр Анатольевич",
