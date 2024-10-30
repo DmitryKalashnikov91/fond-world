@@ -55,5 +55,10 @@
 		"imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/avatars%2FOshotin.webp?alt=media&token=4640242b-db57-4c1c-88b9-3a77284b4327",
 		"name": "Ошотин Михаил Михайлович",
 		"caption": "Много лет занимал пост тренера сборной олимпийского резерва по самбо (детско-юношеский сектор). Глава производственно-технической базы, на которой изготавливается монумент &#34;Дети Донбасса&#34;. Соучредитель Нашего Фонда"
+	},
+	{
+		"imgSrc": "https://firebasestorage.googleapis.com/v0/b/fow-react.appspot.com/o/tverdohlebov.jpg?alt=media&token=02ab4941-c94b-4476-a48c-2ea6944d4849",
+		"name": "Твердохлебов Станислав Власович",
+		"caption": "Советник по общественно-политическим связям"
 	}
 ]
