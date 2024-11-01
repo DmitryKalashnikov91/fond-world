@@ -77,7 +77,6 @@ const Main = () => {
 					></iframe>
 				</div>
 			</div>
-			{/* <Metropol /> */}
 			<div className={styles.components}>
 				{!resize.isScreenMd && <TrusteesMobile />}
 
